@@ -1,0 +1,1682 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "https://chinese.githuka.com"
+        },
+        "articleSection" : "blog",
+        "name" : "Linux 常用的一些命令",
+        "headline" : "Linux 常用的一些命令",
+        "description" : "Commonly used commands in Linux",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2018",
+        "datePublished": "2018-11-08 00:00:00 &#43;0000 UTC",
+        "dateModified" : "2018-11-08 00:00:00 &#43;0000 UTC",
+        "url" : "https://chinese.githuka.com/blog/man-page/",
+        "wordCount" : "377",
+        "keywords" : [ "Blog" ]
+    }
+    </script>
+        
+            
+                <title>Linux 常用的一些命令</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.50" />
+        
+
+
+        
+            <meta name="author" content="Wilfred Githuka 楚大洋">
+        
+        
+            <meta name="description" content="Commonly used commands in Linux">
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Linux 常用的一些命令"/>
+<meta name="twitter:description" content="Commonly used commands in Linux"/>
+<meta name="twitter:site" content="@wilfredgithuka"/>
+
+        <meta property="og:title" content="Linux 常用的一些命令" />
+<meta property="og:description" content="Commonly used commands in Linux" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://chinese.githuka.com/blog/man-page/" /><meta property="article:published_time" content="2018-11-08T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-11-08T00:00:00&#43;00:00"/>
+
+        <meta property="og:image" content="https://chinese.githuka.com/images/logo.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="512">
+        <meta property="og:image:height" content="512">
+        
+<meta itemprop="name" content="Linux 常用的一些命令">
+<meta itemprop="description" content="Commonly used commands in Linux">
+
+
+<meta itemprop="datePublished" content="2018-11-08T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-11-08T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="377">
+
+
+
+<meta itemprop="keywords" content="" />
+
+        
+
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
+            <link rel="stylesheet" href="https://chinese.githuka.com/css/main.css">
+            <link rel="stylesheet" href="https://chinese.githuka.com/css/add-on.css">
+            <link rel="stylesheet" href="https://chinese.githuka.com/css/academicons.min.css">
+        
+
+        
+            
+                
+            
+        
+
+
+  
+    
+    <link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+  
+
+
+      
+    </head>
+    <body>
+
+      
+      <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+      <h1><a href="https://chinese.githuka.com/">blog</a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="https://chinese.githuka.com/">
+                            <i class="fa fa-home">&nbsp;</i>Home
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://chinese.githuka.com/about/">
+                            <i class="fa fa-id-card-o">&nbsp;</i>About
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://chinese.githuka.com/blog/">
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://chinese.githuka.com/itemized/">
+                            <i class="fa fa-list">&nbsp;</i>Downloads
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://chinese.githuka.com/categories/">
+                            <i class="fa fa-sitemap">&nbsp;</i>Categories
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://chinese.githuka.com/contact/">
+                            <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="as_sitesearch" value="https://chinese.githuka.com">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="as_sitesearch" value="https://chinese.githuka.com">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="https://chinese.githuka.com/">
+                            <h3>
+                                <i class="fa fa-home">&nbsp;</i>Home
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://chinese.githuka.com/about/">
+                            <h3>
+                                <i class="fa fa-id-card-o">&nbsp;</i>About
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://chinese.githuka.com/blog/">
+                            <h3>
+                                <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://chinese.githuka.com/itemized/">
+                            <h3>
+                                <i class="fa fa-list">&nbsp;</i>Downloads
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://chinese.githuka.com/categories/">
+                            <h3>
+                                <i class="fa fa-sitemap">&nbsp;</i>Categories
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://chinese.githuka.com/contact/">
+                            <h3>
+                                <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section class="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+
+                
+                    
+                
+
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://chinese.githuka.com/blog/cover_page_latex/">Cover Page(ing) For Your Latex Document</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-11-12'>
+                                    November 12, 2018</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://chinese.githuka.com/blog/cover_page_latex/" class="image featured">
+            <img src="https://chinese.githuka.com/img/2018/11/" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://chinese.githuka.com/blog/man-page/">Linux 常用的一些命令</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-11-08'>
+                                    November 8, 2018</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://chinese.githuka.com/blog/man-page/" class="image featured">
+            <img src="https://chinese.githuka.com/img/2018/11/" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://chinese.githuka.com/blog/archlinux/">为什么Archlinux如此“难弄”又有何优劣？</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-11-07'>
+                                    November 7, 2018</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://chinese.githuka.com/blog/archlinux/" class="image featured">
+            <img src="https://chinese.githuka.com/img/2018/11/" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://chinese.githuka.com/blog/week16-report/">16th Week Latex Based Work Report Analysys 第十六 LaTeX造的工作周报分析</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-10-28'>
+                                    October 28, 2018</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://chinese.githuka.com/blog/sotik/">Goat Eating at Sotik and What I Learnt That Day</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-10-21'>
+                                    October 21, 2018</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://chinese.githuka.com/blog/sotik/" class="image featured">
+            <img src="https://chinese.githuka.com/img/2018/10/" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://chinese.githuka.com/blog/report-15/">LaTeX Work Report For Week 15</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-10-19'>
+                                    October 19, 2018</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://chinese.githuka.com/blog/report-15/" class="image featured">
+            <img src="https://chinese.githuka.com/img/2018/10/" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://chinese.githuka.com/blog/manual/">北京时代二保焊机 TDN 3500 MAG/MIG/CO2 焊电源使用说明书 </a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-10-18'>
+                                    October 18, 2018</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://chinese.githuka.com/blog/manual/" class="image featured">
+            <img src="https://chinese.githuka.com/img/2018/10/mag.jpg" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://chinese.githuka.com/blog/creating-a-new-theme/">Blog Article</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-10-12'>
+                                    October 12, 2018</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://chinese.githuka.com/blog/creating-a-new-theme/" class="image featured">
+            <img src="https://chinese.githuka.com/img/2018/10/pic03.jpg" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://chinese.githuka.com/post/fu-shou-gan-wei-ru-zi-niu/">This Week&#39;s Idiom-Part 1(The Herd Boy&#39;s Ox): 横眉冷对千夫指俯首甘为孺子牛</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-10-10'>
+                                    October 10, 2018</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://chinese.githuka.com/post/week-13-report/">Analysis for Week 13 Report LaTeX Document</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-10-07'>
+                                    October 7, 2018</time>
+                            </header>
+                            
+
+                        </article>
+                
+
+                
+                    <a href=
+                        
+                            /blog/
+                        
+                        class="button">View more posts</a>
+                
+            </div>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+
+<li>
+  <a href="//twitter.com/share?url=https%3a%2f%2fchinese.githuka.com%2fblog%2fman-page%2f&amp;text=Linux%20%e5%b8%b8%e7%94%a8%e7%9a%84%e4%b8%80%e4%ba%9b%e5%91%bd%e4%bb%a4&amp;via=wilfredgithuka" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fchinese.githuka.com%2fblog%2fman-page%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=https%3a%2f%2fchinese.githuka.com%2fblog%2fman-page%2f&amp;title=Linux%20%e5%b8%b8%e7%94%a8%e7%9a%84%e4%b8%80%e4%ba%9b%e5%91%bd%e4%bb%a4" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Wilfred%20Githuka%20%e6%a5%9a%e5%a4%a7%e6%b4%8b&amp;body=https%3a%2f%2fchinese.githuka.com%2fblog%2fman-page%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="https://chinese.githuka.com/blog/man-page/">Linux 常用的一些命令</a></h1>
+            
+        
+        
+            <p>Commonly used commands in Linux</p>
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2018-11-08'>
+            November 8, 2018</time>
+        <span class="author">Wilfred Githuka 楚大洋</span>
+        
+            <p>2 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+  
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+
+<li>
+  <a href="//twitter.com/share?url=https%3a%2f%2fchinese.githuka.com%2fblog%2fman-page%2f&amp;text=Linux%20%e5%b8%b8%e7%94%a8%e7%9a%84%e4%b8%80%e4%ba%9b%e5%91%bd%e4%bb%a4&amp;via=wilfredgithuka" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fchinese.githuka.com%2fblog%2fman-page%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=https%3a%2f%2fchinese.githuka.com%2fblog%2fman-page%2f&amp;title=Linux%20%e5%b8%b8%e7%94%a8%e7%9a%84%e4%b8%80%e4%ba%9b%e5%91%bd%e4%bb%a4" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Wilfred%20Githuka%20%e6%a5%9a%e5%a4%a7%e6%b4%8b&amp;body=https%3a%2f%2fchinese.githuka.com%2fblog%2fman-page%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+      </ul>
+    </section>
+  
+
+  
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://chinese.githuka.com/blog/man-page/" class="image featured">
+            <img src="https://chinese.githuka.com/img/2018/11/" alt="">
+        </a>
+    
+
+
+  <div id="content">
+    
+
+<p>Linux常用命令中，有些命令可以用于查看系统的状态，通过了解系统当前的状态，能够帮助我们更好地维护系统或定位问题。本文就简单介绍一下这些命令。</p>
+
+<p><img src="https://chinese.githuka.com/img/archlinux.png" alt="image" /></p>
+
+<h2 id="查看系统运行时间-uptime">查看系统运行时间&ndash;uptime</h2>
+
+<p>有时候我们想知道系统上一次复位是在什么时候或者系统已经运行了多长时间，我们可以通过uptime命令获取这些信息：</p>
+
+<pre><code class="language-terminal">uptime
+20:47:06 up 50 min,  1 user,  load average: 0.75, 0.84, 0.93
+</code></pre>
+
+<p>从左往右显示的信息依次为：当前时间、已运行时间、用户登录数、1分钟、5分钟和15分钟内系统的平均负载。</p>
+
+<h2 id="查看系统已登录用户-who">查看系统已登录用户&ndash;who</h2>
+
+<pre><code class="language-terminal">who -a
+hyb      tty7         2018-09-30 19:57 (:0)
+</code></pre>
+
+<p>通过who命令可以查看到哪些用户通过哪个ip登录到了这台主机。</p>
+
+<h2 id="查看系统版本相关信息-uname">查看系统版本相关信息&ndash;uname</h2>
+
+<pre><code class="language-terminal">uname -a
+Linux ubuntu16.04 4.15.0-34-generic #37~16.04.1-Ubuntu SMP Tue Aug 28 10:44:06 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+</code></pre>
+
+<p>从结果可以看到操作系统版本（ubuntu16.04），CPU类型（x86_64）等信息</p>
+
+<h2 id="查看当前环境变量-export">查看当前环境变量&ndash;export</h2>
+
+<p>环境变量影响着程序的运行，因此有时候需要查看当前环境的环境变量：</p>
+
+<pre><code class="language-terminal">export
+</code></pre>
+
+<h2 id="查看目录和文件占用空间-du">查看目录和文件占用空间&ndash;du</h2>
+
+<p>du命令直接显示当前目录下每个目录及其文件占用空间。结合&ndash;max-depth参数可以指定显示的目录层级。</p>
+
+<p>例如，如果只想显示当前目录下各个目录所占总空间，可以使用:</p>
+
+<pre><code class="language-terminal">du -h --max-depth=1 
+19M        ./python
+9.0M        ./git
+321M        ./hexo
+17M        ./lua
+28K        ./vim
+1.4M        ./shell
+81M        ./redis
+316M        ./books
+48M        ./c
+810M        .
+du -sh     #仅统计当前目录总大小
+810M
+</code></pre>
+
+<p>其中-h表示以易读的单位显示大小，即M，&ndash;max-depth=1表明目录层级。通过命令结果，我们可以看到当前目录下各个子目录占用空间大小，以及总空间大小。</p>
+
+<h2 id="查看各挂载点空间-df">查看各挂载点空间&ndash;df</h2>
+
+<pre><code class="language-terminal">df -h
+文件系统        容量  已用  可用 已用% 挂载点
+udev            3.9G     0  3.9G    0% /dev
+tmpfs           786M  9.5M  776M    2% /run
+/dev/sda10       24G  9.8G   13G   45% /
+tmpfs           3.9G   43M  3.8G    2% /dev/shm
+tmpfs           5.0M  4.0K  5.0M    1% /run/lock
+tmpfs           3.9G     0  3.9G    0% /sys/fs/cgroup
+/dev/sda11      454M  274M  153M   65% /boot
+/dev/sda15       55G  5.2G   47G   10% /home
+/dev/sda1       256M   31M  226M   12% /boot/efi
+/dev/sda14      4.6G  9.9M  4.4G    1% /tmp
+tmpfs           786M   60K  786M    1% /run/user/1000
+</code></pre>
+
+<p>从结果中，我们可以看到各个挂载点总空间以及可用空间。当磁盘文件占用空间较大时，可能导致系统运行缓慢，因此，可根据该结果进行相应的磁盘清理。</p>
+
+<h2 id="查看内存可用情况-free">查看内存可用情况&ndash;free</h2>
+
+<p>free命令可用于显示系统中可用的物理内存，交换区内存以及内核使用的buffer：</p>
+
+<pre><code class="language-terminal">free -h
+              total        used        free      shared  buff/cache   available
+Mem:           7.7G        2.3G        2.6G        268M        2.8G        4.7G
+Swap:          7.6G          0B        7.6G
+</code></pre>
+
+<p>从执行结果可以看到已用内存和空闲内存的情况。同样地，当内存不足时，可能导致程序运行异常或系统卡顿。</p>
+
+<h2 id="查看进程的内存使用情况-pmap">查看进程的内存使用情况&ndash;pmap</h2>
+
+<p>pmap命令用于查看进程内存相关信息：</p>
+
+<pre><code class="language-terminal">pmap pid    #pid为进程id，可通过ps命令获取
+6030:   ./main
+0000000000400000      4K r-x-- main
+0000000000600000      4K r---- main
+0000000000601000      4K rw--- main
+00000000017d2000    132K rw---   [ anon ]
+00007fc3843e8000   1792K r-x-- libc-2.23.so
+00007fc3845a8000   2048K ----- libc-2.23.so
+00007fc3847a8000     16K r---- libc-2.23.so
+00007fc3847ac000      8K rw--- libc-2.23.so
+00007fc3847ae000     16K rw---   [ anon ]
+00007fc3847b2000    152K r-x-- ld-2.23.so
+00007fc3849b9000     12K rw---   [ anon ]
+00007fc3849d7000      4K r---- ld-2.23.so
+00007fc3849d8000      4K rw--- ld-2.23.so
+00007fc3849d9000      4K rw---   [ anon ]
+00007ffcf2018000    132K rw---   [ stack ]
+00007ffcf2175000     12K r----   [ anon ]
+00007ffcf2178000      8K r-x--   [ anon ]
+ffffffffff600000      4K r-x--   [ anon ]
+ total             4356K
+</code></pre>
+
+<p>我们可以根据进程各部分占用空间情况，来不断优化我们的程序。</p>
+
+<h2 id="查看虚拟内存统计信息-vmstat">查看虚拟内存统计信息&ndash;vmstat</h2>
+
+<pre><code class="language-terminal">vmstat
+procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+ 1  0      0 2214960 407828 2572148    0    0   126    57  377 1006  8  2 88  2  0
+</code></pre>
+
+<p>vmstat的输出值能够帮助我们了解当前系统的性能。比如说，如果si（每秒从交换区写到内存的大小）和so（每秒写入交换区的内存大小）的值经常大于0，说明内存可能不够用，因此才需要用到交换空间。再比如说，us（用户进程执行时间百分比）的值比较高时，说明用户进程消耗的CPU资源较多。而wa（IO等待时间百分比）值较高时，说明IO等待情况严重。</p>
+
+<h2 id="查看ip地址-ip">查看ip地址&ndash;ip</h2>
+
+<p>有时候使用ifconfig命令并不一定能够看到所有的ip地址，因此可以使用：</p>
+
+<pre><code class="language-terminal">ip addr
+</code></pre>
+
+<h2 id="查看网络连接状态-netstat">查看网络连接状态&ndash;netstat</h2>
+
+<p>netstat命令可以查看网络连接状态，通常用于诊断网络相关问题。例如查看端口是否被占用，连接是否已经释放，服务是否在监听等等。</p>
+
+<h2 id="查看进程间关系-pstree">查看进程间关系&ndash;pstree</h2>
+
+<p>通过pstree命令可以看到进程间的父子关系，它以树形结构显示这些信息：</p>
+
+<pre><code class="language-terminal">pstree
+systemd─┬─ModemManager─┬─{gdbus}
+        │              └─{gmain}
+        ├─NetworkManager─┬─dhclient
+        │                ├─dnsmasq
+        │                ├─{gdbus}
+        │                └─{gmain}
+        ├─accounts-daemon─┬─{gdbus}
+        │                 └─{gmain}
+        ├─acpid
+        ├─atd
+        ├─avahi-daemon───avahi-daemon
+        ├─bluetoothd
+        ├─colord─┬─{gdbus}
+        │        └─{gmain}
+        ├─cron
+        ├─cups-browsed─┬─{gdbus}
+        │              └─{gmain}
+        ├─cupsd───3*[dbus]
+        ├─dbus-daemon
+        ├─gnome-keyring-d─┬─{gdbus}
+        │                 ├─{gmain}
+        │                 └─{timer}
+(仅显示部分内容)
+</code></pre>
+
+<h2 id="总结">总结</h2>
+
+<p>实际上，前面所提到的很多相关命令信息都是从系统文件中获取的，例如/proc/meminfo保存了内存相关信息，/proc/net/dev保存网络流量相关信息。只是，它们都是静态数值，但是我们可以结合watch命令来动态地观察这些信息，例如：</p>
+
+<pre><code class="language-terminal">watch -n 1 cat /proc/meminfo 
+
+watch -n 1 cat /proc/net/dev
+</code></pre>
+
+<p>上面的命令表示，每隔一秒执行一次cat /proc/meminfo或cat /proc/net/dev，因此我们可以看到内存信息或网卡流量信息在实时刷新。</p>
+
+<p>本文仅介绍这些命令的经典使用，更多使用可通过man 命令查看。通过前面这些系统自带命令，我们可以比较方便地监控系统状态，从而帮助我们维护系统或定位问题。欢迎留言补充或更正。</p>
+
+<p>作者网站：<a href="https://mp.weixin.qq.com/s/21b6nscXFID-JVl3KVJ3cQ">Linux 爱好者</a></p>
+
+  </div>
+
+  <footer>
+    <ul class="stats">
+  <li class="categories">
+    <ul>
+        
+            
+            
+                <i class="fa fa-folder"></i>
+                
+                
+                <li><a class="article-category-link" href="https://chinese.githuka.com/categories/linux">Linux</a></li>
+                
+            
+        
+    </ul>
+  </li>
+  <li class="tags">
+    <ul>
+        
+    </ul>
+  </li>
+</ul>
+
+  </footer>
+
+</article>
+
+    <article class="post">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "shortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </article>
+
+
+<ul class="actions pagination">
+    
+        <li><a href="https://chinese.githuka.com/blog/archlinux/"
+                class="button big previous">为什么Archlinux如此“难弄”又有何优劣？</a></li>
+    
+
+    
+        <li><a href="https://chinese.githuka.com/blog/cover_page_latex/"
+                class="button big next">Cover Page(ing) For Your Latex Document</a></li>
+    
+</ul>
+
+
+    </div>
+    
+<section id="sidebar">
+
+  
+  <section id="intro">
+    
+    
+      
+        <a href='https://chinese.githuka.com/'><img src="https://chinese.githuka.com/img/main/wilfred-logo2.jpg" class="intro-circle" width="150" alt="Hugo Future Imperfect" /></a>
+      
+    
+    
+      <header>
+        <h2>楚大洋</h2>
+        <p>Life Long Chinese Learner 俯首甘为孺子牛</p>
+      </header>
+    
+    
+      <ul class="icons">
+        
+          
+    <li><a href="https://chinese.githuka.com/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+
+
+        
+        
+  <li><a href="//github.com/wilfredgithuka" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//chineseinkenya.wordpress.com" target="_blank" title="WordPress" class="fa fa-wordpress"></a></li>
+
+
+
+  <li><a href="//medium.com/@@wilfredgithuka" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//reddit.com/user/bleedingvoltage" target="_blank" title="Reddit" class="fa fa-reddit"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="weixin://contacts/profile/The-Wilfred" target="_blank" title="WeChat" class="fa fa-weixin"></a></li>
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/wilfredgithuka" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:wilfred.gachugi@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+  </section>
+
+  
+  <section class="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        
+
+        
+          
+        
+
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://chinese.githuka.com/blog/cover_page_latex/">Cover Page(ing) For Your Latex Document</a>
+              </h3>
+              
+              <time class="published" datetime='2018-11-12'>
+                November 12, 2018
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://chinese.githuka.com/blog/cover_page_latex/" class="image featured">
+            <img src="https://chinese.githuka.com/img/2018/11/" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://chinese.githuka.com/blog/man-page/">Linux 常用的一些命令</a>
+              </h3>
+              
+              <time class="published" datetime='2018-11-08'>
+                November 8, 2018
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://chinese.githuka.com/blog/man-page/" class="image featured">
+            <img src="https://chinese.githuka.com/img/2018/11/" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://chinese.githuka.com/blog/archlinux/">为什么Archlinux如此“难弄”又有何优劣？</a>
+              </h3>
+              
+              <time class="published" datetime='2018-11-07'>
+                November 7, 2018
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://chinese.githuka.com/blog/archlinux/" class="image featured">
+            <img src="https://chinese.githuka.com/img/2018/11/" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://chinese.githuka.com/blog/week16-report/">16th Week Latex Based Work Report Analysys 第十六 LaTeX造的工作周报分析</a>
+              </h3>
+              
+              <time class="published" datetime='2018-10-28'>
+                October 28, 2018
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://chinese.githuka.com/blog/sotik/">Goat Eating at Sotik and What I Learnt That Day</a>
+              </h3>
+              
+              <time class="published" datetime='2018-10-21'>
+                October 21, 2018
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://chinese.githuka.com/blog/sotik/" class="image featured">
+            <img src="https://chinese.githuka.com/img/2018/10/" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://chinese.githuka.com/blog/report-15/">LaTeX Work Report For Week 15</a>
+              </h3>
+              
+              <time class="published" datetime='2018-10-19'>
+                October 19, 2018
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://chinese.githuka.com/blog/report-15/" class="image featured">
+            <img src="https://chinese.githuka.com/img/2018/10/" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://chinese.githuka.com/blog/manual/">北京时代二保焊机 TDN 3500 MAG/MIG/CO2 焊电源使用说明书 </a>
+              </h3>
+              
+              <time class="published" datetime='2018-10-18'>
+                October 18, 2018
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://chinese.githuka.com/blog/manual/" class="image featured">
+            <img src="https://chinese.githuka.com/img/2018/10/mag.jpg" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://chinese.githuka.com/blog/creating-a-new-theme/">Blog Article</a>
+              </h3>
+              
+              <time class="published" datetime='2018-10-12'>
+                October 12, 2018
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://chinese.githuka.com/blog/creating-a-new-theme/" class="image featured">
+            <img src="https://chinese.githuka.com/img/2018/10/pic03.jpg" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://chinese.githuka.com/post/fu-shou-gan-wei-ru-zi-niu/">This Week&#39;s Idiom-Part 1(The Herd Boy&#39;s Ox): 横眉冷对千夫指俯首甘为孺子牛</a>
+              </h3>
+              
+              <time class="published" datetime='2018-10-10'>
+                October 10, 2018
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://chinese.githuka.com/post/week-13-report/">Analysis for Week 13 Report LaTeX Document</a>
+              </h3>
+              
+              <time class="published" datetime='2018-10-07'>
+                October 7, 2018
+              </time>
+            </header>
+            
+
+          </article>
+        
+      </div>
+
+      
+        <a href=
+          
+            /blog/
+          
+        class="button">View more posts</a>
+      
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+  
+    <section id="mini-bio">
+      <h3>About</h3>
+      <p>Chinese Language Learning Resorces in a Linux Environment</p>
+      <a href="https://chinese.githuka.com/about/" class="button">Learn More</a>
+    </section>
+  
+
+  
+  <section id="footer">
+    
+      <ul class="icons">
+        
+          
+    <li><a href="https://chinese.githuka.com/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+
+
+        
+        
+  <li><a href="//github.com/wilfredgithuka" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//chineseinkenya.wordpress.com" target="_blank" title="WordPress" class="fa fa-wordpress"></a></li>
+
+
+
+  <li><a href="//medium.com/@@wilfredgithuka" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//reddit.com/user/bleedingvoltage" target="_blank" title="Reddit" class="fa fa-reddit"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="weixin://contacts/profile/The-Wilfred" target="_blank" title="WeChat" class="fa fa-weixin"></a></li>
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/wilfredgithuka" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:wilfred.gachugi@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+    <p class="copyright">
+      
+        &copy; 2018
+        
+          楚大洋 Wilfred Githuka
+        
+      .
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>
+
+    </div>
+    <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    
+
+    
+      
+    
+
+    
+      
+      
+      
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+        
+        
+        
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/css.min.js"></script>
+        <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+      
+    
+    
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+      <script src="https://chinese.githuka.com/js/util.js"></script>
+      <script src="https://chinese.githuka.com/js/main.js"></script>
+      <script src="https://chinese.githuka.com/js/backToTop.js"></script>
+    
+
+    
+      
+        
+      
+    
+
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+      <script src="//yihui.name/js/math-code.js"></script>
+<script async
+src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+  </body>
+</html>
+

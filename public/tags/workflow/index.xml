@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>workflow on 楚大洋 Wilfred Githuka</title>
+    <link>https://chinese.githuka.com/tags/workflow/</link>
+    <description>Recent content in workflow on 楚大洋 Wilfred Githuka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Aug 2018 08:54:09 +0300</lastBuildDate>
+    
+	<atom:link href="https://chinese.githuka.com/tags/workflow/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Second Work Report in LaTeX 拉泰赫  Analysis</title>
+      <link>https://chinese.githuka.com/post/report-v2/</link>
+      <pubDate>Mon, 27 Aug 2018 08:54:09 +0300</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/report-v2/</guid>
+      <description>&lt;p&gt;An analysis for my second work report which I did in LaTeX and what I have
+learnt so far as compared to the first one last week. Archlinux + Spacemacs + LaTeX + Chinese Characters = My Work Environment.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

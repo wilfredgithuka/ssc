@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on 楚大洋 Wilfred Githuka</title>
+    <link>https://chinese.githuka.com/blog/</link>
+    <description>Recent content in Blog on 楚大洋 Wilfred Githuka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://chinese.githuka.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cover Page(ing) For Your Latex Document</title>
+      <link>https://chinese.githuka.com/blog/cover_page_latex/</link>
+      <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/cover_page_latex/</guid>
+      <description>For a while now I have been pondering on how I can add a cover page to my weekly report to make it look more presentable. It will also give me more room to write content that would other have to be dropped onto the next page. This weekend I dug up on my Latex documentation to find out how I can add a cover page. It was however no straight forward as I thought, but I found workarounds.</description>
+    </item>
+    
+    <item>
+      <title>Linux 常用的一些命令</title>
+      <link>https://chinese.githuka.com/blog/man-page/</link>
+      <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/man-page/</guid>
+      <description>Linux常用命令中，有些命令可以用于查看系统的状态，通过了解系统当前的状态，能够帮助我们更好地维护系统或定位问题。本文就简单介绍一下这些命令。
+查看系统运行时间&amp;ndash;uptime 有时候我们想知道系统上一次复位是在什么时候或者系统已经运行了多长时间，我们可以通过uptime命令获取这些信息：
+uptime 20:47:06 up 50 min, 1 user, load average: 0.75, 0.84, 0.93  从左往右显示的信息依次为：当前时间、已运行时间、用户登录数、1分钟、5分钟和15分钟内系统的平均负载。
+查看系统已登录用户&amp;ndash;who who -a hyb tty7 2018-09-30 19:57 (:0)  通过who命令可以查看到哪些用户通过哪个ip登录到了这台主机。
+查看系统版本相关信息&amp;ndash;uname uname -a Linux ubuntu16.04 4.15.0-34-generic #37~16.04.1-Ubuntu SMP Tue Aug 28 10:44:06 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux  从结果可以看到操作系统版本（ubuntu16.04），CPU类型（x86_64）等信息
+查看当前环境变量&amp;ndash;export 环境变量影响着程序的运行，因此有时候需要查看当前环境的环境变量：
+export  查看目录和文件占用空间&amp;ndash;du du命令直接显示当前目录下每个目录及其文件占用空间。结合&amp;ndash;max-depth参数可以指定显示的目录层级。
+例如，如果只想显示当前目录下各个目录所占总空间，可以使用:
+du -h --max-depth=1 19M ./python 9.0M ./git 321M ./hexo 17M ./lua 28K ./vim 1.4M ./shell 81M .</description>
+    </item>
+    
+    <item>
+      <title>为什么Archlinux如此“难弄”又有何优劣？</title>
+      <link>https://chinese.githuka.com/blog/archlinux/</link>
+      <pubDate>Wed, 07 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/archlinux/</guid>
+      <description>This is a good article that I came accross in the ArchLinux page on WeChat. It was written by Martins D. Okoi and translated by Jerry Ling/Linux中国. It has very good language and a good read for Chinese learners.
+Arch Linux 于 2002 年发布，由 Aaron Grifin 领头，是当下最热门的 Linux 发行版之一。从设计上说，Arch Linux 试图给用户提供简单、最小化且优雅的体验，但它的目标用户群可不是怕事儿多的用户。Arch 鼓励参与社区建设，并且从设计上期待用户自己有学习操作系统的能力。
+很多 Linux 老鸟对于 Arch Linux 会更了解，但电脑前的你可能只是刚开始打算把 Arch 当作日常操作系统来使用。虽然我也不是权威人士，但下面几点优劣是我认为你总会在使用中慢慢发现的。
+1.优点： 定制属于你自己的 Linux 操作系统 大多数热门的 Linux 发行版（比如 Ubuntu 和 Fedora）很像一般我们会看到的预装系统，和 Windows 或者 MacOS 一样。但 Arch 则会更鼓励你去把操作系统配置的符合你的品味。如果你能顺利做到这点的话，你会得到一个每一个细节都如你所想的操作系统。</description>
+    </item>
+    
+    <item>
+      <title>16th Week Latex Based Work Report Analysys 第十六 LaTeX造的工作周报分析</title>
+      <link>https://chinese.githuka.com/blog/week16-report/</link>
+      <pubDate>Sun, 28 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/week16-report/</guid>
+      <description>This is the 16th Week Work Report and the 8th report which I have done in LaTeX. Its been a steep learning curve but slowly am getting the flow and every week&amp;rsquo;s document produced is a correction of the previous&amp;rsquo;s problems. Its very fascinating how code can be used to produce such standard, professional-looking documents, far from what other document processing softwares can do.
+I don&amp;rsquo;t think there is really a comparison between Ms Word and LaTeX.</description>
+    </item>
+    
+    <item>
+      <title>Goat Eating at Sotik and What I Learnt That Day</title>
+      <link>https://chinese.githuka.com/blog/sotik/</link>
+      <pubDate>Sun, 21 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/sotik/</guid>
+      <description>Its not everyday when someone appreiciates your hard work. The feeling that comes with this is amazing, knowing that you did your best. The trainees at our training are a wonderful lot. I was invited to one of the trainee&amp;rsquo;s home, where there was a goat eating ceremony which was organaised by the trainees. The bond and homliness that I saw there despite all of us coming from diffrent parts of the country, and different cultures was warm.</description>
+    </item>
+    
+    <item>
+      <title>LaTeX Work Report For Week 15</title>
+      <link>https://chinese.githuka.com/blog/report-15/</link>
+      <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/report-15/</guid>
+      <description> Major Changes  Changed images source to centralised source for all reports   </description>
+    </item>
+    
+    <item>
+      <title>北京时代二保焊机 TDN 3500 MAG/MIG/CO2 焊电源使用说明书 </title>
+      <link>https://chinese.githuka.com/blog/manual/</link>
+      <pubDate>Thu, 18 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/manual/</guid>
+      <description>During the introduction of Co2 Arch Welding last week, it was my harddest interpretation. I was new to the equipment and so were the trainees. There were no reference material so It was hard understanding how the machine operated.
+So over the weekend I seerched on the Manufacturers website where I came accross the manual, but in Chinese.</description>
+    </item>
+    
+    <item>
+      <title>Blog Article</title>
+      <link>https://chinese.githuka.com/blog/creating-a-new-theme/</link>
+      <pubDate>Fri, 12 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>https://chinese.githuka.com/blog/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/hugoisforlovers/</guid>
+      <description>&lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
+
+&lt;p&gt;Go to &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the
+appropriate version for your os and architecture.&lt;/p&gt;
+
+&lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
+
+&lt;p&gt;More complete instructions are available at &lt;a href=&#34;https://chinese.githuka.com/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Migrate to Hugo from Jekyll</title>
+      <link>https://chinese.githuka.com/blog/migrate-from-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/migrate-from-jekyll/</guid>
+      <description>&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.
+With Jekyll, something that looked like&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
+    ▾ images/
+        logo.png
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

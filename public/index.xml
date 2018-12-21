@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>楚大洋 Wilfred Githuka</title>
+    <link>https://chinese.githuka.com/</link>
+    <description>Recent content on 楚大洋 Wilfred Githuka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://chinese.githuka.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cover Page(ing) For Your Latex Document</title>
+      <link>https://chinese.githuka.com/blog/cover_page_latex/</link>
+      <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/cover_page_latex/</guid>
+      <description>For a while now I have been pondering on how I can add a cover page to my weekly report to make it look more presentable. It will also give me more room to write content that would other have to be dropped onto the next page. This weekend I dug up on my Latex documentation to find out how I can add a cover page. It was however no straight forward as I thought, but I found workarounds.</description>
+    </item>
+    
+    <item>
+      <title>Linux 常用的一些命令</title>
+      <link>https://chinese.githuka.com/blog/man-page/</link>
+      <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/man-page/</guid>
+      <description>Linux常用命令中，有些命令可以用于查看系统的状态，通过了解系统当前的状态，能够帮助我们更好地维护系统或定位问题。本文就简单介绍一下这些命令。
+查看系统运行时间&amp;ndash;uptime 有时候我们想知道系统上一次复位是在什么时候或者系统已经运行了多长时间，我们可以通过uptime命令获取这些信息：
+uptime 20:47:06 up 50 min, 1 user, load average: 0.75, 0.84, 0.93  从左往右显示的信息依次为：当前时间、已运行时间、用户登录数、1分钟、5分钟和15分钟内系统的平均负载。
+查看系统已登录用户&amp;ndash;who who -a hyb tty7 2018-09-30 19:57 (:0)  通过who命令可以查看到哪些用户通过哪个ip登录到了这台主机。
+查看系统版本相关信息&amp;ndash;uname uname -a Linux ubuntu16.04 4.15.0-34-generic #37~16.04.1-Ubuntu SMP Tue Aug 28 10:44:06 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux  从结果可以看到操作系统版本（ubuntu16.04），CPU类型（x86_64）等信息
+查看当前环境变量&amp;ndash;export 环境变量影响着程序的运行，因此有时候需要查看当前环境的环境变量：
+export  查看目录和文件占用空间&amp;ndash;du du命令直接显示当前目录下每个目录及其文件占用空间。结合&amp;ndash;max-depth参数可以指定显示的目录层级。
+例如，如果只想显示当前目录下各个目录所占总空间，可以使用:
+du -h --max-depth=1 19M ./python 9.0M ./git 321M ./hexo 17M ./lua 28K ./vim 1.4M ./shell 81M .</description>
+    </item>
+    
+    <item>
+      <title>为什么Archlinux如此“难弄”又有何优劣？</title>
+      <link>https://chinese.githuka.com/blog/archlinux/</link>
+      <pubDate>Wed, 07 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/archlinux/</guid>
+      <description>This is a good article that I came accross in the ArchLinux page on WeChat. It was written by Martins D. Okoi and translated by Jerry Ling/Linux中国. It has very good language and a good read for Chinese learners.
+Arch Linux 于 2002 年发布，由 Aaron Grifin 领头，是当下最热门的 Linux 发行版之一。从设计上说，Arch Linux 试图给用户提供简单、最小化且优雅的体验，但它的目标用户群可不是怕事儿多的用户。Arch 鼓励参与社区建设，并且从设计上期待用户自己有学习操作系统的能力。
+很多 Linux 老鸟对于 Arch Linux 会更了解，但电脑前的你可能只是刚开始打算把 Arch 当作日常操作系统来使用。虽然我也不是权威人士，但下面几点优劣是我认为你总会在使用中慢慢发现的。
+1.优点： 定制属于你自己的 Linux 操作系统 大多数热门的 Linux 发行版（比如 Ubuntu 和 Fedora）很像一般我们会看到的预装系统，和 Windows 或者 MacOS 一样。但 Arch 则会更鼓励你去把操作系统配置的符合你的品味。如果你能顺利做到这点的话，你会得到一个每一个细节都如你所想的操作系统。</description>
+    </item>
+    
+    <item>
+      <title>16th Week Latex Based Work Report Analysys 第十六 LaTeX造的工作周报分析</title>
+      <link>https://chinese.githuka.com/blog/week16-report/</link>
+      <pubDate>Sun, 28 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/week16-report/</guid>
+      <description>This is the 16th Week Work Report and the 8th report which I have done in LaTeX. Its been a steep learning curve but slowly am getting the flow and every week&amp;rsquo;s document produced is a correction of the previous&amp;rsquo;s problems. Its very fascinating how code can be used to produce such standard, professional-looking documents, far from what other document processing softwares can do.
+I don&amp;rsquo;t think there is really a comparison between Ms Word and LaTeX.</description>
+    </item>
+    
+    <item>
+      <title>Goat Eating at Sotik and What I Learnt That Day</title>
+      <link>https://chinese.githuka.com/blog/sotik/</link>
+      <pubDate>Sun, 21 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/sotik/</guid>
+      <description>Its not everyday when someone appreiciates your hard work. The feeling that comes with this is amazing, knowing that you did your best. The trainees at our training are a wonderful lot. I was invited to one of the trainee&amp;rsquo;s home, where there was a goat eating ceremony which was organaised by the trainees. The bond and homliness that I saw there despite all of us coming from diffrent parts of the country, and different cultures was warm.</description>
+    </item>
+    
+    <item>
+      <title>LaTeX Work Report For Week 15</title>
+      <link>https://chinese.githuka.com/blog/report-15/</link>
+      <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/report-15/</guid>
+      <description> Major Changes  Changed images source to centralised source for all reports   </description>
+    </item>
+    
+    <item>
+      <title>北京时代二保焊机 TDN 3500 MAG/MIG/CO2 焊电源使用说明书 </title>
+      <link>https://chinese.githuka.com/blog/manual/</link>
+      <pubDate>Thu, 18 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/manual/</guid>
+      <description>During the introduction of Co2 Arch Welding last week, it was my harddest interpretation. I was new to the equipment and so were the trainees. There were no reference material so It was hard understanding how the machine operated.
+So over the weekend I seerched on the Manufacturers website where I came accross the manual, but in Chinese.</description>
+    </item>
+    
+    <item>
+      <title>Blog Article</title>
+      <link>https://chinese.githuka.com/blog/creating-a-new-theme/</link>
+      <pubDate>Fri, 12 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+    <item>
+      <title>This Week&#39;s Idiom-Part 1(The Herd Boy&#39;s Ox): 横眉冷对千夫指俯首甘为孺子牛</title>
+      <link>https://chinese.githuka.com/post/fu-shou-gan-wei-ru-zi-niu/</link>
+      <pubDate>Wed, 10 Oct 2018 11:39:24 +0300</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/fu-shou-gan-wei-ru-zi-niu/</guid>
+      <description>横眉冷对千夫指俯首甘为孺子牛 héng méi lěng duì qiān fū zhǐ，fǔ shǒu gān wéi rú zǐ niú. This is the kind of Chinese Idioms that would make any language learner freak out. Its a really badass and when you break it down it starts to amaze the reader how such deep thought can be be summarized in such few words. Chinese idioms are the pinnacle of the lanuage, and if when speaking you drop one of the idioms there, you are gold.</description>
+    </item>
+    
+    <item>
+      <title>Analysis for Week 13 Report LaTeX Document</title>
+      <link>https://chinese.githuka.com/post/week-13-report/</link>
+      <pubDate>Sun, 07 Oct 2018 11:11:15 +0300</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/week-13-report/</guid>
+      <description>This week&amp;rsquo;s work report was fairly simple. The main target-type of content that I wanted to put on the report was tables, that is how to create amazing tables in LaTeX. This turned out to be crazily difficult since I was working from the code of another complete LaTeX document. The kind of tables I wanted was the interchanging black and white for alternate rows. I gave this up and pushed it to next weeks report for Week 14.</description>
+    </item>
+    
+    <item>
+      <title>What Does The Character 结　in the J40.50 Welding Rods Packaging Mean?</title>
+      <link>https://chinese.githuka.com/post/jiegougang/</link>
+      <pubDate>Tue, 11 Sep 2018 06:58:15 +0300</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/jiegougang/</guid>
+      <description>So far in the training we have been working with the 2.5 and 3.2 mm diameter type of welding rods. For sometime I have been keen to note that they all have the 结　character next to the type number. Also this has been translated as &amp;ldquo;J&amp;rdquo; which is also used to show the number J40.50.
+Yesterday I asked one of the Chinese teachers who explained to me that it stands for 结构钢　jiegougang which means Structural Steel.</description>
+    </item>
+    
+    <item>
+      <title>Second Work Report in LaTeX 拉泰赫  Analysis</title>
+      <link>https://chinese.githuka.com/post/report-v2/</link>
+      <pubDate>Mon, 27 Aug 2018 08:54:09 +0300</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/report-v2/</guid>
+      <description>&lt;p&gt;An analysis for my second work report which I did in LaTeX and what I have
+learnt so far as compared to the first one last week. Archlinux + Spacemacs + LaTeX + Chinese Characters = My Work Environment.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Finally I Got Spacemacs&#43;LaTeX&#43;搜狗输入法 Working 成功了！</title>
+      <link>https://chinese.githuka.com/post/latex_chinese/</link>
+      <pubDate>Thu, 16 Aug 2018 10:15:37 +0300</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/latex_chinese/</guid>
+      <description>&lt;p&gt;After weeks and weeks of toiling on the terminal, I finally finished a piece
+of my Linux workflow. I managed to have Chinese Characters input using
+搜狗输入法 to work in Spacemacs and have the same output in LaTeX.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Why 运钞车 The CIT Amoured Vehicle Has A Metal Radical In Its Character</title>
+      <link>https://chinese.githuka.com/post/yunchaoche/</link>
+      <pubDate>Fri, 03 Aug 2018 14:13:15 +0300</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/yunchaoche/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/yunchaoche.jpg&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A small introduction on Chinese money history in relation to how the Chinese
+character for an armoured vehicle　运钞车 has a radical that is normaly is
+related to metals.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>从Youtube下载中国音乐 Download Chinese Music From Youtube</title>
+      <link>https://chinese.githuka.com/post/chinese-music/</link>
+      <pubDate>Wed, 01 Aug 2018 22:41:36 +0300</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/chinese-music/</guid>
+      <description>&lt;p&gt;怎么下载中国音乐 How to download some good quality Chinese songs or mixes from
+youtube and learn some info about media formats while at it. Oh and by the way
+welcome to August 2018 :-)
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>La Cassa De Papel&#39;s Soundtrack-Bella Ciao in Chinese</title>
+      <link>https://chinese.githuka.com/post/bella-ciao/</link>
+      <pubDate>Wed, 25 Jul 2018 20:40:45 +0300</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/bella-ciao/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/lacasa.jpg&#34; alt=&#34;header&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;啊!朋友再见 (中文版) Bella ciao - Chinese version. A movie of how eight thieves take hostages
+and lock themselves in the Royal Mint of Spain as a criminal mastermind
+manipulates the police to carry out his plan.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Meet the man behind Pleco, the revolutionary Chinese language learning app that’s older than the iPhone</title>
+      <link>https://chinese.githuka.com/post/pleco/</link>
+      <pubDate>Sat, 21 Jul 2018 08:18:31 +0300</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/pleco/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/plecofish.jpg&#34; alt=&#34;pleco&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Learning Chinese is not for the faint of heart. Not only does the non-native Mandarin
+speaker have to master the language’s infamous tones, he or she must memorize thousands
+of (practically speaking) non-phonetic characters, get acquainted with a range of accents,
+and grapple with a deceptively simple grammar system.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Screenfetch - 显示系统详细信息</title>
+      <link>https://chinese.githuka.com/post/screenfetch/</link>
+      <pubDate>Fri, 20 Jul 2018 17:48:48 +0300</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/screenfetch/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://dominicm.com/wp-content/uploads/2016/03/screenfetch-arch-linux.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;screenFetch是一个Bash屏幕截图信息工具，可在执行时打印ASCII艺术以及基本系统信息。
+包括Arch Linux在内的许多发行版都支持独特的ASCII艺术。
+在登录时自动运行它以立即查看系统信息非常有用。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>氧气瓶内的氧气不能全部用完 Why You Should Not Completely Deplete An Oxygen Cylinder</title>
+      <link>https://chinese.githuka.com/post/yangqi/</link>
+      <pubDate>Sun, 15 Jul 2018 17:31:46 +0300</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/yangqi/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/welding/gauge.jpg&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A summary of the amazing things I have learnt this week when translating.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>在Kisii第二天 - 小镇的市场日</title>
+      <link>https://chinese.githuka.com/post/zai-kisii-di-er-tian/</link>
+      <pubDate>Mon, 09 Jul 2018 20:47:35 +0300</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/zai-kisii-di-er-tian/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/kisii-evening.jpg&#34; alt=&#34;image&#34; /&gt;
+我们第二天在Kisii还是挺好的。当地人对我们很好的。我今天下午去散散步，以后就发现了Kisii是个很好的地方。
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Uhuru&#39;s Big 4 Agenda In Chinese</title>
+      <link>https://chinese.githuka.com/post/uhuru-big-four-agenda/</link>
+      <pubDate>Thu, 05 Jul 2018 11:56:12 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/uhuru-big-four-agenda/</guid>
+      <description>&lt;p&gt;The Big 4 Agenda identifies Four Priority initiatives to be implemented over the next five years 2017 – 2022, core among them the Delivery of 500,000 Affordable Housing
+Units. 经济适用房, 制造企业, 食品安全, 全民医疗保健&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>三体 The Three Body Problem Book</title>
+      <link>https://chinese.githuka.com/post/santi/</link>
+      <pubDate>Wed, 04 Jul 2018 15:30:26 +0300</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/santi/</guid>
+      <description>&lt;p&gt;《三体》是中国大陆作家刘慈欣于2006年5月至12月在《科幻世界》杂志上连载的一部长篇科幻小說，
+出版后成为中国大陆最畅销的科幻长篇小说之一。2008年，该书的单行本由重庆出版社出版。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Welding Technology Training at Kisii National Polytechnic</title>
+      <link>https://chinese.githuka.com/post/kisii/</link>
+      <pubDate>Wed, 04 Jul 2018 13:50:18 +0300</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/kisii/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/kisii.png&#34; alt=&#34;welding&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;神手钥钱，我们的焊接培训马上就开始了。准备好了吗？
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>第29届IEEE国际智能车大会 The 29th IEEE Intelligent Vehicles Symposium</title>
+      <link>https://chinese.githuka.com/post/ieee-4-2018-autopilot/</link>
+      <pubDate>Wed, 27 Jun 2018 07:04:39 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/ieee-4-2018-autopilot/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/self-driving.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;由IEEE智能交通系统协会 (ITSS)主办的The 29th IEEE Intelligent Vehicles
+Symposium（第29届IEEE国际智能车大会）将于6月26日-6月30日在江苏常熟举办，
+大会特邀主旨报告嘉宾及日程重磅出炉。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>乐观的人和消极的人 The Pessimist &amp; The Optimist</title>
+      <link>https://chinese.githuka.com/post/leguanderen/</link>
+      <pubDate>Mon, 25 Jun 2018 06:22:28 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/leguanderen/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/sun.JPG?style=centerme&#34; alt=&#34;linux&#34; /&gt;
+乐观的人像太阳找到哪里哪里亮，消极的人像月亮初一十五不一样&lt;/p&gt;
+
+&lt;p&gt;Optimistic people be like the sun, they find where to light, while
+pessimistic/passive people tend to be like the moon, they change fast
+and are quite inconsistent.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Matatu Reading Material 2a - Automated Driving Will Always Be A Concept 自动驾驶永远只能是个概念.</title>
+      <link>https://chinese.githuka.com/post/automated-driving-concept/</link>
+      <pubDate>Fri, 22 Jun 2018 06:52:54 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/automated-driving-concept/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/automated.jpg&#34; alt=&#34;automated&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在解决“人”的问题前，自动驾驶永远只能是个概念&lt;/p&gt;
+
+&lt;p&gt;Automated driving can only be a concept for a long time until the &amp;ldquo;person&amp;rdquo; problem is solved.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chinese Fonts on a Linux System</title>
+      <link>https://chinese.githuka.com/post/chinese-fonts-on-linux/</link>
+      <pubDate>Mon, 18 Jun 2018 09:53:35 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/chinese-fonts-on-linux/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/tanzanite.jpg&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;An instruction manual on how to install Chinese fonts on a linux machine. The process is preety straight-forward except
+for some small things.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Matatu Reading Material - Linux操作系统 in Chinese</title>
+      <link>https://chinese.githuka.com/post/linux-zi-you/</link>
+      <pubDate>Mon, 11 Jun 2018 06:09:58 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/linux-zi-you/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/linux.jpg?style=centerme&#34; alt=&#34;linux&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Matatu Reading Material is a series of selected Chinese reading texts
+that I read when commuting to work and back. I realsied that I spend
+alot of time commuting which I could convert into healthy reading time to improve my
+character recognition speed. This text is about Linux, as described
+on &lt;a href=&#34;https://baike.baidu.com/item/linux/27050?fr=aladdin&#34;&gt;Baidu&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Chinese Level: 5&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Intergrating Linux In My Chinese Workflow</title>
+      <link>https://chinese.githuka.com/post/linux_chinese_integration/</link>
+      <pubDate>Tue, 05 Jun 2018 10:36:21 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/linux_chinese_integration/</guid>
+      <description>中文版
+According to statscounter, 54% of desktops in China run Windows 7 while 27% run Windows10. Windows 7 has long been a favourite of the masses due to its usability and security. If fuses well with Chinese software.
+Back in 2014 during my time in Nanjing, China I tried to swich to Linux as my primary OS but the change was too quick, and many of the Windows applications had not Linux alternatives, so within 2 weeks, I reverted back to Windows.</description>
+    </item>
+    
+    <item>
+      <title>Fancy App 1</title>
+      <link>https://chinese.githuka.com/itemized/item1/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/itemized/item1/</guid>
+      <description> App 1 </description>
+    </item>
+    
+    <item>
+      <title>Fancy App 2</title>
+      <link>https://chinese.githuka.com/itemized/item2/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/itemized/item2/</guid>
+      <description> App 2 </description>
+    </item>
+    
+    <item>
+      <title>Fancy App 3</title>
+      <link>https://chinese.githuka.com/itemized/item3/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/itemized/item3/</guid>
+      <description> App 3 </description>
+    </item>
+    
+    <item>
+      <title>Fancy App 4</title>
+      <link>https://chinese.githuka.com/itemized/item4/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/itemized/item4/</guid>
+      <description> App 4 </description>
+    </item>
+    
+    <item>
+      <title>Elements showcase</title>
+      <link>https://chinese.githuka.com/post/elements-showcase/</link>
+      <pubDate>Thu, 28 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/elements-showcase/</guid>
+      <description>&lt;p&gt;Check out how Tranquilpeak theme display well HTML elements (title, paragraph, blockquote, table and more..). It&amp;rsquo;s simple and elegant.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cover image showcase</title>
+      <link>https://chinese.githuka.com/post/cover-image-showcase/</link>
+      <pubDate>Wed, 13 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/cover-image-showcase/</guid>
+      <description>&lt;p&gt;Tranquilpeak integrate a unique &amp;ldquo;cover image&amp;rdquo; feature. Open this post to see how this feature sublimate your article.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hidden social section showcase</title>
+      <link>https://chinese.githuka.com/post/hidden-social-section-showcase/</link>
+      <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/hidden-social-section-showcase/</guid>
+      <description>&lt;p&gt;This post is used to show how a site looks if the social section is hidden.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hidden tag section showcase</title>
+      <link>https://chinese.githuka.com/post/hidden-tag-section-showcase/</link>
+      <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/hidden-tag-section-showcase/</guid>
+      <description>&lt;p&gt;This post is used to show how a site looks if the tag section is hidden.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hidden pagination showcase</title>
+      <link>https://chinese.githuka.com/post/hidden-pagination-showcase/</link>
+      <pubDate>Fri, 15 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/hidden-pagination-showcase/</guid>
+      <description>&lt;p&gt;This post is used to show how a site looks if the pagination is hidden.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Video integrations showcase</title>
+      <link>https://chinese.githuka.com/post/video-integrations-showcase/</link>
+      <pubDate>Sat, 09 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/video-integrations-showcase/</guid>
+      <description>&lt;p&gt;Youtube and Vimeo videos are easily integrated thanks to tags plugins. Of course, you can add video other platforms like dailymotion.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>https://chinese.githuka.com/blog/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/hugoisforlovers/</guid>
+      <description>&lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
+
+&lt;p&gt;Go to &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the
+appropriate version for your os and architecture.&lt;/p&gt;
+
+&lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
+
+&lt;p&gt;More complete instructions are available at &lt;a href=&#34;https://chinese.githuka.com/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Migrate to Hugo from Jekyll</title>
+      <link>https://chinese.githuka.com/blog/migrate-from-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/migrate-from-jekyll/</guid>
+      <description>&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.
+With Jekyll, something that looked like&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
+    ▾ images/
+        logo.png
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>中文測試</title>
+      <link>https://chinese.githuka.com/post/chinese-test/</link>
+      <pubDate>Wed, 02 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/chinese-test/</guid>
+      <description>&lt;p&gt;This is a chinese test post to show you how chinese is displayed.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Image gallery showcase</title>
+      <link>https://chinese.githuka.com/post/image-gallery-showcase/</link>
+      <pubDate>Mon, 18 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/image-gallery-showcase/</guid>
+      <description>&lt;p&gt;And here is the image gallery!
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>日本語テスト</title>
+      <link>https://chinese.githuka.com/post/japanese-test/</link>
+      <pubDate>Wed, 02 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/japanese-test/</guid>
+      <description>&lt;p&gt;This is a Japanese test post to show you how japanese is displayed.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://chinese.githuka.com/about/desc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/about/desc/</guid>
+      <description>Welcome to StreetSmart Chinese
+Chinese Language Consultancy &amp;amp; Interpretation
+Name &amp;amp; Details Wilfred Githuka 楚大洋
+Hey there, thank you for landing on my site. Am a Chinese Language Technical Interpretor and Trainer and here I write about my experiece while at it.
+大家好，我叫楚大洋，欢迎大家来到我的技术博客。
+热爱自动驾驶，目前钻研机器学习和数据挖掘。我基本用python写代码，当然也会在Ros下用c++写一些东西。
+Current Assignment Kisii National Polytecnic - Welding Technology Training
+Web  Old Website(Wordpress) SoundCloud Email: wilfred.gachugi [at] gmail.com  Mobile &amp;amp; Social Wechat/微信号：The-Wilfred Weibo Microblog/新浪微博：weibo.com/dahumble Mobile/电话号码：0708654697</description>
+    </item>
+    
+  </channel>
+</rss>

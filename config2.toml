@@ -1,0 +1,32 @@
+baseurl = "https://chinese.githuka.com"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "Street Smart Chinese"
+theme = "hugo-theme-dream"
+
+# copyright = "All Rights Reserved"
+
+# googleAnalytics = ""
+
+# disqusShortname = "streetsmartchinese"
+
+# enableRobotsTXT = true
+
+[params]
+  author = "楚大洋 Wilfred"
+  motto = "Lifelong Learner of Mandarin 给力"
+  # description = "Learning Practical Chinese"
+  # avatar = ""
+  
+  # email = "wilfred.gachugi@gmail.com"
+  # github = "github.com/wilfredgithuka"
+  # linkedin = ""
+  # codepen = ""
+  # stackoverflow = ""
+
+  siteStartYear = 2016
+  aboutHeader = "AboutMe"
+
+  paginate = 4
+
+  # favicon = "/favicon.ico"

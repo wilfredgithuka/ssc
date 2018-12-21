@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wqy-zenhei on 楚大洋 Wilfred Githuka</title>
+    <link>https://chinese.githuka.com/tags/wqy-zenhei/</link>
+    <description>Recent content in wqy-zenhei on 楚大洋 Wilfred Githuka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Jun 2018 09:53:35 +0000</lastBuildDate>
+    
+	<atom:link href="https://chinese.githuka.com/tags/wqy-zenhei/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chinese Fonts on a Linux System</title>
+      <link>https://chinese.githuka.com/post/chinese-fonts-on-linux/</link>
+      <pubDate>Mon, 18 Jun 2018 09:53:35 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/chinese-fonts-on-linux/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/tanzanite.jpg&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;An instruction manual on how to install Chinese fonts on a linux machine. The process is preety straight-forward except
+for some small things.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

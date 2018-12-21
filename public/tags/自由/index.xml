@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>自由 on 楚大洋 Wilfred Githuka</title>
+    <link>https://chinese.githuka.com/tags/%E8%87%AA%E7%94%B1/</link>
+    <description>Recent content in 自由 on 楚大洋 Wilfred Githuka</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Jun 2018 06:09:58 +0000</lastBuildDate>
+    
+	<atom:link href="https://chinese.githuka.com/tags/%E8%87%AA%E7%94%B1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Matatu Reading Material - Linux操作系统 in Chinese</title>
+      <link>https://chinese.githuka.com/post/linux-zi-you/</link>
+      <pubDate>Mon, 11 Jun 2018 06:09:58 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/linux-zi-you/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/linux.jpg?style=centerme&#34; alt=&#34;linux&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Matatu Reading Material is a series of selected Chinese reading texts
+that I read when commuting to work and back. I realsied that I spend
+alot of time commuting which I could convert into healthy reading time to improve my
+character recognition speed. This text is about Linux, as described
+on &lt;a href=&#34;https://baike.baidu.com/item/linux/27050?fr=aladdin&#34;&gt;Baidu&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Chinese Level: 5&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
