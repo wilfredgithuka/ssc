@@ -1,29 +1,38 @@
 +++
-title = "About Hugo"
-date = "2014-04-09"
+title = "StreetSmart Chinese"
+date = "2019-01-10"
 +++
 
-Hugo is a static site engine written in Go.
+StreetSmart Chinese | Chinese Language Consultancy
 
+Wilfred Githuka 楚大洋
 
-It makes use of a variety of open source projects including:
+Hey there, thank you for landing on my site. Am a Chinese Language Technical
+Interpreter and Trainer and here I write about my experiece while at it.
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
+大家好，我叫楚大洋，欢迎大家来到我的技术博客。
 
-Learn more and contribute on [GitHub](https://github.com/spf13).
+热爱自动驾驶，目前钻研机器学习和数据挖掘。我基本用python写代码，当然也会在Ros下用c++写一些东西。
 
-## Setup
+### Linux and OpenSource Software
 
-Some fun facts about [Hugo](http://gohugo.io/):
+I use ArchLinux on a daily basis, its not easy using Linux in a Chinese work 
+environment because of few unsupported sofware. One has to preety much tweak
+everything to get it working. I love that.
 
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
+On this website I explain my tweaking process and also post a tutorials on how
+to go about this.
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
+Lets face it, Chinese is hard but really interesting.
+
+## Web
+* [Old Website(Wordpress)](https://www.chineseinkenya.wordpress.com)
+* [SoundCloud](https://soundcloud.com/yangradio)
+* Email: wilfred.gachugi [at] gmail.com
+
+## Mobile & Social
+* Wechat/微信号：The-Wilfred
+* Weibo Microblog/新浪微博：weibo.com/dahumble
+* Mobile/电话号码：0708654697
 
 Thanks for reading!

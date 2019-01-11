@@ -6,7 +6,7 @@ author: Wilfred Githuka 楚大洋
 cover: /img/kisii-evening.jpg
 categories: ["LaTeX"]
 tags: ["spacemacs"]
-draft: flase
+draft: false
 ---
 
 After weeks and weeks of toiling on the terminal, I finally finished a piece

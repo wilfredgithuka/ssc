@@ -20,7 +20,7 @@ First install the fcitx package. Note if you dont want to spend the next 2hours 
 ```console
 sudo pacman -S fcitx
 ```
-After installing fcitx, install fcit-sogoupinyin from AUR. This will take sometime so be patient.
+After installing fcitx, install fcitx-sogoupinyin from AUR. This will take sometime so be patient.
 
 ```console
 yaourt fcitx-sogoupinyin --no-confirm
