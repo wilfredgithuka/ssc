@@ -6,10 +6,20 @@
     <description>Recent content in linux on 楚大洋 Wilfred Githuka</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Jun 2018 09:53:35 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://chinese.githuka.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What Is It Like To Use Linux In A Chinese Environment</title>
+      <link>https://chinese.githuka.com/blog/linux_in_chinese_environment/</link>
+      <pubDate>Sun, 13 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/linux_in_chinese_environment/</guid>
+      <description>This is one of those posts I write in a Java Coffee house sipping an expensive cup of tea and wondering why am paying so expensive for milk+tea, but anyway its Java, its expensive because its Java, and the environment is awesome.
+So I work at a really great Chinese company called AVIC International, Nairobi. My workmates both Kenyan and Chinese are the best I have met so far in my career, they are quite an undertanding group of lads.</description>
+    </item>
     
     <item>
       <title>Chinese Fonts on a Linux System</title>
