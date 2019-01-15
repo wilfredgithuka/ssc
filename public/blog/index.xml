@@ -6,10 +6,38 @@
     <description>Recent content in Blog on 楚大洋 Wilfred Githuka</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://chinese.githuka.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Book Review 农民为什么离开土地</title>
+      <link>https://chinese.githuka.com/blog/nongmin_bookreveiew_1/</link>
+      <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/nongmin_bookreveiew_1/</guid>
+      <description>书名：农民为什么离开土地 作者：朱启臻，赵晨鸣 主编 出版社：人民日报出版社 出版时间：2011-5-1 版次：1 页数：372 字数：300000 印刷时间：2011-5-1 开本：16开 纸张：胶版纸 印次：1 ISBN：9787511503770 包装：平装  I got hold of this book back in 2014 when I was in Nanjing from Librairie Avant-Garde in Wutaishan. They had a great collection of books and am sure they still have up-to now. I have decided to pick up this book and read it carefully since it shall be good material for my HSK 6 exam which I plan to do in October this year.</description>
+    </item>
+    
+    <item>
+      <title>Welding Training Graduation</title>
+      <link>https://chinese.githuka.com/blog/graduation/</link>
+      <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/graduation/</guid>
+      <description>Finally after many months (5 months) the training&amp;rsquo;s graduation was held today. The colorful ceremony was helf today at the hall at Kisii National Polytechnic&amp;rsquo;s hall. In attendance was the State Department of Vocational and Technical Education (TVET) together with the other principals who were in attendance, the day was a success.
+Even though today was the raduation, we still have another few days of the training to go before we can complete the training.</description>
+    </item>
+    
+    <item>
+      <title>Kisumu 基苏木</title>
+      <link>https://chinese.githuka.com/blog/kisumu/</link>
+      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/kisumu/</guid>
+      <description>After a wonderful time at Sotik, the trainees again organaised a trip to Kisumu to see the city and visit Lake Victoria among other attractions on Saturday the 17th November 2018. This time round the Chinese teachers accompanied us. The day was amazing. I have never been to the lakeside city of Kisumu. Our trainees are drawn from different parts of the country and this time the ones who hailed from Kisumu took us on a tour of the city.</description>
+    </item>
     
     <item>
       <title>Cover Page(ing) For Your Latex Document</title>
@@ -50,16 +78,6 @@ Arch Linux 于 2002 年发布，由 Aaron Grifin 领头，是当下最热门的 
     </item>
     
     <item>
-      <title>16th Week Latex Based Work Report Analysys 第十六 LaTeX造的工作周报分析</title>
-      <link>https://chinese.githuka.com/blog/week16-report/</link>
-      <pubDate>Sun, 28 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://chinese.githuka.com/blog/week16-report/</guid>
-      <description>This is the 16th Week Work Report and the 8th report which I have done in LaTeX. Its been a steep learning curve but slowly am getting the flow and every week&amp;rsquo;s document produced is a correction of the previous&amp;rsquo;s problems. Its very fascinating how code can be used to produce such standard, professional-looking documents, far from what other document processing softwares can do.
-I don&amp;rsquo;t think there is really a comparison between Ms Word and LaTeX.</description>
-    </item>
-    
-    <item>
       <title>Goat Eating at Sotik and What I Learnt That Day</title>
       <link>https://chinese.githuka.com/blog/sotik/</link>
       <pubDate>Sun, 21 Oct 2018 00:00:00 +0000</pubDate>
@@ -69,66 +87,13 @@ I don&amp;rsquo;t think there is really a comparison between Ms Word and LaTeX.<
     </item>
     
     <item>
-      <title>LaTeX Work Report For Week 15</title>
-      <link>https://chinese.githuka.com/blog/report-15/</link>
-      <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
+      <title>Goodbye Kisii</title>
+      <link>https://chinese.githuka.com/blog/goodbye-kisii/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://chinese.githuka.com/blog/report-15/</guid>
-      <description> Major Changes  Changed images source to centralised source for all reports   </description>
-    </item>
-    
-    <item>
-      <title>北京时代二保焊机 TDN 3500 MAG/MIG/CO2 焊电源使用说明书 </title>
-      <link>https://chinese.githuka.com/blog/manual/</link>
-      <pubDate>Thu, 18 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://chinese.githuka.com/blog/manual/</guid>
-      <description>During the introduction of Co2 Arch Welding last week, it was my harddest interpretation. I was new to the equipment and so were the trainees. There were no reference material so It was hard understanding how the machine operated.
-So over the weekend I seerched on the Manufacturers website where I came accross the manual, but in Chinese.</description>
-    </item>
-    
-    <item>
-      <title>Blog Article</title>
-      <link>https://chinese.githuka.com/blog/creating-a-new-theme/</link>
-      <pubDate>Fri, 12 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://chinese.githuka.com/blog/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://chinese.githuka.com/blog/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://chinese.githuka.com/blog/hugoisforlovers/</guid>
-      <description>&lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
-
-&lt;p&gt;Go to &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the
-appropriate version for your os and architecture.&lt;/p&gt;
-
-&lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
-
-&lt;p&gt;More complete instructions are available at &lt;a href=&#34;https://chinese.githuka.com/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>https://chinese.githuka.com/blog/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://chinese.githuka.com/blog/migrate-from-jekyll/</guid>
-      <description>&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
-
-&lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.
-With Jekyll, something that looked like&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
-    ▾ images/
-        logo.png
-&lt;/code&gt;&lt;/pre&gt;</description>
+      <guid>https://chinese.githuka.com/blog/goodbye-kisii/</guid>
+      <description>In Kisii I made new friends and the time we spent together was awesome.
+Kisii was a nice place, the weather and the people. I have also learnt a few Ksii Words</description>
     </item>
     
   </channel>
