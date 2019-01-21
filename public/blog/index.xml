@@ -6,10 +6,28 @@
     <description>Recent content in Blog on 楚大洋 Wilfred Githuka</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://chinese.githuka.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>To Cover China, There’s No Substitute for WeChat</title>
+      <link>https://chinese.githuka.com/blog/baodaozhongguo/</link>
+      <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/baodaozhongguo/</guid>
+      <description>This is an article which appeared on the New York Times which talks about the importance and influence Wechat has on the Chinese market. 超过三分之一的人每天在这个应用上花费四个小时或更长时间。 这种普遍程度使微信成为许多人生活和工作中不可或缺的一部分.
+The language is easy to understand so this shall be good for matatu reading next time you are on your commute. The English version can be found here
+Here we go&amp;hellip;
+你会写关中国技术方面的报道。在你的工作中需要依赖哪些技术工具呢，你对它们有什么看法？
+可以不夸张地说，我生活在微信里，靠它工作，这个消息应用程序相当于WhatsApp加Facebook加PayPal加优步(Uber)加GrubHub以及许多其他东西。
+我的iPhone电池使用记录显示，每天我花9小时使用手机，其中大约三分之一是用在微信上。这还不包括我使用微信web版的那两到三个小时。
+像我这样的微信重度使用者不是少数。中国有8亿互联网用户，但有超过10亿的微信账号。几乎每个上网的中国人都至少有一个帐户，有些人不止一个。 超过三分之一的人每天在这个应用上花费四个小时或更长时间。这种普遍程度使微信成为许多人生活和工作中不可或缺的一部分。
+两年前，我遇到了两个拒绝使用微信的人，于是我想到，可以写一个关于像这样的人如何驾驭工作和生活的故事。在我抽出时间做这件事之前，这两人都成了我的微信好友。 订阅“简报”和“每日精选”新闻电邮
+请输入电子邮件地址同意接收纽约时报中文网的产品和服务推广邮件查看往期电邮 隐私权声明所以，作为一名记者，我必须待在微信上。 我在微信上发消息、和我的信源通话。我对与Facebook时间线类似的微信朋友圈以及群聊保持关注，所以我能总是掌握中国正在发生什么。 当其他人假装很忙而无法回复我时，我会评论他们的朋友圈和群聊，来告诉他们我知道他们并没有那么忙。
+到这儿，一些读者肯定在尖叫了，“微信上的审查和政府监控怎么说？”不幸的是，在中国的生活就是这样。我不是要试图淡化这个问题。 我一直很反对科技企业与政府联手审查和监控中国的公众。但现实情况是，普通中国人对审查和监控感到无可奈何，只好听天由命。 我试图说服人们使用Signal、WhatsApp这类加密的消息应用软件，但没什么效果。</description>
+    </item>
     
     <item>
       <title>Chinese Input in Emacs on Linux - Attempt 1</title>
