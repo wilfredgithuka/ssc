@@ -1,0 +1,1432 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "https://chinese.githuka.com"
+        },
+        "articleSection" : "blog",
+        "name" : "Emacs&#43;LaTeX&#43;AuCTeX&#43;CJKutf8 Fonts Problem",
+        "headline" : "Emacs&#43;LaTeX&#43;AuCTeX&#43;CJKutf8 Fonts Problem",
+        "description" : "My Thoughts Sequence On How I Solved An Emacs-TeX Problem",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2019",
+        "datePublished": "2019-01-21 00:00:00 &#43;0000 UTC",
+        "dateModified" : "2019-01-21 00:00:00 &#43;0000 UTC",
+        "url" : "https://chinese.githuka.com/blog/latex_setup/",
+        "wordCount" : "513",
+        "keywords" : [ "Blog" ]
+    }
+    </script>
+        
+            
+                <title>Emacs&#43;LaTeX&#43;AuCTeX&#43;CJKutf8 Fonts Problem</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.53" />
+        
+
+
+        
+            <meta name="author" content="Wilfred Githuka">
+        
+        
+            <meta name="description" content="My Thoughts Sequence On How I Solved An Emacs-TeX Problem">
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Emacs&#43;LaTeX&#43;AuCTeX&#43;CJKutf8 Fonts Problem"/>
+<meta name="twitter:description" content="My Thoughts Sequence On How I Solved An Emacs-TeX Problem"/>
+<meta name="twitter:site" content="@wilfredgithuka"/>
+
+        <meta property="og:title" content="Emacs&#43;LaTeX&#43;AuCTeX&#43;CJKutf8 Fonts Problem" />
+<meta property="og:description" content="My Thoughts Sequence On How I Solved An Emacs-TeX Problem" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://chinese.githuka.com/blog/latex_setup/" /><meta property="article:published_time" content="2019-01-21T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-01-21T00:00:00&#43;00:00"/>
+
+        <meta property="og:image" content="https://chinese.githuka.com/images/logo.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="512">
+        <meta property="og:image:height" content="512">
+        
+<meta itemprop="name" content="Emacs&#43;LaTeX&#43;AuCTeX&#43;CJKutf8 Fonts Problem">
+<meta itemprop="description" content="My Thoughts Sequence On How I Solved An Emacs-TeX Problem">
+
+
+<meta itemprop="datePublished" content="2019-01-21T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-01-21T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="513">
+
+
+
+<meta itemprop="keywords" content="" />
+
+        
+
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
+            <link rel="stylesheet" href="https://chinese.githuka.com/css/main.css">
+            <link rel="stylesheet" href="https://chinese.githuka.com/css/add-on.css">
+            <link rel="stylesheet" href="https://chinese.githuka.com/css/academicons.min.css">
+        
+
+        
+            
+                
+            
+        
+
+
+  
+    
+    <link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+  
+
+
+      
+    </head>
+    <body>
+
+      
+      <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+      <h1><a href="https://chinese.githuka.com/">blog</a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="https://chinese.githuka.com/">
+                            <i class="fa fa-home">&nbsp;</i>Home
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://chinese.githuka.com/about/">
+                            <i class="fa fa-id-card-o">&nbsp;</i>About
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://chinese.githuka.com/blog/">
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://chinese.githuka.com/itemized/">
+                            <i class="fa fa-list">&nbsp;</i>Downloads
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://chinese.githuka.com/categories/">
+                            <i class="fa fa-sitemap">&nbsp;</i>Categories
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://chinese.githuka.com/contact/">
+                            <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="as_sitesearch" value="https://chinese.githuka.com">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="as_sitesearch" value="https://chinese.githuka.com">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="https://chinese.githuka.com/">
+                            <h3>
+                                <i class="fa fa-home">&nbsp;</i>Home
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://chinese.githuka.com/about/">
+                            <h3>
+                                <i class="fa fa-id-card-o">&nbsp;</i>About
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://chinese.githuka.com/blog/">
+                            <h3>
+                                <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://chinese.githuka.com/itemized/">
+                            <h3>
+                                <i class="fa fa-list">&nbsp;</i>Downloads
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://chinese.githuka.com/categories/">
+                            <h3>
+                                <i class="fa fa-sitemap">&nbsp;</i>Categories
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://chinese.githuka.com/contact/">
+                            <h3>
+                                <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section class="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+
+                
+                    
+                
+
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://chinese.githuka.com/blog/latex_setup/">Emacs&#43;LaTeX&#43;AuCTeX&#43;CJKutf8 Fonts Problem</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2019-01-21'>
+                                    January 21, 2019</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://chinese.githuka.com/blog/baodaozhongguo/">To Cover China, There’s No Substitute for WeChat</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2019-01-21'>
+                                    January 21, 2019</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://chinese.githuka.com/blog/emacs_chinese_input/">Chinese Input in Emacs on Linux - Attempt 1</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2019-01-18'>
+                                    January 18, 2019</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://chinese.githuka.com/blog/linux_in_chinese_environment/">What Is It Like To Use Linux In A Chinese Environment</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2019-01-13'>
+                                    January 13, 2019</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://chinese.githuka.com/blog/nongmin_bookreveiew_1/">Book Review 农民为什么离开土地</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2019-01-10'>
+                                    January 10, 2019</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://chinese.githuka.com/blog/graduation/">Welding Training Graduation</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-11-29'>
+                                    November 29, 2018</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://chinese.githuka.com/blog/graduation/" class="image featured">
+            <img src="https://chinese.githuka.com/img/2018/11/" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://chinese.githuka.com/blog/kisumu/">Kisumu 基苏木</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-11-21'>
+                                    November 21, 2018</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://chinese.githuka.com/blog/kisumu/" class="image featured">
+            <img src="https://chinese.githuka.com/img/2018/11/" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://chinese.githuka.com/blog/cover_page_latex/">Cover Page(ing) For Your Latex Document</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-11-12'>
+                                    November 12, 2018</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://chinese.githuka.com/blog/cover_page_latex/" class="image featured">
+            <img src="https://chinese.githuka.com/img/2018/11/" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://chinese.githuka.com/blog/man-page/">Linux 常用的一些命令</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-11-08'>
+                                    November 8, 2018</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://chinese.githuka.com/blog/man-page/" class="image featured">
+            <img src="https://chinese.githuka.com/img/2018/11/" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://chinese.githuka.com/blog/archlinux/">为什么Archlinux如此“难弄”又有何优劣？</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-11-07'>
+                                    November 7, 2018</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://chinese.githuka.com/blog/archlinux/" class="image featured">
+            <img src="https://chinese.githuka.com/img/2018/11/" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+
+                
+                    <a href=
+                        
+                            /blog/
+                        
+                        class="button">View more posts</a>
+                
+            </div>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+
+<li>
+  <a href="//twitter.com/share?url=https%3a%2f%2fchinese.githuka.com%2fblog%2flatex_setup%2f&amp;text=Emacs%2bLaTeX%2bAuCTeX%2bCJKutf8%20Fonts%20Problem&amp;via=wilfredgithuka" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fchinese.githuka.com%2fblog%2flatex_setup%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=https%3a%2f%2fchinese.githuka.com%2fblog%2flatex_setup%2f&amp;title=Emacs%2bLaTeX%2bAuCTeX%2bCJKutf8%20Fonts%20Problem" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Wilfred%20Githuka&amp;body=https%3a%2f%2fchinese.githuka.com%2fblog%2flatex_setup%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="https://chinese.githuka.com/blog/latex_setup/">Emacs&#43;LaTeX&#43;AuCTeX&#43;CJKutf8 Fonts Problem</a></h1>
+            
+        
+        
+            <p>My Thoughts Sequence On How I Solved An Emacs-TeX Problem</p>
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2019-01-21'>
+            January 21, 2019</time>
+        <span class="author">Wilfred Githuka</span>
+        
+            <p>3 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+  
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+
+<li>
+  <a href="//twitter.com/share?url=https%3a%2f%2fchinese.githuka.com%2fblog%2flatex_setup%2f&amp;text=Emacs%2bLaTeX%2bAuCTeX%2bCJKutf8%20Fonts%20Problem&amp;via=wilfredgithuka" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fchinese.githuka.com%2fblog%2flatex_setup%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=https%3a%2f%2fchinese.githuka.com%2fblog%2flatex_setup%2f&amp;title=Emacs%2bLaTeX%2bAuCTeX%2bCJKutf8%20Fonts%20Problem" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Wilfred%20Githuka&amp;body=https%3a%2f%2fchinese.githuka.com%2fblog%2flatex_setup%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+      </ul>
+    </section>
+  
+
+  
+
+  <div id="content">
+    
+
+<p>Today is a Monday and I have still not solved the Chinese input on Emacs issue. But I have decided to hold it
+for a while since I have 2 pending reports to write. I plan to use emacs to write the English version then wps
+to produce the Chinese version. But today mornning I realised that my latex setup is still not complete. There
+are some errors during the compilation of AuCTEX to pdf. AuCTEX reports that: AUCTeX cannot find a working
+TeX distribution. After scouring some documentaton I think the problem could be my zsh PATH variable which is
+not correctly configured.</p>
+
+<h2 id="tex-live">Tex Live</h2>
+
+<p>Let me first install TeX live and see wether I can solve this problem. TeX live comes in 2 packages:</p>
+
+<ul>
+<li>teXLive-core (160MB)</li>
+<li>teXLive-most (600MB)</li>
+</ul>
+
+<p>So I choose the core package since the reports are due soon.</p>
+
+<p>sudo pacman -S texlive-core</p>
+
+<p>After 15mins the installation is complete.</p>
+
+<p>I have checked that the error seems to have gone, but I now have an issue. Last time I used a code to enable
+TeX to render Chinese characters in the pdf file. This was posible by adding the following:</p>
+
+<p>\usepackage{CJKutf8}</p>
+
+<p>\begin{document}
+\begin{CJK*}{UTF8}{gbsn</p>
+
+<p>\end{CJK*</p>
+
+<p>I cant seem to remmber how I did this and I think this is contributing to the error.</p>
+
+<p>Let me check-up on how to solve this.</p>
+
+<p>This is a statement that I just got from a stackexchange website, but I forgot to not down the address. The
+write has cleared the air on this mysterious CJKutf8 stuff. Read along&hellip;</p>
+
+<p>CJKutf8 package is a part of CJK bundle, it is designed for documents in UTF-8 encoding only,
+and it actually loads CJK package internally.The main aim of CJKutf8 package is,
+to use utf8 option in inputenc package together with CJK package. That is to say, CJKutf8 patches
+original CJK package to make it work well with inputenc. And it loads inputenc package with utf8 option internally.
+Most users do not need to know the technical details. But you can use CJKutf8 to typeset French,
+German and Chinese in one document easily. That&rsquo;s it.</p>
+
+<p>After reading the above I decided to dig more in the Archwiki site and discovered some new stuff.
+This article about <a href="https://wiki.archlinux.org/index.php/TeX_Live_and_CJK">TeX and CJK</a> says that
+I need to have texlive-langcjk installed. But after seaching for it its not available, or even exist.
+So I have gone back to the TeX page of the wiki and discovered that there is a special package forgot
+to install.</p>
+
+<ul>
+<li>texlive-lang group contains packages providing character sets and features for non-English languages.</li>
+<li>texlive-langextra provides language support for African, Arabic, Armenian, Croatian, Hebrew, Indic,
+Mongolian, Tibetan and Vietnamese.</li>
+</ul>
+
+<p>I will install the texlive-lang group first then see the outcome. But its 250MB large.</p>
+
+<p>This installation took long so I went for lunch, after coming back and running the pdf production
+again, it was successful.</p>
+
+<p>What a process.</p>
+
+<p>So now I have it working, I can work on my reports. The only problem remaining is the Chinese input.
+I will figure out that later.</p>
+
+<h2 id="references-and-links">References and Links</h2>
+
+<ul>
+<li><a href="https://wiki.archlinux.org/index.php/TeX_Live#Installation">TeX Live on Archwiki</a></li>
+</ul>
+
+  </div>
+
+  <footer>
+    <ul class="stats">
+  <li class="categories">
+    <ul>
+        
+            
+            
+                <i class="fa fa-folder"></i>
+                
+                
+                <li><a class="article-category-link" href="https://chinese.githuka.com/categories/linux">linux</a></li>
+                
+            
+        
+    </ul>
+  </li>
+  <li class="tags">
+    <ul>
+        
+    </ul>
+  </li>
+</ul>
+
+  </footer>
+
+</article>
+
+    <article class="post">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "shortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </article>
+
+
+<ul class="actions pagination">
+    
+        <li><a href="https://chinese.githuka.com/blog/baodaozhongguo/"
+                class="button big previous">To Cover China, There’s No Substitute for WeChat</a></li>
+    
+
+    
+</ul>
+
+
+    </div>
+    
+<section id="sidebar">
+
+  
+  <section id="intro">
+    
+    
+      
+        <a href='https://chinese.githuka.com/'><img src="https://chinese.githuka.com/img/main/wilfred-logo2.jpg" class="intro-circle" width="150" alt="Hugo Future Imperfect" /></a>
+      
+    
+    
+      <header>
+        <h2>楚大洋</h2>
+        <p>Life Long Chinese Learner 俯首甘为孺子牛</p>
+      </header>
+    
+    
+      <ul class="icons">
+        
+          
+    <li><a href="https://chinese.githuka.com/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+
+
+        
+        
+  <li><a href="//github.com/wilfredgithuka" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//chineseinkenya.wordpress.com" target="_blank" title="WordPress" class="fa fa-wordpress"></a></li>
+
+
+
+  <li><a href="//medium.com/@@wilfredgithuka" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//reddit.com/user/bleedingvoltage" target="_blank" title="Reddit" class="fa fa-reddit"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="weixin://contacts/profile/The-Wilfred" target="_blank" title="WeChat" class="fa fa-weixin"></a></li>
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/wilfredgithuka" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:wilfred.gachugi@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+  </section>
+
+  
+  <section class="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        
+
+        
+          
+        
+
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://chinese.githuka.com/blog/latex_setup/">Emacs&#43;LaTeX&#43;AuCTeX&#43;CJKutf8 Fonts Problem</a>
+              </h3>
+              
+              <time class="published" datetime='2019-01-21'>
+                January 21, 2019
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://chinese.githuka.com/blog/baodaozhongguo/">To Cover China, There’s No Substitute for WeChat</a>
+              </h3>
+              
+              <time class="published" datetime='2019-01-21'>
+                January 21, 2019
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://chinese.githuka.com/blog/emacs_chinese_input/">Chinese Input in Emacs on Linux - Attempt 1</a>
+              </h3>
+              
+              <time class="published" datetime='2019-01-18'>
+                January 18, 2019
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://chinese.githuka.com/blog/linux_in_chinese_environment/">What Is It Like To Use Linux In A Chinese Environment</a>
+              </h3>
+              
+              <time class="published" datetime='2019-01-13'>
+                January 13, 2019
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://chinese.githuka.com/blog/nongmin_bookreveiew_1/">Book Review 农民为什么离开土地</a>
+              </h3>
+              
+              <time class="published" datetime='2019-01-10'>
+                January 10, 2019
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://chinese.githuka.com/blog/graduation/">Welding Training Graduation</a>
+              </h3>
+              
+              <time class="published" datetime='2018-11-29'>
+                November 29, 2018
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://chinese.githuka.com/blog/graduation/" class="image featured">
+            <img src="https://chinese.githuka.com/img/2018/11/" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://chinese.githuka.com/blog/kisumu/">Kisumu 基苏木</a>
+              </h3>
+              
+              <time class="published" datetime='2018-11-21'>
+                November 21, 2018
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://chinese.githuka.com/blog/kisumu/" class="image featured">
+            <img src="https://chinese.githuka.com/img/2018/11/" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://chinese.githuka.com/blog/cover_page_latex/">Cover Page(ing) For Your Latex Document</a>
+              </h3>
+              
+              <time class="published" datetime='2018-11-12'>
+                November 12, 2018
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://chinese.githuka.com/blog/cover_page_latex/" class="image featured">
+            <img src="https://chinese.githuka.com/img/2018/11/" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://chinese.githuka.com/blog/man-page/">Linux 常用的一些命令</a>
+              </h3>
+              
+              <time class="published" datetime='2018-11-08'>
+                November 8, 2018
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://chinese.githuka.com/blog/man-page/" class="image featured">
+            <img src="https://chinese.githuka.com/img/2018/11/" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://chinese.githuka.com/blog/archlinux/">为什么Archlinux如此“难弄”又有何优劣？</a>
+              </h3>
+              
+              <time class="published" datetime='2018-11-07'>
+                November 7, 2018
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="https://chinese.githuka.com/blog/archlinux/" class="image featured">
+            <img src="https://chinese.githuka.com/img/2018/11/" alt="">
+        </a>
+    
+
+
+          </article>
+        
+      </div>
+
+      
+        <a href=
+          
+            /blog/
+          
+        class="button">View more posts</a>
+      
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+  
+    <section id="mini-bio">
+      <h3>About</h3>
+      <p>Chinese Language Learning Resorces in a Linux Environment</p>
+      <a href="https://chinese.githuka.com/about/" class="button">Learn More</a>
+    </section>
+  
+
+  
+  <section id="footer">
+    
+      <ul class="icons">
+        
+          
+    <li><a href="https://chinese.githuka.com/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+
+
+        
+        
+  <li><a href="//github.com/wilfredgithuka" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//chineseinkenya.wordpress.com" target="_blank" title="WordPress" class="fa fa-wordpress"></a></li>
+
+
+
+  <li><a href="//medium.com/@@wilfredgithuka" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//reddit.com/user/bleedingvoltage" target="_blank" title="Reddit" class="fa fa-reddit"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="weixin://contacts/profile/The-Wilfred" target="_blank" title="WeChat" class="fa fa-weixin"></a></li>
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/wilfredgithuka" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:wilfred.gachugi@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+    <p class="copyright">
+      
+        &copy; 2019
+        
+          楚大洋 Wilfred Githuka
+        
+      .
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>
+
+    </div>
+    <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    
+
+    
+      
+    
+
+    
+      
+      
+      
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+        
+        
+        
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+        <script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/css.min.js"></script>
+        <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+      
+    
+    
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+      <script src="https://chinese.githuka.com/js/util.js"></script>
+      <script src="https://chinese.githuka.com/js/main.js"></script>
+      <script src="https://chinese.githuka.com/js/backToTop.js"></script>
+    
+
+    
+      
+        
+      
+    
+
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+      <script src="//yihui.name/js/math-code.js"></script>
+<script async
+src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+  </body>
+</html>
+

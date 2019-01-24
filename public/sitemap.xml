@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://chinese.githuka.com/blog/latex_setup/</loc>
+    <lastmod>2019-01-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chinese.githuka.com/blog/baodaozhongguo/</loc>
     <lastmod>2019-01-21T00:00:00+00:00</lastmod>
   </url>
@@ -203,6 +208,10 @@
   </url>
   
   <url>
+    <loc>https://chinese.githuka.com/blog/printing/</loc>
+  </url>
+  
+  <url>
     <loc>https://chinese.githuka.com/blog/</loc>
     <lastmod>2019-01-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -373,7 +382,7 @@
   
   <url>
     <loc>https://chinese.githuka.com/categories/linux/</loc>
-    <lastmod>2019-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2019-01-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
