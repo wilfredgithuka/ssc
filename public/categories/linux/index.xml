@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linux on 楚大洋 Wilfred Githuka</title>
+    <title>Linux on  楚大洋</title>
     <link>https://chinese.githuka.com/categories/linux/</link>
-    <description>Recent content in linux on 楚大洋 Wilfred Githuka</description>
+    <description>Recent content in Linux on  楚大洋</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://chinese.githuka.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>USB Flashdrive, Android Phones Support - This is Thunar</title>
+      <link>https://chinese.githuka.com/blog/filemanager/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/filemanager/</guid>
+      <description>Lets face it nearly everyone working in an office environment has a flash drive somewhere nearby. They are the common tools for data transfer in the office environment.
+At my workplace, its no different. Sometimes a colleague would hand a flashdrive to copy some document and if its urgent, I cannot start mounting it on the terminal, thats not efficient.
+I need Thunar.
+Thunar is a file manager that comes with XFCE wm.</description>
+    </item>
+    
+    <item>
+      <title>Minor Issues Unfixed So Far 我的电脑上的小问题</title>
+      <link>https://chinese.githuka.com/blog/problems/</link>
+      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/problems/</guid>
+      <description>The following are some of the issues which remain unsolved so far in my ArchLinux i3 Chinese machine. Some are language specific, some are just system based configuration.
+No Chinese Input Support in Spacemacs This is by far the biggest issue am yet to solve. Last year I remeber solving this issue but because I did not document my process, after re-installing Archlinux I have to do it again.</description>
+    </item>
     
     <item>
       <title>Emacs&#43;LaTeX&#43;AuCTeX&#43;CJKutf8 Fonts Problem</title>
@@ -28,6 +49,35 @@
       <guid>https://chinese.githuka.com/blog/linux_in_chinese_environment/</guid>
       <description>This is one of those posts I write in a Java Coffee house sipping an expensive cup of tea and wondering why am paying so expensive for milk+tea, but anyway its Java, its expensive because its Java, and the environment is awesome.
 So I work at a really great Chinese company called AVIC International, Nairobi. My workmates both Kenyan and Chinese are the best I have met so far in my career, they are quite an undertanding group of lads.</description>
+    </item>
+    
+    <item>
+      <title>Linux 常用的一些命令</title>
+      <link>https://chinese.githuka.com/blog/man-page/</link>
+      <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/man-page/</guid>
+      <description>Linux常用命令中，有些命令可以用于查看系统的状态，通过了解系统当前的状态，能够帮助我们更好地维护系统或定位问题。本文就简单介绍一下这些命令。
+查看系统运行时间&amp;ndash;uptime 有时候我们想知道系统上一次复位是在什么时候或者系统已经运行了多长时间，我们可以通过uptime命令获取这些信息：
+uptime 20:47:06 up 50 min, 1 user, load average: 0.75, 0.84, 0.93  从左往右显示的信息依次为：当前时间、已运行时间、用户登录数、1分钟、5分钟和15分钟内系统的平均负载。
+查看系统已登录用户&amp;ndash;who who -a hyb tty7 2018-09-30 19:57 (:0)  通过who命令可以查看到哪些用户通过哪个ip登录到了这台主机。
+查看系统版本相关信息&amp;ndash;uname uname -a Linux ubuntu16.04 4.15.0-34-generic #37~16.04.1-Ubuntu SMP Tue Aug 28 10:44:06 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux  从结果可以看到操作系统版本（ubuntu16.04），CPU类型（x86_64）等信息
+查看当前环境变量&amp;ndash;export 环境变量影响着程序的运行，因此有时候需要查看当前环境的环境变量：
+export  查看目录和文件占用空间&amp;ndash;du du命令直接显示当前目录下每个目录及其文件占用空间。结合&amp;ndash;max-depth参数可以指定显示的目录层级。
+例如，如果只想显示当前目录下各个目录所占总空间，可以使用:
+du -h --max-depth=1 19M ./python 9.0M ./git 321M ./hexo 17M ./lua 28K ./vim 1.4M ./shell 81M .</description>
+    </item>
+    
+    <item>
+      <title>为什么Archlinux如此“难弄”又有何优劣？</title>
+      <link>https://chinese.githuka.com/blog/archlinux/</link>
+      <pubDate>Wed, 07 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/archlinux/</guid>
+      <description>This is a good article that I came accross in the ArchLinux page on WeChat. It was written by Martins D. Okoi and translated by Jerry Ling/Linux中国. It has very good language and a good read for Chinese learners.
+Arch Linux 于 2002 年发布，由 Aaron Grifin 领头，是当下最热门的 Linux 发行版之一。从设计上说，Arch Linux 试图给用户提供简单、最小化且优雅的体验，但它的目标用户群可不是怕事儿多的用户。Arch 鼓励参与社区建设，并且从设计上期待用户自己有学习操作系统的能力。
+很多 Linux 老鸟对于 Arch Linux 会更了解，但电脑前的你可能只是刚开始打算把 Arch 当作日常操作系统来使用。虽然我也不是权威人士，但下面几点优劣是我认为你总会在使用中慢慢发现的。
+1.优点： 定制属于你自己的 Linux 操作系统 大多数热门的 Linux 发行版（比如 Ubuntu 和 Fedora）很像一般我们会看到的预装系统，和 Windows 或者 MacOS 一样。但 Arch 则会更鼓励你去把操作系统配置的符合你的品味。如果你能顺利做到这点的话，你会得到一个每一个细节都如你所想的操作系统。</description>
     </item>
     
     <item>

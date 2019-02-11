@@ -1,36 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 楚大洋 Wilfred Githuka</title>
+    <title>Tags on  楚大洋</title>
     <link>https://chinese.githuka.com/tags/</link>
-    <description>Recent content in Tags on 楚大洋 Wilfred Githuka</description>
+    <description>Recent content in Tags on  楚大洋</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 27 Jun 2018 07:04:39 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Jul 2018 20:40:45 +0300</lastBuildDate>
     
 	<atom:link href="https://chinese.githuka.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>IEEE</title>
-      <link>https://chinese.githuka.com/tags/ieee/</link>
-      <pubDate>Wed, 27 Jun 2018 07:04:39 +0000</pubDate>
-      
-      <guid>https://chinese.githuka.com/tags/ieee/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>UhuruBig4</title>
-      <link>https://chinese.githuka.com/tags/uhurubig4/</link>
-      <pubDate>Thu, 05 Jul 2018 11:56:12 +0000</pubDate>
-      
-      <guid>https://chinese.githuka.com/tags/uhurubig4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bella-ciao</title>
+      <title>Bella Ciao</title>
       <link>https://chinese.githuka.com/tags/bella-ciao/</link>
       <pubDate>Wed, 25 Jul 2018 20:40:45 +0300</pubDate>
       
@@ -39,7 +20,7 @@
     </item>
     
     <item>
-      <title>china</title>
+      <title>China</title>
       <link>https://chinese.githuka.com/tags/china/</link>
       <pubDate>Sat, 21 Jul 2018 08:18:31 +0300</pubDate>
       
@@ -48,7 +29,7 @@
     </item>
     
     <item>
-      <title>chinese</title>
+      <title>Chinese</title>
       <link>https://chinese.githuka.com/tags/chinese/</link>
       <pubDate>Wed, 02 Oct 2013 00:00:00 +0000</pubDate>
       
@@ -57,7 +38,7 @@
     </item>
     
     <item>
-      <title>ffmpeg</title>
+      <title>Ffmpeg</title>
       <link>https://chinese.githuka.com/tags/ffmpeg/</link>
       <pubDate>Wed, 01 Aug 2018 22:41:36 +0300</pubDate>
       
@@ -66,7 +47,7 @@
     </item>
     
     <item>
-      <title>fonts</title>
+      <title>Fonts</title>
       <link>https://chinese.githuka.com/tags/fonts/</link>
       <pubDate>Mon, 18 Jun 2018 09:53:35 +0000</pubDate>
       
@@ -75,7 +56,16 @@
     </item>
     
     <item>
-      <title>japanese</title>
+      <title>Ieee</title>
+      <link>https://chinese.githuka.com/tags/ieee/</link>
+      <pubDate>Wed, 27 Jun 2018 07:04:39 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/tags/ieee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Japanese</title>
       <link>https://chinese.githuka.com/tags/japanese/</link>
       <pubDate>Wed, 02 Jan 2013 00:00:00 +0000</pubDate>
       
@@ -84,7 +74,7 @@
     </item>
     
     <item>
-      <title>jiegougang</title>
+      <title>Jiegougang</title>
       <link>https://chinese.githuka.com/tags/jiegougang/</link>
       <pubDate>Tue, 11 Sep 2018 06:58:15 +0300</pubDate>
       
@@ -93,7 +83,7 @@
     </item>
     
     <item>
-      <title>kisii</title>
+      <title>Kisii</title>
       <link>https://chinese.githuka.com/tags/kisii/</link>
       <pubDate>Mon, 09 Jul 2018 20:47:35 +0300</pubDate>
       
@@ -102,7 +92,7 @@
     </item>
     
     <item>
-      <title>kisii-poly</title>
+      <title>Kisii Poly</title>
       <link>https://chinese.githuka.com/tags/kisii-poly/</link>
       <pubDate>Wed, 04 Jul 2018 13:50:18 +0300</pubDate>
       
@@ -111,7 +101,7 @@
     </item>
     
     <item>
-      <title>lacassa-de-papel</title>
+      <title>Lacassa De Papel</title>
       <link>https://chinese.githuka.com/tags/lacassa-de-papel/</link>
       <pubDate>Wed, 25 Jul 2018 20:40:45 +0300</pubDate>
       
@@ -120,7 +110,7 @@
     </item>
     
     <item>
-      <title>linux</title>
+      <title>Linux</title>
       <link>https://chinese.githuka.com/tags/linux/</link>
       <pubDate>Mon, 11 Jun 2018 06:09:58 +0000</pubDate>
       
@@ -129,7 +119,7 @@
     </item>
     
     <item>
-      <title>mandarin</title>
+      <title>Mandarin</title>
       <link>https://chinese.githuka.com/tags/mandarin/</link>
       <pubDate>Sat, 21 Jul 2018 08:18:31 +0300</pubDate>
       
@@ -138,7 +128,7 @@
     </item>
     
     <item>
-      <title>screenfetch</title>
+      <title>Screenfetch</title>
       <link>https://chinese.githuka.com/tags/screenfetch/</link>
       <pubDate>Fri, 20 Jul 2018 17:48:48 +0300</pubDate>
       
@@ -147,7 +137,7 @@
     </item>
     
     <item>
-      <title>self-driving-cars</title>
+      <title>Self Driving Cars</title>
       <link>https://chinese.githuka.com/tags/self-driving-cars/</link>
       <pubDate>Fri, 22 Jun 2018 06:52:54 +0000</pubDate>
       
@@ -156,7 +146,7 @@
     </item>
     
     <item>
-      <title>spacemacs</title>
+      <title>Spacemacs</title>
       <link>https://chinese.githuka.com/tags/spacemacs/</link>
       <pubDate>Thu, 16 Aug 2018 10:15:37 +0300</pubDate>
       
@@ -165,7 +155,7 @@
     </item>
     
     <item>
-      <title>towm</title>
+      <title>Towm</title>
       <link>https://chinese.githuka.com/tags/towm/</link>
       <pubDate>Mon, 09 Jul 2018 20:47:35 +0300</pubDate>
       
@@ -174,7 +164,16 @@
     </item>
     
     <item>
-      <title>welding</title>
+      <title>Uhurubig4</title>
+      <link>https://chinese.githuka.com/tags/uhurubig4/</link>
+      <pubDate>Thu, 05 Jul 2018 11:56:12 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/tags/uhurubig4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Welding</title>
       <link>https://chinese.githuka.com/tags/welding/</link>
       <pubDate>Wed, 04 Jul 2018 13:50:18 +0300</pubDate>
       
@@ -183,7 +182,7 @@
     </item>
     
     <item>
-      <title>workflow</title>
+      <title>Workflow</title>
       <link>https://chinese.githuka.com/tags/workflow/</link>
       <pubDate>Mon, 27 Aug 2018 08:54:09 +0300</pubDate>
       
@@ -192,7 +191,7 @@
     </item>
     
     <item>
-      <title>workreport</title>
+      <title>Workreport</title>
       <link>https://chinese.githuka.com/tags/workreport/</link>
       <pubDate>Mon, 27 Aug 2018 08:54:09 +0300</pubDate>
       
@@ -201,7 +200,7 @@
     </item>
     
     <item>
-      <title>wqy-microhei</title>
+      <title>Wqy Microhei</title>
       <link>https://chinese.githuka.com/tags/wqy-microhei/</link>
       <pubDate>Mon, 18 Jun 2018 09:53:35 +0000</pubDate>
       
@@ -210,7 +209,7 @@
     </item>
     
     <item>
-      <title>wqy-zenhei</title>
+      <title>Wqy Zenhei</title>
       <link>https://chinese.githuka.com/tags/wqy-zenhei/</link>
       <pubDate>Mon, 18 Jun 2018 09:53:35 +0000</pubDate>
       
@@ -219,7 +218,7 @@
     </item>
     
     <item>
-      <title>youtube-dl</title>
+      <title>Youtube Dl</title>
       <link>https://chinese.githuka.com/tags/youtube-dl/</link>
       <pubDate>Wed, 01 Aug 2018 22:41:36 +0300</pubDate>
       

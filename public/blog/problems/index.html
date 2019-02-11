@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+    <title>
+      
+      Minor Issues Unfixed So Far 我的电脑上的小问题 -  楚大洋
+      
+		</title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/icons.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
+    
+    <link href="https://fonts.loli.net/css?family=Bree+Serif|Lato:100,100i,300,300i,400,400i,700,700i|Source+Code+Pro:300,400,500,700" rel="stylesheet">
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/bigfoot/dist/bigfoot.js"></script>
+    <link rel="stylesheet" type="text/css" href="/assets/bigfoot/dist/bigfoot-number.css" />
+    <script type="text/javascript">
+        $.bigfoot();
+    </script>
+    
+    
+</head>
+
+    <body class="post-template">
+        <header class="main-header">
+	<div class="main-header-content">
+		<h1 class="blog-title">
+			<a href="/">
+				
+            楚大洋
+				
+			</a>
+		</h1>
+		<h2 class="blog-description">Life Long Chinese Learner</h2>
+	</div>
+
+	<div class="nav">
+    
+		
+	</div>
+</header>
+
+        
+<main class="content" role="main">
+  <article class="post">
+    <header class="post-header">
+      
+      <h2 class="post-title">Minor Issues Unfixed So Far 我的电脑上的小问题</h2>
+      <section class="post-meta">
+        <time class="post-date">2019-01-24</time>
+      </section>
+    </header>
+    <section class="post-content">
+      
+
+<p>The following are some of the issues which remain unsolved so far in my ArchLinux i3 Chinese
+machine. Some are language specific, some are just system based configuration.</p>
+
+<h2 id="no-chinese-input-support-in-spacemacs">No Chinese Input Support in Spacemacs</h2>
+
+<p>This is by far the biggest issue am yet to solve. Last year I remeber solving this issue
+but because I did not document my process, after re-installing Archlinux I have to do it again.</p>
+
+<p>Here is where the importance of documenting one&rsquo;s progress.</p>
+
+<p>I have however made some attempt and you can read my <a href="https://chinese.githuka.com/blog/emacs_chinese_input/">thought process here</a></p>
+
+<p>There is still no success. But am working on it.</p>
+
+<h2 id="solved-windows-size-out-of-screen">[SOLVED]Windows Size Out Of Screen</h2>
+
+<p>The dialog box is always out of resolution and sometimes I cannot see the file name especially when saving a document from
+the internet. I suppose this is a Chromium issue, but its very frustrating.</p>
+
+<h3 id="solution">Solution</h3>
+
+<p>The maximum and minimum dimensions of floating windows can be specified. If either dimension of floating_maximum_size is specified as -1, that dimension will be unconstrained with respect to its maximum value. If either dimension of floating_maximum_size is undefined, or specified as 0, i3 will use a default value to constrain the maximum size. floating_minimum_size is treated in a manner analogous to floating_maximum_size.</p>
+
+<p>A more simpler solution is to just hold the <code>mod+right-click</code> when the window pops up the drag to resize to the appropriate size.</p>
+
+<p>Problem Solved.</p>
+
+<h2 id="no-chinese-input-support-in-terminal-zsh">No Chinese Input Support in Terminal - Zsh</h2>
+
+<p>I still dont have Chinese charcter support in oh-my-zsh. I think its a fonts problem since I can input Chinese characters
+but they show up as boxes.</p>
+
+<h2 id="copy-paste-issues-in-zsh">Copy Paste Issues in Zsh</h2>
+
+<p>How does one copy-paste in oh-my-zsh?</p>
+
+<h2 id="printer-suport-is-having-issues-blank-page-printout">Printer Suport is Having Issues. Blank Page Printout</h2>
+
+<p>This I tend to think its a driver issue for the printer. When I send a file to the printer, I get a blank output while
+the printer goes into a printing frenzy.</p>
+
+<h2 id="wechat-support-alternative-in-archlinux">WeChat Support/alternative in ArchLinux</h2>
+
+<p>The Linux <a href="https://github.com/geeeeeeeeek/electronic-wechat">Wechat app</a> that I used to have is no longer maintained. 项目不再维护.
+There is a tutorial here on <a href="https://www.linuxbabe.com/desktop-linux/install-wechat-linux">Linux Babe</a> which I will try out later.</p>
+
+<h2 id="pdf-preview-support-in-ranger">PDF Preview support in Ranger</h2>
+
+<p>Ranger is an awesome file manager. I know that It has an awesome PDF preview. Oh-my-zsh I think it should have a PFD preview which
+should come in handy when scanning many documents.</p>
+
+<h2 id="solved-android-usb-tethering-support">[Solved] Android USB Tethering Support</h2>
+
+<p>This issue I have since resolved it well and you can read the solution <a href="https://chinese.githuka.com/blog/filemanager/">here</a></p>
+
+<h2 id="projector-connection-issue">[Projector Connection Issue]</h2>
+
+<p>Projector connection is not so straightforward as it is on Windows. However after reading some online documentation, am almost
+there to attain successful connection to a projector. This might come in handy if am told to give a presentation in the future.
+There is an application called <a href="https://www.archlinux.org/packages/?name=arandr">arandr</a> that should simply the process according to the
+documentation for <a href="https://wiki.archlinux.org/index.php/Xrandr">xrandr</a></p>
+
+    </section>
+    <footer class="post-footer">
+      
+    </footer>
+  </article>
+</main>
+
+        <footer class="site-footer">
+  <section class="rss"><a class="subscribe-button icon-feed" href="/index.xml"></a></section>
+  <section class="twitter"><a class="icon-twitter" href="https://twitter.com/twitter.com/wilfredgithuka"> twitter.com/wilfredgithuka</a></section>
+  <section class="facebook"><a class="icon-facebook" href="https://www.facebook.com/none"> none</a></section>
+  <section class="copyright">&copy; 2019  楚大洋</section>
+  <section class="poweredby"><a href="http://thedarkroast.com/arabica">Arabica</a> theme by Sean Lunsford. Published with <a href="https://gohugo.io">Hugo</a>.</section>
+</footer>
+
+
+
+    </body>
+</html>

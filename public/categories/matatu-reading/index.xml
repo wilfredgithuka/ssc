@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>matatu-reading on 楚大洋 Wilfred Githuka</title>
+    <title>Matatu Reading on  楚大洋</title>
     <link>https://chinese.githuka.com/categories/matatu-reading/</link>
-    <description>Recent content in matatu-reading on 楚大洋 Wilfred Githuka</description>
+    <description>Recent content in Matatu Reading on  楚大洋</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://chinese.githuka.com/categories/matatu-reading/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Learning How to Learn</title>
+      <link>https://chinese.githuka.com/blog/learning-how-to-study/</link>
+      <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/learning-how-to-study/</guid>
+      <description>The following article is from [ZiLongShanRen](https://zilongshanren.com/blog/2017-05-09-learning-how-to-learn.html#sec-1-6** which talks about how to learn how to learn.The langauge is good and easy for any HSK 5 and above learner to digest well. The highlighted parts are key grammatical points and new words.
+IT 行业是一个变化非常快的行业，它需要我们持续去学习新的知识和技能。 但是，工作以后，我们经常会发现自己学习的东西很少了，倒不是没有时间去学习， 而是学习的效率太低了。久而久之，就演变成『一年的工作经验，重复用十年』。
+当然，有些人会说自己经常加班，没有时间学习，这只是表象，时间 挤挤 总是有的。 你想想你为了上王者，浪费了多少时间？为了刷今日头条，又消磨*了多少光阴？
+另外，很多人推崇碎片化学习，但是有一些东西碎片化学习效率是很低的，比如数学。
+这篇文章是我学习完 Coursera 上面的《Learning How to Learn》MOOC加上我自己多年来的学习经验积累整理而来。
+注：文中可能有一些内容思考没有很深入，另外一些观点可能还需要更多的时间去检验，读者请自行甄别。
+一些学习的坏习惯 1.1被动反复阅读 通常编程新手在学习一个新东西的时候，喜欢买一本权威指南之类的书（大神或者同事推荐），比如「C++ Primer」和「Javascript 权威指南」。 而这样一本书，一般页数在700-1400页左右，要完整读完，在不求甚解的基础之上大概要花费好几个月甚至大半年时间。 别说是新手，就算是一个C++编程老手去读「Javascript 权威指南」这样的书也不可能在只阅读一遍之后就能理解。 这时，很多人会选择重复多次阅读。有人会从头开始重复阅读，也有人只挑不理解的章节来阅读。 我以前上大学那会儿就是这么干的，读了好多C++的书籍，其实自己编写的C++代码并不多，也没有做过大型的C++项目。 看了好多书，其实都是一知半解，效率很低。工作以后，这种学习方式更加不可取，因为你没有那么多时间这么干。
+1.2 喜欢在书上划重点 很多人偏好纸质书，因为在看书的时候手感不错，另外，还可以在书上把喜欢的句子和重点的段落用彩色笔标注出来。 这样做除了给自己造成一种假象「书上的重点我都标出来了，所以我都掌握了」之外，其实并无多大益处。 我现在喜欢在电脑上面看PDF，可以边看边写代码。</description>
+    </item>
     
     <item>
       <title>To Cover China, There’s No Substitute for WeChat</title>
