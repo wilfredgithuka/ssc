@@ -1,11 +1,9 @@
-This repo is for my Chinese blog - StreetSmart Chinese SSC
-
-It runs on a static framework  - Hugo
-
-<p align="justify">
-  Lorem ipsum
+<p align="center">
+This repo is for my static Hugo based Chinese blog - StreetSmart Chinese SSC
+You can see it live here: https://chinese.githuka.com
 </p>
 
-https://chinese.githuka.com
-
 ![image](/static/img/nong_min_cover.jpg)
+
+This is what am reading :-) Time to skill-up on reading Chinese charcacters. This text is about
+the Urban to Rural migration in developing China.
