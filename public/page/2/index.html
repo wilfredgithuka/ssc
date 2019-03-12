@@ -74,6 +74,24 @@
       <article class="post">
 	<header class="post-header">
     
+		<h2 class="post-title"><a href="/blog/emacs_chinese_input/">Chinese Input in Emacs on Linux - Attempt 1</a></h2>
+	</header>
+	<section class="post-excerpt">
+    <p>
+      Since this year started my Chinese documentation has suffered alot since I don&rsquo;t have Chinese input in Emacs. I use spacemacs as my primary text editor and really need Chinese input.
+Fcitx(Flexible Input Method Framework) currently works with the other apps together with Sogou input but not emacs. I seek to find out why. Running fcitx-diagnose says all is okay except for:
+ Config GUI for gtk2: Config GUI for gtk2 not found. &hellip; <a class="read-more" href="/blog/emacs_chinese_input/">&raquo;</a>
+    </p>
+	</section>
+	<footer class="post-meta">
+    <time class="post-date">2019-01-18</time>
+	</footer>
+</article>
+
+		
+      <article class="post">
+	<header class="post-header">
+    
 		<h2 class="post-title"><a href="/blog/linux_in_chinese_environment/">What Is It Like To Use Linux In A Chinese Environment</a></h2>
 	</header>
 	<section class="post-excerpt">
@@ -149,30 +167,6 @@ Even though today was the raduation, we still have another few days of the train
 	</section>
 	<footer class="post-meta">
     <time class="post-date">2018-11-12</time>
-	</footer>
-</article>
-
-		
-      <article class="post">
-	<header class="post-header">
-    
-		<h2 class="post-title"><a href="/blog/man-page/">Linux 常用的一些命令</a></h2>
-	</header>
-	<section class="post-excerpt">
-    <p>
-      Linux常用命令中，有些命令可以用于查看系统的状态，通过了解系统当前的状态，能够帮助我们更好地维护系统或定位问题。本文就简单介绍一下这些命令。
-查看系统运行时间&ndash;uptime 有时候我们想知道系统上一次复位是在什么时候或者系统已经运行了多长时间，我们可以通过uptime命令获取这些信息：
-uptime 20:47:06 up 50 min, 1 user, load average: 0.75, 0.84, 0.93  从左往右显示的信息依次为：当前时间、已运行时间、用户登录数、1分钟、5分钟和15分钟内系统的平均负载。
-查看系统已登录用户&ndash;who who -a hyb tty7 2018-09-30 19:57 (:0)  通过who命令可以查看到哪些用户通过哪个ip登录到了这台主机。
-查看系统版本相关信息&ndash;uname uname -a Linux ubuntu16.04 4.15.0-34-generic #37~16.04.1-Ubuntu SMP Tue Aug 28 10:44:06 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux  从结果可以看到操作系统版本（ubuntu16.04），CPU类型（x86_64）等信息
-查看当前环境变量&ndash;export 环境变量影响着程序的运行，因此有时候需要查看当前环境的环境变量：
-export  查看目录和文件占用空间&ndash;du du命令直接显示当前目录下每个目录及其文件占用空间。结合&ndash;max-depth参数可以指定显示的目录层级。
-例如，如果只想显示当前目录下各个目录所占总空间，可以使用:
-du -h --max-depth=1 19M ./python 9.0M ./git 321M ./hexo 17M ./lua 28K ./vim 1.4M ./shell 81M . &hellip; <a class="read-more" href="/blog/man-page/">&raquo;</a>
-    </p>
-	</section>
-	<footer class="post-meta">
-    <time class="post-date">2018-11-08</time>
 	</footer>
 </article>
 
