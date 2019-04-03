@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://chinese.githuka.com/blog/brightness/</loc>
+    <lastmod>2019-04-03T08:43:34+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chinese.githuka.com/post/qiche_qu_shangban/</loc>
     <lastmod>2019-03-12T08:05:01+00:00</lastmod>
   </url>
@@ -232,12 +237,6 @@
   </url>
   
   <url>
-    <loc>https://chinese.githuka.com/</loc>
-    <lastmod>2019-03-12T08:05:01+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://chinese.githuka.com/tags/bella-ciao/</loc>
     <lastmod>2018-07-25T20:40:45+03:00</lastmod>
     <priority>0</priority>
@@ -245,7 +244,7 @@
   
   <url>
     <loc>https://chinese.githuka.com/blog/</loc>
-    <lastmod>2019-01-28T00:00:00+00:00</lastmod>
+    <lastmod>2019-04-03T08:43:34+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -511,6 +510,12 @@
   <url>
     <loc>https://chinese.githuka.com/categories/welding/</loc>
     <lastmod>2018-07-15T17:31:46+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/</loc>
+    <lastmod>2019-04-03T08:43:34+00:00</lastmod>
     <priority>0</priority>
   </url>
   

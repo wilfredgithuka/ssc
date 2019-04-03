@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on  楚大洋</title>
+    <title>Blogs on Wilfred Githuka</title>
     <link>https://chinese.githuka.com/blog/</link>
-    <description>Recent content in Blogs on  楚大洋</description>
+    <description>Recent content in Blogs on Wilfred Githuka</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Apr 2019 08:43:34 +0000</lastBuildDate>
     
 	<atom:link href="https://chinese.githuka.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Adjusting Screen Brightness in Linux</title>
+      <link>https://chinese.githuka.com/blog/brightness/</link>
+      <pubDate>Wed, 03 Apr 2019 08:43:34 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/brightness/</guid>
+      <description>Brightness is a very important factor when using any device in this mordern age. Many devices produce a large amount of light which is not good to for our eyes. To reduce the amount of light from your device&amp;rsquo;s screen, enable/use a dark theme.
+In Linux, screen brightess is rather complex and I hope this brief article will help you understand.
+The brightness of the screen backlight is adjusted by setting the power level of the backlight LEDs or cathodes.</description>
+    </item>
     
     <item>
       <title>USB Flashdrive, Android Phones Support - This is Thunar</title>
