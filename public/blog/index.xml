@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Wilfred Githuka</title>
+    <title>Blogs on StreetSmart Chinese</title>
     <link>https://chinese.githuka.com/blog/</link>
-    <description>Recent content in Blogs on Wilfred Githuka</description>
+    <description>Recent content in Blogs on StreetSmart Chinese</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 03 Apr 2019 08:43:34 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Apr 2019 08:38:03 +0000</lastBuildDate>
     
 	<atom:link href="https://chinese.githuka.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Thursday膨胀</title>
+      <link>https://chinese.githuka.com/blog/thursday/</link>
+      <pubDate>Thu, 04 Apr 2019 08:38:03 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/thursday/</guid>
+      <description>The characters 膨胀 péng zhàng is a rather interesting lot. Together, this set means expand or inflate. 膨 means swollen, bloated or inflated. 胀 means swollen, inflate or expand. They actually have similar meanings.
+当物体受热时，其中的粒子的运动速度就会加快，因此占据了额外的空间，这种现象称为 膨胀.固体、液体、气体都有膨胀现象，液体的膨胀率约比固体大10倍，气体的膨胀率约 比液体大100倍左右。膨胀有好有坏，比如，温度计的使用就是利用液体膨胀的原理。 而铁轨之间的缝隙则是为了使铁轨不被膨胀所破坏。
+Examples of usage include:
+ 金属收了热就会膨胀了 When metals absorb heat, they will expand. 消费膨胀 Inflated consumption. 膨胀性 Expandability. (Remember anything with a 性 at the end means a degree of change. See my 性 list here.</description>
+    </item>
     
     <item>
       <title>Adjusting Screen Brightness in Linux</title>

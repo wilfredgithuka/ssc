@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://chinese.githuka.com/blog/thursday/</loc>
+    <lastmod>2019-04-04T08:38:03+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chinese.githuka.com/blog/brightness/</loc>
     <lastmod>2019-04-03T08:43:34+00:00</lastmod>
   </url>
@@ -244,7 +249,7 @@
   
   <url>
     <loc>https://chinese.githuka.com/blog/</loc>
-    <lastmod>2019-04-03T08:43:34+00:00</lastmod>
+    <lastmod>2019-04-04T08:38:03+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -454,6 +459,12 @@
   </url>
   
   <url>
+    <loc>https://chinese.githuka.com/</loc>
+    <lastmod>2019-04-04T08:38:03+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://chinese.githuka.com/categories/subcategory/</loc>
     <lastmod>2018-09-11T06:58:15+03:00</lastmod>
     <priority>0</priority>
@@ -510,12 +521,6 @@
   <url>
     <loc>https://chinese.githuka.com/categories/welding/</loc>
     <lastmod>2018-07-15T17:31:46+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/</loc>
-    <lastmod>2019-04-03T08:43:34+00:00</lastmod>
     <priority>0</priority>
   </url>
   
