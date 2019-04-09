@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on StreetSmart Chinese</title>
+    <title>Blogs on StreetSmart Chinese 永远学习中文</title>
     <link>https://chinese.githuka.com/blog/</link>
-    <description>Recent content in Blogs on StreetSmart Chinese</description>
+    <description>Recent content in Blogs on StreetSmart Chinese 永远学习中文</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 04 Apr 2019 08:38:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Apr 2019 06:25:13 +0000</lastBuildDate>
     
 	<atom:link href="https://chinese.githuka.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mapping Welding Training Schools in Kenya With Python Basemap</title>
+      <link>https://chinese.githuka.com/blog/ditu/</link>
+      <pubDate>Tue, 09 Apr 2019 06:25:13 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/ditu/</guid>
+      <description>A few weeks ago at work I was asked to create a map of all the technical training institutions which had equipment for Mechatronics engineering. This process involved getting a map from Google and using Ms Word to place small triangles where the schools are located.
+This map is to help my colleagues who were planning to go for site inspection to plan their journey well, in the most cost effective manner.</description>
+    </item>
     
     <item>
       <title>Thursday膨胀</title>

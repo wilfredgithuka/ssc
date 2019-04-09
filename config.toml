@@ -1,11 +1,11 @@
 baseURL = "https://chinese.githuka.com"
-title = "StreetSmart Chinese"
+title = "StreetSmart Chinese 永远学习中文"
 themesDir = "/home/wilfred/ssc/themes/"
 theme = "hugo-theme-m10c"
 paginate = 10
 
 [params]
-  author = "Wilfred Githuka"
+  author = "楚大洋 Wilfred Githuka"
   description = "Lifelong Chinese Learner"
   [[params.social]]
     name = "github"
