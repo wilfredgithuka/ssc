@@ -5,10 +5,43 @@
     <link>https://chinese.githuka.com/</link>
     <description>Recent content on StreetSmart Chinese 永远学习中文</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 09 Apr 2019 06:25:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Apr 2019 12:36:43 +0000</lastBuildDate>
     
 	<atom:link href="https://chinese.githuka.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>准备HSK的资料 HSK Preparation Materials</title>
+      <link>https://chinese.githuka.com/blog/hsk_materials/</link>
+      <pubDate>Wed, 17 Apr 2019 12:36:43 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/hsk_materials/</guid>
+      <description> When preparing for any HSK its vital that you have a treasure trove of learning materials that will help you ace that exam.
+Here is my curated list of HSK 6 materials and links which I add to as I prepare for the exam.
+Youtube:  XiaoMin  GeneralWebsites:  XiaoMinMandarin HSK东西 HSKPythonanywhere  </description>
+    </item>
+    
+    <item>
+      <title>准备考汉语水平考试第六级 Preparing For The Elusive HSK 6 Examination</title>
+      <link>https://chinese.githuka.com/blog/hsk6/</link>
+      <pubDate>Mon, 15 Apr 2019 12:22:53 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/hsk6/</guid>
+      <description>考试日 Exam Date: October 2019
+When this year started I made a plan to prepare for HSK 6 this year and hopefully pass it. The plan is still good and am feeling some changes in my reading. I set quite high goals when starting off but its slowly paying off.
+Among the thing that I started doing was reading a lot of Chinese and I selected the following books to help me do that:</description>
+    </item>
+    
+    <item>
+      <title>Of Giving A Presentation At Work</title>
+      <link>https://chinese.githuka.com/blog/present/</link>
+      <pubDate>Mon, 15 Apr 2019 11:52:22 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/present/</guid>
+      <description>Last week my supervisor requested me to prepare a presentation which I would later give my fellow workmates on how to manage a successful training.
+The annual trainings are almost starting and these days we are quite busy doing the final translations before setting off.
+We are 4 of us and each shall have their own disciplines to manage. Last year I was translating Welding Technlogy so this year I will be incharge of Agriculture Value Addition, which am very interested to learn.</description>
+    </item>
     
     <item>
       <title>Mapping Welding Training Schools in Kenya With Python Basemap</title>
