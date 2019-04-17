@@ -51,7 +51,7 @@ These I later realised were important when it comes to localisation.
 
 The map however served its purpose and my boss was happy.
 
-The [GithubRepo](https://www.github.com/wilfredgithuka/ditu) for this project is available.
+The [GithubRepo](https://github.com/wilfredgithuka/mapping-schools) for this project is available.
 
 ## So What Have You Learnt?
 This is the key question.
