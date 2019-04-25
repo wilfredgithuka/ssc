@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Working With Kenya County Shapefiles // StreetSmart Chinese 永远学习中文</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.54.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="楚大洋 Wilfred Githuka" />
+    <meta name="description" content="" />
+    <base href="https://chinese.githuka.com" />
+    <link rel="stylesheet" href="https://chinese.githuka.com/css/main.min.ed2bee65dbc2f611ff1a2ca5cfa6d7ec362a8e79fea5cf61bb5213445359e232.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="/"><img class="app-header-avatar" src="./avatar.jpg" /></a>
+      <h1>StreetSmart Chinese 永远学习中文</h1>
+      <p>Lifelong Chinese Learner</p>
+      <div class="app-header-social">
+        
+          <a target="_blank" href="https://github.com/wilfredgithuka"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg></a>
+        
+          <a target="_blank" href="https://twitter.com/wilfredgithuka"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg></a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Working With Kenya County Shapefiles</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Apr 19, 2019
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          3 min read
+        </div></div>
+    </header>
+    <div class="post-content">
+      
+
+<p>This is an update to the previous mapping project of Technical Training Institutes
+with welding equipment supplied by AVIC. You can read more about it here.</p>
+
+<p>In the previous map I managed to produce a map but it lacked the following crucial
+features which are very important.</p>
+
+<ul>
+<li>Landmarks</li>
+<li>Roads &amp; Highways</li>
+<li>County Boundaries</li>
+</ul>
+
+<p>Today I have solved the last 2 issues on the above list.</p>
+
+<h2 id="county-boundaries">County Boundaries</h2>
+
+<p>By working with something called Shapefiles, I have managed to add this to my map
+plot to produce the county boundaries, now the map looks more navigateable. Have a look.</p>
+
+<p><img src="/img/welding_county.png" alt="map+county" /></p>
+
+<p>To plot the <a href="https://basemaptutorial.readthedocs.io/en/latest/shapefile.html">shapeflies</a>, extract the .zip into a folder. On the code link it as follows:</p>
+
+<p><code>map.readshapefile('data/County', 'County')</code></p>
+
+<p>The folder where the shapefiles were extracted is called data. All the files in the folder
+shall have a common name, this is what you use before and after the comma.</p>
+
+<h4 id="basic-usage-of-shapefiles-in-basemap">Basic Usage of Shapefiles in basemap</h4>
+
+<pre><code class="language-from">import matplotlib.pyplot as plt
+
+map = Basemap(llcrnrlon=-0.5,llcrnrlat=39.8,urcrnrlon=4.,urcrnrlat=43.,
+             resolution='i', projection='tmerc', lat_0 = 39.5, lon_0 = 1)
+
+map.drawmapboundary(fill_color='aqua')
+map.fillcontinents(color='#ddaa66',lake_color='aqua')
+map.drawcoastlines()
+
+map.readshapefile('../sample_files/comarques', 'comarques')
+
+plt.show()
+</code></pre>
+
+<p>Using above examples I implemented the shapefile into my code as follows:</p>
+
+<h3 id="my-shapefile-implementation">My Shapefile Implementation</h3>
+
+<pre><code>from mpl_toolkits.basemap import Basemap
+import matplotlib.pyplot as plt
+import numpy as np
+
+plt.figure(figsize=(40,20))
+plt.title('Welding Technology Training Institutions')
+map = Basemap(projection='cyl', llcrnrlat=-4.9, llcrnrlon=33.75, urcrnrlat=5.19, urcrnrlon=42.03, resolution='h', suppress_ticks=True)
+
+map.drawcoastlines()
+map.drawparallels(np.arange(0,4,10), labels=[1,1,1,1])
+map.drawmeridians(np.arange(-180, 180,30), labels=[1,1,1,1])
+#map.drawstates()
+#map.drawcountries()
+map.readshapefile('data/County', 'County')
+#map.drawcounties()
+#map.shadedrelief()
+
+#map.drawrivers(color='#0000ff')
+#map.drawstates(color='0.5')
+
+
+lons = [34.77, 36.61, 36.59, 37.09, 35.55, 34.97, 37.80, 37.06, 34.75, 38.35]
+lats = [-0.7, -1.41, -1.26, -0.47, -0.21, -0.77, 1.59, -1.29, -0.05, -3.48]
+
+map.plot(lons, lats,'ro')
+plt.text(34.77,-0.7,'Kisii NP',fontsize=15, ha='center', va='bottom', color='k')
+plt.text(36.61,-1.41,'Kajiado West TTI', fontsize=15, ha='center', va='top',color='k')
+plt.text(36.59,-1.26,'Nachu TTI',fontsize=15, ha='center', va='bottom',color='k')
+plt.text(37.09,-0.47,'Mathira TVC',fontsize=15, ha='center', va='bottom',color='k')
+plt.text(35.55,-0.21,'Kimasian TTI',fontsize=15, ha='center', va='bottom',color='k')
+plt.text(34.97,-0.77,'Riragi TTI', fontsize=15, ha='center', va='top',color='k')
+plt.text(37.80,1.59,'Leisamis TTI',fontsize=15, ha='center', va='bottom',color='k')
+plt.text(37.06,-1.29,'Kasarani TVC',fontsize=15, ha='left', va='center',color='k')
+plt.text(34.75,-0.05,'Riat TVC',fontsize=15, ha='center', va='bottom',color='k')
+plt.text(38.35,-3.48,'Mwatate TVC',fontsize=15, ha='center', va='top',color='k')
+plt.text(36.82,-1.29,'NAIROBI',fontsize=7, ha='center', va='top',color='k', bbox=dict(facecolor='b', alpha=0.2))
+plt.text(39.66,-4.04,'MOMBASA',fontsize=15, ha='center', va='top',color='k', bbox=dict(facecolor='b', alpha=0.2))
+plt.text(34.76,-0.09,'KISUMU',fontsize=7, ha='center', va='top',color='k', bbox=dict(facecolor='b', alpha=0.2))
+
+x, y = map(lons, lats)
+map.scatter(x, y, marker='s',color='m')
+
+#x, y = map(lons, lats)
+
+#map.scatter(x, y, marker='D',color='m')
+
+plt.show()
+plt.savefig('Final_2.png')
+</code></pre>
+
+<h3 id="so-where-did-i-get-the-shapefiles">So where did I get the shapefiles?</h3>
+
+<p>The shapefiles are from <a href="https://africaopendata.org/dataset/kenya-counties-shapefile">AfricaOpenData</a> and its available for free download. The shapefiles are
+authored by David Muthami and were last updated in December 2015. A huge thanks to David for
+the wonderful work.</p>
+
+<h2 id="roads-and-highways">Roads and Highways</h2>
+
+<p>For showing roads it was straight forward, thats what I thought.</p>
+
+<p>I got a shapefile for all roads from <a href="https://data.humdata.org/dataset/hotosm_ken_roads">OCHA</a> and when I ran the code, the laptop quickly ran out of RAM and
+froze. The dataset was over 100MB big and given that I had 7 workspaces running, that was the problem.</p>
+
+<p>I rebooted and ran the notebook again and this is what I got:</p>
+
+<p><img src="/img/roads_all.png" alt="map_roads" /></p>
+
+<p>The map was super detailed, infact too detailed for my use.</p>
+
+<p>I think thats enough for today.</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

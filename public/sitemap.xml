@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://chinese.githuka.com/blog/easter/</loc>
+    <lastmod>2019-04-21T08:24:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/blog/ditu_county_shapefiles/</loc>
+    <lastmod>2019-04-19T16:55:28+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chinese.githuka.com/blog/hsk_materials/</loc>
     <lastmod>2019-04-17T12:36:43+00:00</lastmod>
   </url>
@@ -269,7 +279,7 @@
   
   <url>
     <loc>https://chinese.githuka.com/blog/</loc>
-    <lastmod>2019-04-17T12:36:43+00:00</lastmod>
+    <lastmod>2019-04-21T08:24:11+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -480,7 +490,7 @@
   
   <url>
     <loc>https://chinese.githuka.com/</loc>
-    <lastmod>2019-04-17T12:36:43+00:00</lastmod>
+    <lastmod>2019-04-21T08:24:11+00:00</lastmod>
     <priority>0</priority>
   </url>
   
