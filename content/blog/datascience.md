@@ -5,7 +5,7 @@ draft: false
 ---
 
 After spending a good easter weekend becoming familiar with shapefiles in
-python basemap, it was clear that there was alot that I had to learn
+python basemap, it is clear that there was alot that I have to learn
 in order to map the schools well.
 
 This is a part of a series of posts of my project to map technical training schools according to the equipments that they have. I suggest you look at these posts then follow on to know what am talking about:
@@ -67,5 +67,7 @@ dict_b['Hey Wilfred']
 This will result: 'How are you?'
 
 After understanding this concepts, we can now go to preparing the data.
+
+Remember, if you have any issues on Python, always go to the python documentation page which has tonnes of info which I think will be of great help before stack-overflow.
 
 Back to code :-)

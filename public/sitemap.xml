@@ -3,8 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://chinese.githuka.com/blog/</loc>
+    <lastmod>2019-04-26T06:07:55+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://chinese.githuka.com/blog/datascience/</loc>
     <lastmod>2019-04-26T06:07:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/</loc>
+    <lastmod>2019-04-26T06:07:55+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -48,8 +60,25 @@
   </url>
   
   <url>
+    <loc>https://chinese.githuka.com/post/</loc>
+    <lastmod>2019-03-12T08:05:01+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chinese.githuka.com/post/qiche_qu_shangban/</loc>
     <lastmod>2019-03-12T08:05:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/categories/</loc>
+    <lastmod>2019-01-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/categories/</loc>
+    <lastmod>2019-01-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -58,8 +87,20 @@
   </url>
   
   <url>
+    <loc>https://chinese.githuka.com/categories/linux/</loc>
+    <lastmod>2019-01-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://chinese.githuka.com/blog/learning-how-to-study/</loc>
     <lastmod>2019-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/categories/matatu-reading/</loc>
+    <lastmod>2019-01-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -83,6 +124,12 @@
   </url>
   
   <url>
+    <loc>https://chinese.githuka.com/categories/linux-emacs/</loc>
+    <lastmod>2019-01-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://chinese.githuka.com/blog/linux_in_chinese_environment/</loc>
     <lastmod>2019-01-13T00:00:00+00:00</lastmod>
   </url>
@@ -98,8 +145,20 @@
   </url>
   
   <url>
+    <loc>https://chinese.githuka.com/categories/nong-min/</loc>
+    <lastmod>2019-01-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://chinese.githuka.com/blog/graduation/</loc>
     <lastmod>2018-11-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/categories/training/</loc>
+    <lastmod>2018-11-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -108,8 +167,20 @@
   </url>
   
   <url>
+    <loc>https://chinese.githuka.com/categories/travel/</loc>
+    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://chinese.githuka.com/blog/cover_page_latex/</loc>
     <lastmod>2018-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/categories/latex/</loc>
+    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -138,8 +209,38 @@
   </url>
   
   <url>
+    <loc>https://chinese.githuka.com/tags/</loc>
+    <lastmod>2018-09-11T06:58:15+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://chinese.githuka.com/post/jiegougang/</loc>
     <lastmod>2018-09-11T06:58:15+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/jiegougang/</loc>
+    <lastmod>2018-09-11T06:58:15+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/categories/random-knowledge/</loc>
+    <lastmod>2018-09-11T06:58:15+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/categories/subcategory/</loc>
+    <lastmod>2018-09-11T06:58:15+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/%E7%BB%93%E6%9E%84%E9%92%A2/</loc>
+    <lastmod>2018-09-11T06:58:15+03:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -148,8 +249,32 @@
   </url>
   
   <url>
+    <loc>https://chinese.githuka.com/tags/workflow/</loc>
+    <lastmod>2018-08-27T08:54:09+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/workreport/</loc>
+    <lastmod>2018-08-27T08:54:09+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/%E6%8B%89%E6%B3%B0%E8%B5%AB/</loc>
+    <lastmod>2018-08-27T08:54:09+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://chinese.githuka.com/post/latex_chinese/</loc>
     <lastmod>2018-08-27T10:15:37+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/spacemacs/</loc>
+    <lastmod>2018-08-27T10:15:37+03:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -158,8 +283,50 @@
   </url>
   
   <url>
+    <loc>https://chinese.githuka.com/categories/category1/</loc>
+    <lastmod>2018-08-03T14:13:15+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/%E8%BF%90%E9%92%9E%E8%BD%A6/</loc>
+    <lastmod>2018-08-03T14:13:15+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/%E9%98%B2%E5%BC%B9/</loc>
+    <lastmod>2018-08-03T14:13:15+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/ffmpeg/</loc>
+    <lastmod>2018-08-01T22:41:36+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/categories/music/</loc>
+    <lastmod>2018-08-01T22:41:36+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/youtube-dl/</loc>
+    <lastmod>2018-08-01T22:41:36+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://chinese.githuka.com/post/chinese-music/</loc>
     <lastmod>2018-08-01T22:41:36+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/categories/%E9%9F%B3%E4%B9%90/</loc>
+    <lastmod>2018-08-01T22:41:36+03:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -168,8 +335,44 @@
   </url>
   
   <url>
+    <loc>https://chinese.githuka.com/tags/bella-ciao/</loc>
+    <lastmod>2018-07-25T20:40:45+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/lacassa-de-papel/</loc>
+    <lastmod>2018-07-25T20:40:45+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/categories/movies/</loc>
+    <lastmod>2018-07-25T20:40:45+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://chinese.githuka.com/post/pleco/</loc>
     <lastmod>2018-07-21T08:18:31+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/china/</loc>
+    <lastmod>2018-07-21T08:18:31+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/mandarin/</loc>
+    <lastmod>2018-07-21T08:18:31+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/categories/pleco/</loc>
+    <lastmod>2018-07-21T08:18:31+03:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -178,8 +381,62 @@
   </url>
   
   <url>
+    <loc>https://chinese.githuka.com/categories/unix/linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</loc>
+    <lastmod>2018-07-20T17:48:48+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/screenfetch/</loc>
+    <lastmod>2018-07-20T17:48:48+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E4%BF%A1%E6%81%AF/</loc>
+    <lastmod>2018-07-20T17:48:48+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/categories/welding/</loc>
+    <lastmod>2018-07-15T17:31:46+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/%E4%B9%99%E7%82%94/</loc>
+    <lastmod>2018-07-15T17:31:46+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/%E6%B0%A7%E6%B0%94/</loc>
+    <lastmod>2018-07-15T17:31:46+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://chinese.githuka.com/post/yangqi/</loc>
     <lastmod>2018-07-15T17:31:46+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/categories/%E7%84%8A%E6%8E%A5/</loc>
+    <lastmod>2018-07-15T17:31:46+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/kisii/</loc>
+    <lastmod>2018-07-09T20:47:35+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/towm/</loc>
+    <lastmod>2018-07-09T20:47:35+03:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -188,8 +445,38 @@
   </url>
   
   <url>
+    <loc>https://chinese.githuka.com/categories/%E6%97%A5%E8%AE%B0/</loc>
+    <lastmod>2018-07-09T20:47:35+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://chinese.githuka.com/post/uhuru-big-four-agenda/</loc>
     <lastmod>2018-06-25T06:22:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/uhurubig4/</loc>
+    <lastmod>2018-06-25T06:22:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/categories/reading/</loc>
+    <lastmod>2018-06-25T06:22:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/categories/chinese-novel/</loc>
+    <lastmod>2018-07-04T15:30:26+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/%E4%B8%89%E4%BD%93/</loc>
+    <lastmod>2018-07-04T15:30:26+03:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -203,8 +490,56 @@
   </url>
   
   <url>
+    <loc>https://chinese.githuka.com/categories/kisii/</loc>
+    <lastmod>2018-07-04T13:50:18+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/kisii-poly/</loc>
+    <lastmod>2018-07-04T13:50:18+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/welding/</loc>
+    <lastmod>2018-07-04T13:50:18+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/%E7%84%8A%E6%8E%A5/</loc>
+    <lastmod>2018-07-04T13:50:18+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/ieee/</loc>
+    <lastmod>2018-06-27T07:04:39+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://chinese.githuka.com/post/ieee-4-2018-autopilot/</loc>
     <lastmod>2018-06-27T07:04:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6/</loc>
+    <lastmod>2018-06-27T07:04:39+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/categories/idiom/</loc>
+    <lastmod>2018-06-25T06:22:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/%E4%B9%90%E8%A7%82%E7%9A%84%E4%BA%BA/</loc>
+    <lastmod>2018-06-25T06:22:28+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -213,8 +548,26 @@
   </url>
   
   <url>
+    <loc>https://chinese.githuka.com/tags/%E6%B6%88%E6%9E%81%E7%9A%84%E4%BA%BA/</loc>
+    <lastmod>2018-06-25T06:22:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://chinese.githuka.com/post/automated-driving-concept/</loc>
     <lastmod>2018-06-22T06:52:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/self-driving-cars/</loc>
+    <lastmod>2018-06-22T06:52:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/%E8%87%AA%E9%A9%BE%E8%BD%A6/</loc>
+    <lastmod>2018-06-22T06:52:54+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -223,8 +576,38 @@
   </url>
   
   <url>
+    <loc>https://chinese.githuka.com/tags/fonts/</loc>
+    <lastmod>2018-06-18T09:53:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/wqy-microhei/</loc>
+    <lastmod>2018-06-18T09:53:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/wqy-zenhei/</loc>
+    <lastmod>2018-06-18T09:53:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://chinese.githuka.com/post/linux-zi-you/</loc>
     <lastmod>2018-06-21T06:09:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/linux/</loc>
+    <lastmod>2018-06-21T06:09:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/%E8%87%AA%E7%94%B1/</loc>
+    <lastmod>2018-06-21T06:09:58+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -253,56 +636,8 @@
   </url>
   
   <url>
-    <loc>https://chinese.githuka.com/post/chinese-test/</loc>
-    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/post/japanese-test/</loc>
-    <lastmod>2013-01-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/categories/</loc>
+    <loc>https://chinese.githuka.com/itemized/</loc>
     <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/about/desc/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/blog/printing/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/bella-ciao/</loc>
-    <lastmod>2018-07-25T20:40:45+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/blog/</loc>
-    <lastmod>2019-04-26T06:07:55+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/categories/</loc>
-    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/categories/category1/</loc>
-    <lastmod>2018-08-03T14:13:15+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/china/</loc>
-    <lastmod>2018-07-21T08:18:31+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -313,213 +648,8 @@
   </url>
   
   <url>
-    <loc>https://chinese.githuka.com/categories/chinese-novel/</loc>
-    <lastmod>2018-07-04T15:30:26+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/contact/</loc>
-  </url>
-  
-  <url>
     <loc>https://chinese.githuka.com/categories/features/</loc>
     <lastmod>2013-10-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/ffmpeg/</loc>
-    <lastmod>2018-08-01T22:41:36+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/fonts/</loc>
-    <lastmod>2018-06-18T09:53:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/blog/goodbye-kisii/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/categories/idiom/</loc>
-    <lastmod>2018-06-25T06:22:28+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/ieee/</loc>
-    <lastmod>2018-06-27T07:04:39+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/itemized/</loc>
-    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/japanese/</loc>
-    <lastmod>2013-01-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/jiegougang/</loc>
-    <lastmod>2018-09-11T06:58:15+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/kisii/</loc>
-    <lastmod>2018-07-09T20:47:35+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/categories/kisii/</loc>
-    <lastmod>2018-07-04T13:50:18+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/kisii-poly/</loc>
-    <lastmod>2018-07-04T13:50:18+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/lacassa-de-papel/</loc>
-    <lastmod>2018-07-25T20:40:45+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/categories/latex/</loc>
-    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/linux/</loc>
-    <lastmod>2018-06-21T06:09:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/categories/linux/</loc>
-    <lastmod>2019-01-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/categories/linux-emacs/</loc>
-    <lastmod>2019-01-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/mandarin/</loc>
-    <lastmod>2018-07-21T08:18:31+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/categories/matatu-reading/</loc>
-    <lastmod>2019-01-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/categories/movies/</loc>
-    <lastmod>2018-07-25T20:40:45+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/categories/music/</loc>
-    <lastmod>2018-08-01T22:41:36+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/categories/nong-min/</loc>
-    <lastmod>2019-01-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/categories/pleco/</loc>
-    <lastmod>2018-07-21T08:18:31+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/post/</loc>
-    <lastmod>2019-03-12T08:05:01+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/categories/random-knowledge/</loc>
-    <lastmod>2018-09-11T06:58:15+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/categories/reading/</loc>
-    <lastmod>2018-06-25T06:22:28+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/screenfetch/</loc>
-    <lastmod>2018-07-20T17:48:48+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/self-driving-cars/</loc>
-    <lastmod>2018-06-22T06:52:54+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/spacemacs/</loc>
-    <lastmod>2018-08-27T10:15:37+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/</loc>
-    <lastmod>2019-04-26T06:07:55+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/categories/subcategory/</loc>
-    <lastmod>2018-09-11T06:58:15+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/</loc>
-    <lastmod>2018-07-25T20:40:45+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/towm/</loc>
-    <lastmod>2018-07-09T20:47:35+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/categories/training/</loc>
-    <lastmod>2018-11-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -530,165 +660,36 @@
   </url>
   
   <url>
-    <loc>https://chinese.githuka.com/categories/travel/</loc>
-    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+    <loc>https://chinese.githuka.com/post/chinese-test/</loc>
+    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/japanese/</loc>
+    <lastmod>2013-01-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://chinese.githuka.com/tags/uhurubig4/</loc>
-    <lastmod>2018-06-25T06:22:28+00:00</lastmod>
+    <loc>https://chinese.githuka.com/post/japanese-test/</loc>
+    <lastmod>2013-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/about/desc/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://chinese.githuka.com/categories/unix/linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</loc>
-    <lastmod>2018-07-20T17:48:48+03:00</lastmod>
-    <priority>0</priority>
+    <loc>https://chinese.githuka.com/blog/printing/</loc>
   </url>
   
   <url>
-    <loc>https://chinese.githuka.com/tags/welding/</loc>
-    <lastmod>2018-07-04T13:50:18+03:00</lastmod>
-    <priority>0</priority>
+    <loc>https://chinese.githuka.com/contact/</loc>
   </url>
   
   <url>
-    <loc>https://chinese.githuka.com/categories/welding/</loc>
-    <lastmod>2018-07-15T17:31:46+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/workflow/</loc>
-    <lastmod>2018-08-27T08:54:09+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/workreport/</loc>
-    <lastmod>2018-08-27T08:54:09+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/wqy-microhei/</loc>
-    <lastmod>2018-06-18T09:53:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/wqy-zenhei/</loc>
-    <lastmod>2018-06-18T09:53:35+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/youtube-dl/</loc>
-    <lastmod>2018-08-01T22:41:36+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/%E4%B8%89%E4%BD%93/</loc>
-    <lastmod>2018-07-04T15:30:26+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/%E4%B9%90%E8%A7%82%E7%9A%84%E4%BA%BA/</loc>
-    <lastmod>2018-06-25T06:22:28+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/%E4%B9%99%E7%82%94/</loc>
-    <lastmod>2018-07-15T17:31:46+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/%E6%8B%89%E6%B3%B0%E8%B5%AB/</loc>
-    <lastmod>2018-08-27T08:54:09+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/categories/%E6%97%A5%E8%AE%B0/</loc>
-    <lastmod>2018-07-09T20:47:35+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/%E6%B0%A7%E6%B0%94/</loc>
-    <lastmod>2018-07-15T17:31:46+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/%E6%B6%88%E6%9E%81%E7%9A%84%E4%BA%BA/</loc>
-    <lastmod>2018-06-25T06:22:28+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/%E7%84%8A%E6%8E%A5/</loc>
-    <lastmod>2018-07-04T13:50:18+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/categories/%E7%84%8A%E6%8E%A5/</loc>
-    <lastmod>2018-07-15T17:31:46+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/%E7%B3%BB%E7%BB%9F%E8%AF%A6%E7%BB%86%E4%BF%A1%E6%81%AF/</loc>
-    <lastmod>2018-07-20T17:48:48+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/%E7%BB%93%E6%9E%84%E9%92%A2/</loc>
-    <lastmod>2018-09-11T06:58:15+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6/</loc>
-    <lastmod>2018-06-27T07:04:39+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/%E8%87%AA%E7%94%B1/</loc>
-    <lastmod>2018-06-21T06:09:58+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/%E8%87%AA%E9%A9%BE%E8%BD%A6/</loc>
-    <lastmod>2018-06-22T06:52:54+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/%E8%BF%90%E9%92%9E%E8%BD%A6/</loc>
-    <lastmod>2018-08-03T14:13:15+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/%E9%98%B2%E5%BC%B9/</loc>
-    <lastmod>2018-08-03T14:13:15+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/categories/%E9%9F%B3%E4%B9%90/</loc>
-    <lastmod>2018-08-01T22:41:36+03:00</lastmod>
-    <priority>0</priority>
+    <loc>https://chinese.githuka.com/blog/goodbye-kisii/</loc>
   </url>
   
 </urlset>

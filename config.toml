@@ -2,7 +2,7 @@ baseURL = "https://chinese.githuka.com"
 title = "StreetSmart Chinese 永远学习中文"
 themesDir = "/home/wilfred/ssc/themes/"
 theme = "hugo-theme-m10c"
-paginate = 10
+paginate = 20
 
 [params]
   author = "楚大洋 Wilfred Githuka"
