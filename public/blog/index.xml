@@ -5,10 +5,20 @@
     <link>https://chinese.githuka.com/blog/</link>
     <description>Recent content in Blogs on StreetSmart Chinese 永远学习中文</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 21 Apr 2019 08:24:11 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Apr 2019 06:07:55 +0000</lastBuildDate>
     
 	<atom:link href="https://chinese.githuka.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mapping Tools &amp; Skills in Python</title>
+      <link>https://chinese.githuka.com/blog/datascience/</link>
+      <pubDate>Fri, 26 Apr 2019 06:07:55 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/datascience/</guid>
+      <description>After spending a good easter weekend becoming familiar with shapefiles in python basemap, it was clear that there was alot that I had to learn in order to map the schools well.
+This is a part of a series of posts of my project to map technical training schools according to the equipments that they have. I suggest you look at these posts then follow on to know what am talking about:</description>
+    </item>
     
     <item>
       <title>Books Of The Bible In Chinese</title>
