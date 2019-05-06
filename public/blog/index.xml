@@ -5,10 +5,21 @@
     <link>https://chinese.githuka.com/blog/</link>
     <description>Recent content in Blogs on StreetSmart Chinese 永远学习中文</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 26 Apr 2019 06:07:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 May 2019 15:58:26 +0000</lastBuildDate>
     
 	<atom:link href="https://chinese.githuka.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Printer Configuration in Archlinux</title>
+      <link>https://chinese.githuka.com/blog/printer/</link>
+      <pubDate>Mon, 06 May 2019 15:58:26 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/printer/</guid>
+      <description>Printing on Archlinux or generally Linux is not easy. Thus manual is a guide on how to achieve printing on Archlinux.
+Note that I highly recommend the Archlinux Wiki which is more deep and explains the concepts better. My guide shall achieve the same results but faster.
+Installation Install the required packages for printing. CUPS is the standards-based, open source printing system developed by Apple Inc. for macOS® and other UNIX®-like operating systems.</description>
+    </item>
     
     <item>
       <title>Mapping Tools &amp; Skills in Python</title>

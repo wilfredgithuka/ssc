@@ -5,7 +5,7 @@
     <link>https://chinese.githuka.com/tags/wqy-microhei/</link>
     <description>Recent content in wqy-microhei on StreetSmart Chinese 永远学习中文</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 18 Jun 2018 09:53:35 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 May 2019 09:53:35 +0000</lastBuildDate>
     
 	<atom:link href="https://chinese.githuka.com/tags/wqy-microhei/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,13 +13,12 @@
     <item>
       <title>Chinese Fonts on a Linux System</title>
       <link>https://chinese.githuka.com/post/chinese-fonts-on-linux/</link>
-      <pubDate>Mon, 18 Jun 2018 09:53:35 +0000</pubDate>
+      <pubDate>Sun, 05 May 2019 09:53:35 +0000</pubDate>
       
       <guid>https://chinese.githuka.com/post/chinese-fonts-on-linux/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/tanzanite.jpg&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;An instruction manual on how to install Chinese fonts on a linux machine. The process is preety straight-forward except
-for some small things.&lt;/p&gt;</description>
+      <description>If your computer can&amp;rsquo;t render the title of this post, you need to install the correct Chinese. The process is preety straight-forward except for some small things.
+Fonts Chinese fonts are quite unique and in Linux, you need to install some specific fonts to make the rendering more clear. The following fonts will make Chinese Chracters rendering better on your linux machine.
+Adobe Source Sans Sans The Source Han Sans is a set of OpenType/CFF Pan-CJK fonts.</description>
     </item>
     
   </channel>

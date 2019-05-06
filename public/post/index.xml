@@ -5,10 +5,21 @@
     <link>https://chinese.githuka.com/post/</link>
     <description>Recent content in Posts on StreetSmart Chinese 永远学习中文</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 12 Mar 2019 08:05:01 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 May 2019 09:53:35 +0000</lastBuildDate>
     
 	<atom:link href="https://chinese.githuka.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Chinese Fonts on a Linux System</title>
+      <link>https://chinese.githuka.com/post/chinese-fonts-on-linux/</link>
+      <pubDate>Sun, 05 May 2019 09:53:35 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/chinese-fonts-on-linux/</guid>
+      <description>If your computer can&amp;rsquo;t render the title of this post, you need to install the correct Chinese. The process is preety straight-forward except for some small things.
+Fonts Chinese fonts are quite unique and in Linux, you need to install some specific fonts to make the rendering more clear. The following fonts will make Chinese Chracters rendering better on your linux machine.
+Adobe Source Sans Sans The Source Han Sans is a set of OpenType/CFF Pan-CJK fonts.</description>
+    </item>
     
     <item>
       <title>骑车上班-第五周 Cycling To Work - Week 5</title>
@@ -227,18 +238,6 @@ and are quite inconsistent.&lt;/p&gt;</description>
 &lt;p&gt;在解决“人”的问题前，自动驾驶永远只能是个概念&lt;/p&gt;
 
 &lt;p&gt;Automated driving can only be a concept for a long time until the &amp;ldquo;person&amp;rdquo; problem is solved.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Chinese Fonts on a Linux System</title>
-      <link>https://chinese.githuka.com/post/chinese-fonts-on-linux/</link>
-      <pubDate>Mon, 18 Jun 2018 09:53:35 +0000</pubDate>
-      
-      <guid>https://chinese.githuka.com/post/chinese-fonts-on-linux/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/tanzanite.jpg&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;An instruction manual on how to install Chinese fonts on a linux machine. The process is preety straight-forward except
-for some small things.&lt;/p&gt;</description>
     </item>
     
     <item>

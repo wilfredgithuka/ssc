@@ -5,10 +5,21 @@
     <link>https://chinese.githuka.com/categories/linux/</link>
     <description>Recent content in linux on StreetSmart Chinese 永远学习中文</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 May 2019 09:53:35 +0000</lastBuildDate>
     
 	<atom:link href="https://chinese.githuka.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Chinese Fonts on a Linux System</title>
+      <link>https://chinese.githuka.com/post/chinese-fonts-on-linux/</link>
+      <pubDate>Sun, 05 May 2019 09:53:35 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/chinese-fonts-on-linux/</guid>
+      <description>If your computer can&amp;rsquo;t render the title of this post, you need to install the correct Chinese. The process is preety straight-forward except for some small things.
+Fonts Chinese fonts are quite unique and in Linux, you need to install some specific fonts to make the rendering more clear. The following fonts will make Chinese Chracters rendering better on your linux machine.
+Adobe Source Sans Sans The Source Han Sans is a set of OpenType/CFF Pan-CJK fonts.</description>
+    </item>
     
     <item>
       <title>USB Flashdrive, Android Phones Support - This is Thunar</title>
@@ -78,18 +89,6 @@ du -h --max-depth=1 19M ./python 9.0M ./git 321M ./hexo 17M ./lua 28K ./vim 1.4M
 Arch Linux 于 2002 年发布，由 Aaron Grifin 领头，是当下最热门的 Linux 发行版之一。从设计上说，Arch Linux 试图给用户提供简单、最小化且优雅的体验，但它的目标用户群可不是怕事儿多的用户。Arch 鼓励参与社区建设，并且从设计上期待用户自己有学习操作系统的能力。
 很多 Linux 老鸟对于 Arch Linux 会更了解，但电脑前的你可能只是刚开始打算把 Arch 当作日常操作系统来使用。虽然我也不是权威人士，但下面几点优劣是我认为你总会在使用中慢慢发现的。
 1.优点： 定制属于你自己的 Linux 操作系统 大多数热门的 Linux 发行版（比如 Ubuntu 和 Fedora）很像一般我们会看到的预装系统，和 Windows 或者 MacOS 一样。但 Arch 则会更鼓励你去把操作系统配置的符合你的品味。如果你能顺利做到这点的话，你会得到一个每一个细节都如你所想的操作系统。</description>
-    </item>
-    
-    <item>
-      <title>Chinese Fonts on a Linux System</title>
-      <link>https://chinese.githuka.com/post/chinese-fonts-on-linux/</link>
-      <pubDate>Mon, 18 Jun 2018 09:53:35 +0000</pubDate>
-      
-      <guid>https://chinese.githuka.com/post/chinese-fonts-on-linux/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/tanzanite.jpg&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;An instruction manual on how to install Chinese fonts on a linux machine. The process is preety straight-forward except
-for some small things.&lt;/p&gt;</description>
     </item>
     
   </channel>
