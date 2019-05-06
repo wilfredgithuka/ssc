@@ -1,42 +1,36 @@
 ---
 title: "Chinese Fonts on a Linux System"
-date: 2018-06-18T09:53:35Z
-cover: /img/tanzanite.jpg
+date: 2019-05-05T09:53:35Z
 categories: ["linux"]
 tags: ["fonts", "wqy-microhei", "wqy-zenhei"]
 draft: false
 ---
-![image](/img/tanzanite.jpg)
 
-An instruction manual on how to install Chinese fonts on a linux machine. The process is preety straight-forward except
+If your computer can't render the title of this post, you need to install the correct Chinese. The process is preety straight-forward except
 for some small things.
-<!--more-->
-
-<center><h3>[中文版](#中文版)</h1></center>
 
 ### Fonts
-Chinese fonts are quite unique and in Linux, you need to install some specific fonts to make the rendering more clear. 
+Chinese fonts are quite unique and in Linux, you need to install some specific fonts to make the rendering more clear.
 The following fonts will make Chinese Chracters rendering better on your linux machine.
 
 #### Adobe Source Sans Sans
-The Source Han Sans is a set of OpenType/CFF Pan-CJK fonts.Its an open source project that provides all of the source code files. 
-You can check out the [Github](https://github.com/adobe-fonts/source-han-sans) repo for the project. 
+The Source Han Sans is a set of OpenType/CFF Pan-CJK fonts.Its an open source project that provides all of the source code files.
+You can check out the [Github](https://github.com/adobe-fonts/source-han-sans) repo for the project.
+
 Its interesting to note that this repo is about 1.6GB. This fonts were last updated in 2017 so they are good.
 
 ##### Installation
 
 ```console
-sudo pacman -S adobe-source-han-sans-cn-fonts
-sudo pacman -S adobe-source-han-sans-tw-fonts
-sudo pacman -S adobe-source-han-serif-cn-fonts
-sudo pacman -S adone-source-han-serif-tw-fonts
+sudo pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-sans-tw-fonts adobe-source-han-serif-cn-fonts adobe-source-han-serif-tw-fonts
 ```
-In the above commands, cn and tw means Chinese and Taiwan. Simplified and Traditional Chinese characters. 
-The first pair are sans while the second pair are serif fonts. The whole package is about 141MB.
+
+In the above commands, cn and tw means Chinese and Taiwan. Simplified and Traditional Chinese characters.
+The first pair are sans while the second pair are serif fonts. The whole package is about 145MB.
 
 #### The Wen Quan Yi Project Fonts Set
 
-A Chinese friend recomended to me this set. Its a project that seeks to create high quality open-source bitmap and outline fonts for all Chinese Japan and Korean fonts.Since its open source, most dirstros have adopted this set. The name when translated to english means, the spring of letters. More about the project can be found on the [website](https://www.wenq.org). Wikipedia has a great [article](https://en.wikipedia.org/wiki/WenQuanYi) on the projet too. 
+A Chinese friend recomended to me this set. Its a project that seeks to create high quality open-source bitmap and outline fonts for all Chinese Japan and Korean fonts.Since its open source, most dirstros have adopted this set. The name when translated to english means, the spring of letters. More about the project can be found on the [website](https://www.wenq.org). Wikipedia has a great [article](https://en.wikipedia.org/wiki/WenQuanYi) on the projet too.
 
 ##### Installation
 
