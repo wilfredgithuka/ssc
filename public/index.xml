@@ -5,10 +5,22 @@
     <link>https://chinese.githuka.com/</link>
     <description>Recent content on StreetSmart Chinese 永远学习中文</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 06 May 2019 15:58:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 May 2019 08:19:02 +0000</lastBuildDate>
     
 	<atom:link href="https://chinese.githuka.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>New WPS 11.1.0.8392-2 unstable on Archlinux</title>
+      <link>https://chinese.githuka.com/blog/wps_issues/</link>
+      <pubDate>Mon, 20 May 2019 08:19:02 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/wps_issues/</guid>
+      <description>I seem to be the only one facing unstable issues on the new WPS Office suite on my Archlinux machine running i3wm.
+The new WPS suite really looks appealing. The UI team really outdid themselves this time round. No sharp edges and smooth opening of menus.
+Even after upgrading my machine, I still exprerienced the following issues:
+ WPS Window dissapering after moving from one workplace to another. Freezing more often No support for Chinese input with fcitx  For this reason I had to downgrade back to version 10.</description>
+    </item>
     
     <item>
       <title>Printer Configuration in Archlinux</title>
