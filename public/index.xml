@@ -5,10 +5,42 @@
     <link>https://chinese.githuka.com/</link>
     <description>Recent content on StreetSmart Chinese 永远学习中文</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 20 May 2019 08:19:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jul 2019 10:13:48 +0000</lastBuildDate>
     
 	<atom:link href="https://chinese.githuka.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Chinese Reading -肯尼亚的巅峰</title>
+      <link>https://chinese.githuka.com/blog/kenyashan/</link>
+      <pubDate>Wed, 10 Jul 2019 10:13:48 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/kenyashan/</guid>
+      <description>The training for Agriculture Value Addition is just around the corner, so of late I have been polishing up on my reading. The training shall be in Konoin Technical Training Institute from mid July to mid November this year.
+This article I got it from a tours and travel company&amp;rsquo;s website. Its easy to read and understand. I think its Level 5 appropriate.
+肯尼亚山国家公园位于大裂谷东部，内罗毕东北约175公里。该生态系统位于肯尼亚的中部和东部省份。 此山高达5,199米，是非洲第二高峰。肯尼亚山是该国重要的水塔。它为该国约一半的人口提供水， 并产生肯尼亚70％的水力发电。
+无论您选择的是哪一条路线，您是不需要任何特殊设备或攀山经验来到攀登肯尼亚山。
+纳罗莫鲁（Naro Moru）是跋涉者在肯尼亚最受欢迎的路线。它之所以那么受欢迎的原因在于稳定的上升速度 （希里蒙Sirimon路线）以及快速的下降。它虽然没涵盖这座美丽山脉所有的特征，但此路线本身风景如画， 沿着广阔的麦金德山谷（Mackinder&amp;rsquo;s Valley）前往Shipton&amp;rsquo;s 营地，然后穿过纳罗莫鲁路线上的沼泽和茂密的热带雨林。</description>
+    </item>
+    
+    <item>
+      <title>Lord Receive The Sacrifice Of A Broken Heart 我提供了我的生命</title>
+      <link>https://chinese.githuka.com/post/i_will_offer_up_my_life/</link>
+      <pubDate>Mon, 24 Jun 2019 11:54:55 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/i_will_offer_up_my_life/</guid>
+      <description>歌词相关歌手：MATT REDMAN
+I will offer up my life 我会献上自己的生命
+In spirit and truth, 在精神和真理中，
+Pouring out the oil of love 倾泻出爱的油
+As my worship to You 作为我对你的崇拜
+In surrender I must give my every part; 投降时我必须全力以赴;
+Lord, receive the sacrifice 主啊，接受牺牲
+Of a broken heart 一颗破碎的心
+Jesus, what can I give, what can I bring 耶稣，我能给予什么，我能带来什么
+To so faithful a friend, to so loving a King? 如此忠实的朋友，如此爱国王？
+Saviour, what can be said, what can be sung, 救主，可以说什么，可以唱什么，</description>
+    </item>
     
     <item>
       <title>New WPS 11.1.0.8392-2 unstable on Archlinux</title>
@@ -19,7 +51,7 @@
       <description>I seem to be the only one facing unstable issues on the new WPS Office suite on my Archlinux machine running i3wm.
 The new WPS suite really looks appealing. The UI team really outdid themselves this time round. No sharp edges and smooth opening of menus.
 Even after upgrading my machine, I still exprerienced the following issues:
- WPS Window dissapering after moving from one workplace to another. Freezing more often No support for Chinese input with fcitx  For this reason I had to downgrade back to version 10.</description>
+ WPS Window dissapering after moving from one workplace to another. Freezing more often.</description>
     </item>
     
     <item>

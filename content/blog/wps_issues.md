@@ -13,17 +13,21 @@ themselves this time round. No sharp edges and smooth opening of menus.
 Even after upgrading my machine, I still exprerienced the following issues:
 
 * WPS Window dissapering after moving from one workplace to another.
-* Freezing more often
+* Freezing more often.
 * No support for Chinese input with fcitx
 
-For this reason I had to downgrade back to version 10.1.0.6758.
+For this reason I had to downgrade back to version 10.1.0.6757
 
 ## How To Downgrade a Package?
 
 This is preety simple.
 
+This is the more stable version [wps-office-stable](https://aur.archlinux.org/packages/wps-office-stable)
+
+So just yay it.
+
 ```
-yay -U wps-office_10.1.0.6758_x86_64.tar.xz
+yay wps-office=stable
 ```
 I will use this one until I find a work-around the problem.
 
