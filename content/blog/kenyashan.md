@@ -10,9 +10,9 @@ in Konoin Technical Training Institute from mid July to mid November this year.
 This article I got it from a tours and travel company's website. Its easy
 to read and understand. I think its Level 5 appropriate.
 
-肯尼亚山国家公园位于大裂谷东部，内罗毕东北约175公里。该生态系统位于肯尼亚的中部和东部省份。
-此山高达5,199米，是非洲第二高峰。肯尼亚山是该国重要的水塔。它为该国约一半的人口提供水，
-并产生肯尼亚70％的水力发电。
+肯尼亚山国家公园位于[大裂谷](https://riftvalley.githuka.com)东部，内罗毕东北约175公里。
+该生态系统位于肯尼亚的中部和东部省份。此山高达5,199米，是非洲第二高峰。肯尼亚山是该国重要的水塔。
+它为该国约一半的人口提供水，并产生肯尼亚70％的水力发电。
 
 无论您选择的是哪一条路线，您是不需要任何特殊设备或攀山经验来到攀登肯尼亚山。
 
