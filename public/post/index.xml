@@ -5,10 +5,49 @@
     <link>https://chinese.githuka.com/post/</link>
     <description>Recent content in Posts on StreetSmart Chinese 永远学习中文</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 06 Aug 2019 18:53:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Sep 2019 18:52:28 +0000</lastBuildDate>
     
 	<atom:link href="https://chinese.githuka.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>乳粉加工技术</title>
+      <link>https://chinese.githuka.com/post/milk_powder/</link>
+      <pubDate>Mon, 16 Sep 2019 18:52:28 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/milk_powder/</guid>
+      <description> 乳粉到底是什么东西？ 乳粉是以新鲜牛乳为主要原料配一其他食物原料，经过杀菌，浓缩，干燥等工艺过程而制得粉未状产品。 乳粉生产方法为：
+ 冷冻法 Freezing method 加热法 Heating method  冷冻法可以分两种：
+ 离心冷冻法 Centrifugal freezing method 低温冷冻法 Cyrogenic sublimation method  到目前乳粉的生产普遍采用加热干燥法，其中被广泛使用的干燥法是喷雾干燥法
+全脂乳粉的加工工艺流程  原料乳验收 Acceptance of raw milk 预处理 Pretreatment 标准化 （也加糖-白砂糖）Standadisation (Adding Granulated Sugar) 预热杀菌 Pre-heating sterilization 真空浓缩 Vaccum concentration 喷雾干燥 Spray drying 冷却 Cooling 过筛 Screening 包装 Packing 检验 Inspection 分销 Distribution  </description>
+    </item>
+    
+    <item>
+      <title>使用Latex软件做一个靠请表</title>
+      <link>https://chinese.githuka.com/post/tex_attendance/</link>
+      <pubDate>Thu, 12 Sep 2019 19:15:31 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/tex_attendance/</guid>
+      <description> 我们上次培训的时候在肯尼亚西部的一个学院叫Kisii National Polytechnic, 我自己学了一个软件叫LaTeX. LaTeX 是一个排版系统。
+LaTeX（LATEX，音译“拉泰赫”）是一种基于ΤΕΧ的排版系统，由美国计算机学家莱斯利·兰伯特（Leslie Lamport）在20世纪80年代初期开发， 利用这种格式，即使使用者没有排版和程序设计的知识也可以充分发挥由TeX所提供的强大功能，能在几天，甚至几小时内生成很多具有书籍质量的印刷品。
+在培训过程等中，我使用LaTeX做我的周报。
+我们今年的培训是农产品加工。我想做我们陪新的-靠请表-使用Latex软件做一个靠请表。
+我的目标：
+ 标准的样子 标准的格式 容易打印出来的文件  我们培训的靠请表都是Word 做的模板。都好看的，因为都是我做的。可是我希望我能使用LaTeX做一个比较标准的模板。
+使用Latex软件做一个文件跟编程软件是一模一样的过程。
+更理解TeX  Latex-Baidu CSDN-Latex Github-Chinese Tex Society  </description>
+    </item>
+    
+    <item>
+      <title>使用水杀菌机和均值机</title>
+      <link>https://chinese.githuka.com/post/water_paste_homo/</link>
+      <pubDate>Tue, 10 Sep 2019 18:55:44 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/water_paste_homo/</guid>
+      <description>我们今天都是练-杀菌机和均值机的使用。今天我们还是用水模拟牛奶。
+杀菌机和均值机在我们的奶生产车间是最复杂的设备。里面好要通过好多的阀门和设备的检查。本说明书假设牛奶已经在配料罐子里面。
+检查电源  检查三相电源是否正常：415V 打开总电源及分控制柜电源  检查发酵罐子和通路 我们生产的牛奶会发到发酵罐子里面。我们一定要检查从杀菌机至发酵罐子的通路。 * 检查通路的阀门 * 发酵罐子的下方阀门要关闭</description>
+    </item>
     
     <item>
       <title>CIP, CIP and CIP Week</title>

@@ -57,6 +57,18 @@ By now you should be having Chinese input working inside spacemacs. That is
 something good. We now need to have LaTeX installed on Spacemacs. This can
 simply be done by following this [page](https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Blang/latex#install).
 
+A build command can be specified via the layer variable latex-build-command.
+
+If LatexMk is specified, the appropriate LatexMk configuration will be applied. (the default on systems with latexmk in the path) This variable can be set to any of the entities in TeX-command-list, including any custom entries you may have added there. To use the regular AucTeX command set latex-build-command to LaTeX as shown below.
+
+dotspacemacs-configuration-layers '(
+  (latex :variables latex-build-command "LaTeX"))
+
+And also enable autofill.
+
+dotspacemacs-configuration-layers '(
+  (latex :variables latex-enable-auto-fill t))
+
 ### Chinese Input on LaTeX
 To enable Chinese characters rendering on LaTeX you need to have the following
 added to the document. Put all your chinese content within the begin and end CJKutf8 commands.(ignore the bullets)

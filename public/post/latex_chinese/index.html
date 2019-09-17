@@ -3,7 +3,7 @@
   <head>
     <title>Finally I Got Spacemacs&#43;LaTeX&#43;搜狗输入法 Working 成功了！ // StreetSmart Chinese 永远学习中文</title>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.55.6" />
+    <meta name="generator" content="Hugo 0.58.1" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="楚大洋 Wilfred Githuka" />
     <meta name="description" content="" />
@@ -22,8 +22,8 @@ of my Linux workflow. I managed to have Chinese Characters input using
 搜狗输入法 to work in Spacemacs and have the same output in LaTeX." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://chinese.githuka.com/post/latex_chinese/" />
-<meta property="article:published_time" content="2018-08-16T10:15:37&#43;03:00"/>
-<meta property="article:modified_time" content="2018-08-27T10:15:37&#43;03:00"/>
+<meta property="article:published_time" content="2018-08-16T10:15:37+03:00" />
+<meta property="article:modified_time" content="2018-08-27T10:15:37+03:00" />
 
 
   </head>
@@ -64,7 +64,7 @@ of my Linux workflow. I managed to have Chinese Characters input using
   <title>clock</title>
   <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
 </svg>
-          2 min read
+          3 min read
         </div><div>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
@@ -132,6 +132,18 @@ Qt environments for linux applications. Add the following to your .xprofile (ign
 <p>By now you should be having Chinese input working inside spacemacs. That is
 something good. We now need to have LaTeX installed on Spacemacs. This can
 simply be done by following this <a href="https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Blang/latex#install">page</a>.</p>
+
+<p>A build command can be specified via the layer variable latex-build-command.</p>
+
+<p>If LatexMk is specified, the appropriate LatexMk configuration will be applied. (the default on systems with latexmk in the path) This variable can be set to any of the entities in TeX-command-list, including any custom entries you may have added there. To use the regular AucTeX command set latex-build-command to LaTeX as shown below.</p>
+
+<p>dotspacemacs-configuration-layers &lsquo;(
+  (latex :variables latex-build-command &ldquo;LaTeX&rdquo;))</p>
+
+<p>And also enable autofill.</p>
+
+<p>dotspacemacs-configuration-layers &lsquo;(
+  (latex :variables latex-enable-auto-fill t))</p>
 
 <h3 id="chinese-input-on-latex">Chinese Input on LaTeX</h3>
 
