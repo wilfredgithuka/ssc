@@ -10,15 +10,15 @@ draft: false
 According to [statscounter](https://gs.statscounter.com/os-version-market-share/windows/desktop/china), 54% of desktops in China run Windows 7 while 27% run Windows10. Windows 7 has long been a favourite of the masses due to its usability and security. If fuses well with Chinese software.
 
 Back in 2014 during my time in Nanjing, China I tried to swich to Linux as my primary OS but the change was too quick, and many of the Windows applications had not Linux alternatives, so within 2 weeks, I reverted back to Windows.
-My Chinese work environment is very busy. So Recently, I have started to intergrate Linux into my workflow. This involves gradual change as I move to Linux completely within 2 months time. I must admit that there will be some tough times but its worth it. 
+My Chinese work environment is very busy. So Recently, I have started to intergrate Linux into my workflow. This involves gradual change as I move to Linux completely within 2 months time. I must admit that there will be some tough times but its worth it.
 
 So why am I changing to Linux?
 
 * Improved hardware performance - Windows is too heavy and bloated which is making my hardware work too much.
-* Hardware Intergration - I can configure/integrate  all my devices well on Linux
+* Hardware Integration - I can configure/integrate  all my devices well on Linux
 * Learn Linux More - I have been using Linux full time since 2015. I think I am ready
 * Easy To Tweak & Configure - In Linux everything is a file. There is no dreaded System Registry.
-* OpenSource - I need know whats happening in the background and am also aware of my security more.
+* Open-source - I need know whats happening in the background and am also aware of my security more.
 * Learn Chinese - This will also be a good opportunity to improve my Chinese since I will be reading Chinese forums
 
 This document is my tracking pad for my progress. My distro is Archlinux.

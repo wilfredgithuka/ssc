@@ -4,12 +4,47 @@
   
   <url>
     <loc>https://chinese.githuka.com/post/</loc>
-    <lastmod>2019-10-26T18:57:43+03:00</lastmod>
+    <lastmod>2019-11-12T22:48:01+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://chinese.githuka.com/</loc>
-    <lastmod>2019-10-26T18:57:43+03:00</lastmod>
+    <lastmod>2019-11-12T22:48:01+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/post/wednesday_12_11_2019/</loc>
+    <lastmod>2019-11-12T22:48:01+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/post/ji_rou/</loc>
+    <lastmod>2019-11-11T19:32:04+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/post/archlinux_anzhuang/</loc>
+    <lastmod>2019-11-10T12:29:13+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/blog/</loc>
+    <lastmod>2019-10-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/categories/</loc>
+    <lastmod>2019-10-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/categories/linux/</loc>
+    <lastmod>2019-10-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/blog/problems/</loc>
+    <lastmod>2019-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -38,11 +73,6 @@
   </url>
   
   <url>
-    <loc>https://chinese.githuka.com/post/kcc/</loc>
-    <lastmod>2019-09-28T07:24:02+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chinese.githuka.com/post/kechixu_fazhan/</loc>
     <lastmod>2019-09-23T15:28:17+00:00</lastmod>
   </url>
@@ -63,16 +93,6 @@
   </url>
   
   <url>
-    <loc>https://chinese.githuka.com/post/tex_attendance/</loc>
-    <lastmod>2019-09-12T19:15:31+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/post/water_paste_homo/</loc>
-    <lastmod>2019-09-10T18:55:44+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chinese.githuka.com/post/ava_konoin_week2/</loc>
     <lastmod>2019-08-06T18:53:17+00:00</lastmod>
   </url>
@@ -85,11 +105,6 @@
   <url>
     <loc>https://chinese.githuka.com/post/ava_konoin/</loc>
     <lastmod>2019-08-02T18:55:37+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/blog/</loc>
-    <lastmod>2019-07-10T10:13:48+00:00</lastmod>
   </url>
   
   <url>
@@ -113,22 +128,12 @@
   </url>
   
   <url>
-    <loc>https://chinese.githuka.com/categories/</loc>
-    <lastmod>2019-05-05T09:53:35+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chinese.githuka.com/post/chinese-fonts-on-linux/</loc>
     <lastmod>2019-05-05T09:53:35+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://chinese.githuka.com/tags/fonts/</loc>
-    <lastmod>2019-05-05T09:53:35+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/categories/linux/</loc>
     <lastmod>2019-05-05T09:53:35+00:00</lastmod>
   </url>
   
@@ -183,11 +188,6 @@
   </url>
   
   <url>
-    <loc>https://chinese.githuka.com/blog/thursday/</loc>
-    <lastmod>2019-04-04T08:38:03+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chinese.githuka.com/blog/brightness/</loc>
     <lastmod>2019-04-03T08:43:34+00:00</lastmod>
   </url>
@@ -210,11 +210,6 @@
   <url>
     <loc>https://chinese.githuka.com/categories/matatu-reading/</loc>
     <lastmod>2019-01-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/blog/problems/</loc>
-    <lastmod>2019-01-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -298,18 +293,8 @@
   </url>
   
   <url>
-    <loc>https://chinese.githuka.com/blog/sotik/</loc>
-    <lastmod>2018-10-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chinese.githuka.com/post/fu-shou-gan-wei-ru-zi-niu/</loc>
     <lastmod>2018-10-10T11:39:24+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/post/week-13-report/</loc>
-    <lastmod>2018-10-07T11:11:15+03:00</lastmod>
   </url>
   
   <url>
@@ -335,26 +320,6 @@
   <url>
     <loc>https://chinese.githuka.com/tags/%E7%BB%93%E6%9E%84%E9%92%A2/</loc>
     <lastmod>2018-09-11T06:58:15+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/post/report-v2/</loc>
-    <lastmod>2018-08-27T08:54:09+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/workflow/</loc>
-    <lastmod>2018-08-27T08:54:09+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/workreport/</loc>
-    <lastmod>2018-08-27T08:54:09+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/%E6%8B%89%E6%B3%B0%E8%B5%AB/</loc>
-    <lastmod>2018-08-27T08:54:09+03:00</lastmod>
   </url>
   
   <url>
@@ -498,26 +463,6 @@
   </url>
   
   <url>
-    <loc>https://chinese.githuka.com/tags/kisii/</loc>
-    <lastmod>2018-07-09T20:47:35+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/towm/</loc>
-    <lastmod>2018-07-09T20:47:35+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/post/zai-kisii-di-er-tian/</loc>
-    <lastmod>2018-07-09T20:47:35+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/categories/%E6%97%A5%E8%AE%B0/</loc>
-    <lastmod>2018-07-09T20:47:35+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chinese.githuka.com/categories/reading/</loc>
     <lastmod>2018-06-25T06:22:28+00:00</lastmod>
   </url>
@@ -533,22 +478,12 @@
   </url>
   
   <url>
-    <loc>https://chinese.githuka.com/categories/chinese-novel/</loc>
-    <lastmod>2018-07-04T15:30:26+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/%E4%B8%89%E4%BD%93/</loc>
-    <lastmod>2018-07-04T15:30:26+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/post/santi/</loc>
-    <lastmod>2018-07-04T15:30:26+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chinese.githuka.com/categories/kisii/</loc>
+    <lastmod>2018-07-04T13:50:18+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chinese.githuka.com/tags/kisii/</loc>
     <lastmod>2018-07-04T13:50:18+03:00</lastmod>
   </url>
   
@@ -570,21 +505,6 @@
   <url>
     <loc>https://chinese.githuka.com/tags/%E7%84%8A%E6%8E%A5/</loc>
     <lastmod>2018-07-04T13:50:18+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/ieee/</loc>
-    <lastmod>2018-06-27T07:04:39+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/post/ieee-4-2018-autopilot/</loc>
-    <lastmod>2018-06-27T07:04:39+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6/</loc>
-    <lastmod>2018-06-27T07:04:39+00:00</lastmod>
   </url>
   
   <url>
@@ -643,75 +563,12 @@
   </url>
   
   <url>
-    <loc>https://chinese.githuka.com/itemized/item1/</loc>
-    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/itemized/item2/</loc>
-    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/itemized/item3/</loc>
-    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/itemized/item4/</loc>
-    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/itemized/</loc>
-    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/chinese/</loc>
-    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/categories/features/</loc>
-    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/categories/tranquilpeak/</loc>
-    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/post/chinese-test/</loc>
-    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/tags/japanese/</loc>
-    <lastmod>2013-01-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/post/japanese-test/</loc>
-    <lastmod>2013-01-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://chinese.githuka.com/about/desc/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://chinese.githuka.com/blog/printing/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>https://chinese.githuka.com/blog/goodbye-kisii/</loc>
   </url>
   
 </urlset>

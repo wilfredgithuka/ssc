@@ -5,10 +5,20 @@
     <link>https://chinese.githuka.com/blog/</link>
     <description>Recent content in Blogs on StreetSmart Chinese 永远学习中文</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 10 Jul 2019 10:13:48 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://chinese.githuka.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Minor Issues Unfixed So Far 我的电脑上的小问题</title>
+      <link>https://chinese.githuka.com/blog/problems/</link>
+      <pubDate>Tue, 29 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/problems/</guid>
+      <description>The following are some of the issues which remain unsolved so far in my ArchLinux i3 Chinese machine. Some are language specific, some are just system based configuration.
+No Chinese Input Support in Spacemacs This is by far the biggest issue am yet to solve. Last year I remeber solving this issue but because I did not document my process, after re-installing Archlinux I have to do it again.</description>
+    </item>
     
     <item>
       <title>Chinese Reading -肯尼亚的巅峰</title>
@@ -31,8 +41,8 @@ This article I got it from a tours and travel company&amp;rsquo;s website. Its e
       <guid>https://chinese.githuka.com/blog/wps_issues/</guid>
       <description>I seem to be the only one facing unstable issues on the new WPS Office suite on my Archlinux machine running i3wm.
 The new WPS suite really looks appealing. The UI team really outdid themselves this time round. No sharp edges and smooth opening of menus.
-Even after upgrading my machine, I still exprerienced the following issues:
- WPS Window dissapering after moving from one workplace to another. Freezing more often.</description>
+Even after upgrading my machine, I still experienced the following issues:
+ WPS Window disappearing after moving from one workplace to another. Freezing more often.</description>
     </item>
     
     <item>
@@ -107,7 +117,7 @@ Among the thing that I started doing was reading a lot of Chinese and I selected
       <guid>https://chinese.githuka.com/blog/present/</guid>
       <description>Last week my supervisor requested me to prepare a presentation which I would later give my fellow workmates on how to manage a successful training.
 The annual trainings are almost starting and these days we are quite busy doing the final translations before setting off.
-We are 4 of us and each shall have their own disciplines to manage. Last year I was translating Welding Technlogy so this year I will be incharge of Agriculture Value Addition, which am very interested to learn.</description>
+We are 4 of us and each shall have their own disciplines to manage. Last year I was translating Welding Technology so this year I will be incharge of Agriculture Value Addition, which am very interested to learn.</description>
     </item>
     
     <item>
@@ -121,25 +131,13 @@ This map is to help my colleagues who were planning to go for site inspection to
     </item>
     
     <item>
-      <title>Thursday膨胀</title>
-      <link>https://chinese.githuka.com/blog/thursday/</link>
-      <pubDate>Thu, 04 Apr 2019 08:38:03 +0000</pubDate>
-      
-      <guid>https://chinese.githuka.com/blog/thursday/</guid>
-      <description>The characters 膨胀 péng zhàng is a rather interesting lot. Together, this set means expand or inflate. 膨 means swollen, bloated or inflated. 胀 means swollen, inflate or expand. They actually have similar meanings.
-当物体受热时，其中的粒子的运动速度就会加快，因此占据了额外的空间，这种现象称为 膨胀.固体、液体、气体都有膨胀现象，液体的膨胀率约比固体大10倍，气体的膨胀率约 比液体大100倍左右。膨胀有好有坏，比如，温度计的使用就是利用液体膨胀的原理。 而铁轨之间的缝隙则是为了使铁轨不被膨胀所破坏。
-Examples of usage include:
- 金属收了热就会膨胀了 When metals absorb heat, they will expand. 消费膨胀 Inflated consumption. 膨胀性 Expandability. (Remember anything with a 性 at the end means a degree of change. See my 性 list here.</description>
-    </item>
-    
-    <item>
       <title>Adjusting Screen Brightness in Linux</title>
       <link>https://chinese.githuka.com/blog/brightness/</link>
       <pubDate>Wed, 03 Apr 2019 08:43:34 +0000</pubDate>
       
       <guid>https://chinese.githuka.com/blog/brightness/</guid>
-      <description>Brightness is a very important factor when using any device in this mordern age. Many devices produce a large amount of light which is not good to for our eyes. To reduce the amount of light from your device&amp;rsquo;s screen, enable/use a dark theme.
-In Linux, screen brightess is rather complex and I hope this brief article will help you understand.
+      <description>Brightness is a very important factor when using any device in this modern age. Many devices produce a large amount of light which is not good to for our eyes. To reduce the amount of light from your device&amp;rsquo;s screen, enable/use a dark theme.
+In Linux, screen brightness is rather complex and I hope this brief article will help you understand.
 The brightness of the screen backlight is adjusted by setting the power level of the backlight LEDs or cathodes.</description>
     </item>
     
@@ -169,16 +167,6 @@ IT 行业是一个变化非常快的行业，它需要我们持续去学习新�
 注：文中可能有一些内容思考没有很深入，另外一些观点可能还需要更多的时间去检验，读者请自行甄别。
 一些学习的坏习惯 1.1被动反复阅读 通常编程新手在学习一个新东西的时候，喜欢买一本权威指南之类的书（大神或者同事推荐），比如「C++ Primer」和「Javascript 权威指南」。 而这样一本书，一般页数在700-1400页左右，要完整读完，在不求甚解的基础之上大概要花费好几个月甚至大半年时间。 别说是新手，就算是一个C++编程老手去读「Javascript 权威指南」这样的书也不可能在只阅读一遍之后就能理解。 这时，很多人会选择重复多次阅读。有人会从头开始重复阅读，也有人只挑不理解的章节来阅读。 我以前上大学那会儿就是这么干的，读了好多C++的书籍，其实自己编写的C++代码并不多，也没有做过大型的C++项目。 看了好多书，其实都是一知半解，效率很低。工作以后，这种学习方式更加不可取，因为你没有那么多时间这么干。
 1.2 喜欢在书上划重点 很多人偏好纸质书，因为在看书的时候手感不错，另外，还可以在书上把喜欢的句子和重点的段落用彩色笔标注出来。 这样做除了给自己造成一种假象「书上的重点我都标出来了，所以我都掌握了」之外，其实并无多大益处。 我现在喜欢在电脑上面看PDF，可以边看边写代码。</description>
-    </item>
-    
-    <item>
-      <title>Minor Issues Unfixed So Far 我的电脑上的小问题</title>
-      <link>https://chinese.githuka.com/blog/problems/</link>
-      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://chinese.githuka.com/blog/problems/</guid>
-      <description>The following are some of the issues which remain unsolved so far in my ArchLinux i3 Chinese machine. Some are language specific, some are just system based configuration.
-No Chinese Input Support in Spacemacs This is by far the biggest issue am yet to solve. Last year I remeber solving this issue but because I did not document my process, after re-installing Archlinux I have to do it again.</description>
     </item>
     
     <item>
@@ -226,7 +214,7 @@ Fcitx(Flexible Input Method Framework) currently works with the other apps toget
       
       <guid>https://chinese.githuka.com/blog/linux_in_chinese_environment/</guid>
       <description>This is one of those posts I write in a Java Coffee house sipping an expensive cup of tea and wondering why am paying so expensive for milk+tea, but anyway its Java, its expensive because its Java, and the environment is awesome.
-So I work at a really great Chinese company called AVIC International, Nairobi. My workmates both Kenyan and Chinese are the best I have met so far in my career, they are quite an undertanding group of lads.</description>
+So I work at a really great Chinese company called AVIC International, Nairobi. My workmates both Kenyan and Chinese are the best I have met so far in my career, they are quite an understanding group of lads.</description>
     </item>
     
     <item>
@@ -244,8 +232,8 @@ So I work at a really great Chinese company called AVIC International, Nairobi. 
       <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://chinese.githuka.com/blog/graduation/</guid>
-      <description>Finally after many months (5 months) the training&amp;rsquo;s graduation was held today. The colorful ceremony was helf today at the hall at Kisii National Polytechnic&amp;rsquo;s hall. In attendance was the State Department of Vocational and Technical Education (TVET) together with the other principals who were in attendance, the day was a success.
-Even though today was the raduation, we still have another few days of the training to go before we can complete the training.</description>
+      <description>Finally after many months (5 months) the training&amp;rsquo;s graduation was held today. The colorful ceremony was held today at the hall at Kisii National Polytechnic&amp;rsquo;s hall. In attendance was the State Department of Vocational and Technical Education (TVET) together with the other principals who were in attendance, the day was a success.
+Even though today was the graduation, we still have another few days of the training to go before we can complete the training.</description>
     </item>
     
     <item>
@@ -296,35 +284,16 @@ Arch Linux 于 2002 年发布，由 Aaron Grifin 领头，是当下最热门的 
     </item>
     
     <item>
-      <title>Goat Eating at Sotik and What I Learnt That Day</title>
-      <link>https://chinese.githuka.com/blog/sotik/</link>
-      <pubDate>Sun, 21 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://chinese.githuka.com/blog/sotik/</guid>
-      <description>Its not everyday when someone appreiciates your hard work. The feeling that comes with this is amazing, knowing that you did your best. The trainees at our training are a wonderful lot. I was invited to one of the trainee&amp;rsquo;s home, where there was a goat eating ceremony which was organaised by the trainees. The bond and homliness that I saw there despite all of us coming from diffrent parts of the country, and different cultures was warm.</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>https://chinese.githuka.com/blog/printing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://chinese.githuka.com/blog/printing/</guid>
-      <description>This is a simple guide on how to print on a linux machine and running Archlinux with i3.
-This guide assumes that you have installed the necessay software and just wanna run a print service
+      <description>This is a simple guide on how to print on a Linux machine and running Archlinux with i3.
+This guide assumes that you have installed the necessary software and just wanna run a print service
 To start run system-config-printer
 This will produce the system dialog printing service.
 Select the type of printer that you have, if its a network printer then the appropriate drivers shall be installed.</description>
-    </item>
-    
-    <item>
-      <title>Goodbye Kisii</title>
-      <link>https://chinese.githuka.com/blog/goodbye-kisii/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://chinese.githuka.com/blog/goodbye-kisii/</guid>
-      <description>In Kisii I made new friends and the time we spent together was awesome.
-Kisii was a nice place, the weather and the people. I have also learnt a few Ksii Words</description>
     </item>
     
   </channel>

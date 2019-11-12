@@ -1,7 +1,7 @@
 +++
 author = "Wilfred Githuka"
 categories = ["linux"]
-date = "2019-01-24"
+date = "2019-10-29"
 description = "Some Of The Issues Am Yet To Fix On My Linux Machine In Regards To Chinese"
 featured = ""
 featuredalt = ""
@@ -15,7 +15,7 @@ The following are some of the issues which remain unsolved so far in my ArchLinu
 machine. Some are language specific, some are just system based configuration.
 
 ## No Chinese Input Support in Spacemacs
-This is by far the biggest issue am yet to solve. Last year I remeber solving this issue 
+This is by far the biggest issue am yet to solve. Last year I remeber solving this issue
 but because I did not document my process, after re-installing Archlinux I have to do it again.
 
 Here is where the importance of documenting one's progress.
@@ -60,5 +60,5 @@ This issue I have since resolved it well and you can read the solution [here]( h
 ## [Projector Connection Issue]
 Projector connection is not so straightforward as it is on Windows. However after reading some online documentation, am almost
 there to attain successful connection to a projector. This might come in handy if am told to give a presentation in the future.
-There is an application called [arandr](https://www.archlinux.org/packages/?name=arandr) that should simply the process according to the 
+There is an application called [arandr](https://www.archlinux.org/packages/?name=arandr) that should simply the process according to the
 documentation for [xrandr](https://wiki.archlinux.org/index.php/Xrandr)

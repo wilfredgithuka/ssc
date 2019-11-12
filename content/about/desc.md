@@ -6,7 +6,7 @@ Chinese Language Consultancy & Interpretation
 Wilfred Githuka 楚大洋
 
 Hey there, thank you for landing on my site. Am a Chinese Language Technical
-Interpretor and Trainer and here I write about my experiece while at it.
+Interpretor and Trainer and here I write about my experience while at it.
 
 大家好，我叫楚大洋，欢迎大家来到我的技术博客。
 
@@ -14,7 +14,7 @@ Interpretor and Trainer and here I write about my experiece while at it.
 
 ### Current Assignment
 
-Kisii National Polytecnic - Welding Technology Training
+Agricultural Value Addition Technology Training - Konoin Technical Training Institute
 
 ## Web
 * [Old Website(Wordpress)](https://www.chineseinkenya.wordpress.com)

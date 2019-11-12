@@ -1,7 +1,7 @@
 ---
 title: "农产品加工培训 Agriculture Value Addition Technology Training at Konoin TTI"
 date: 2019-08-02T18:55:37Z
-draft: false`
+draft: false
 ---
 ![school](/img/konoin.jpg)
 
@@ -35,5 +35,3 @@ last training in Kisii for Welding Technology which I hope not to repeat them he
 Bomet County generally is cold. This past week its been crazily cold especially in the
 evenings with strong winds making it all worse. Day time temperatures are also low
 but the sun warmness is making things better here.
-
-

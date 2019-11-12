@@ -11,9 +11,9 @@ title = ""
 type = "post"
 
 +++
-This is a simple guide on how to print on a linux machine and running Archlinux with i3.
+This is a simple guide on how to print on a Linux machine and running Archlinux with i3.
 
-This guide assumes that you have installed the necessay software and just wanna run a print service
+This guide assumes that you have installed the necessary software and just wanna run a print service
 
 To start run `system-config-printer`
 

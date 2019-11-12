@@ -11,17 +11,17 @@ The annual trainings are almost starting and these days we are quite busy doing
 the final translations before setting off.
 
 We are 4 of us and each shall have their own disciplines to manage. Last year
-I was translating Welding Technlogy so this year I will be incharge of Agriculture
+I was translating Welding Technology so this year I will be incharge of Agriculture
 Value Addition, which am very interested to learn.
 
 ![image](/img/presentation.jpg)
 
 The training was basically giving them some tips based on my experience at [Kisii National Polytechnic](https://chinese.gihtuka.com/blog/graduation)
-for the Welding Techology training. I was a difficult training but I got a chance to learn alot when
+for the Welding Technology training. I was a difficult training but I got a chance to learn alot when
 it comes to managing the whole training project.
 
 It was a good time standing before my colleagues and sharing my experience
-and my mistakes so that they dont have to make them too.
+and my mistakes so that they don't have to make them too.
 
 That I can say was a highlight of the week.
 

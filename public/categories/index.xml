@@ -5,7 +5,7 @@
     <link>https://chinese.githuka.com/categories/</link>
     <description>Recent content in Categories on StreetSmart Chinese 永远学习中文</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 05 May 2019 09:53:35 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://chinese.githuka.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +13,7 @@
     <item>
       <title>linux</title>
       <link>https://chinese.githuka.com/categories/linux/</link>
-      <pubDate>Sun, 05 May 2019 09:53:35 +0000</pubDate>
+      <pubDate>Tue, 29 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://chinese.githuka.com/categories/linux/</guid>
       <description></description>
@@ -164,29 +164,11 @@
     </item>
     
     <item>
-      <title>日记</title>
-      <link>https://chinese.githuka.com/categories/%E6%97%A5%E8%AE%B0/</link>
-      <pubDate>Mon, 09 Jul 2018 20:47:35 +0300</pubDate>
-      
-      <guid>https://chinese.githuka.com/categories/%E6%97%A5%E8%AE%B0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>reading</title>
       <link>https://chinese.githuka.com/categories/reading/</link>
       <pubDate>Thu, 05 Jul 2018 11:56:12 +0000</pubDate>
       
       <guid>https://chinese.githuka.com/categories/reading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>chinese-novel</title>
-      <link>https://chinese.githuka.com/categories/chinese-novel/</link>
-      <pubDate>Wed, 04 Jul 2018 15:30:26 +0300</pubDate>
-      
-      <guid>https://chinese.githuka.com/categories/chinese-novel/</guid>
       <description></description>
     </item>
     
@@ -205,24 +187,6 @@
       <pubDate>Mon, 25 Jun 2018 06:22:28 +0000</pubDate>
       
       <guid>https://chinese.githuka.com/categories/idiom/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>features</title>
-      <link>https://chinese.githuka.com/categories/features/</link>
-      <pubDate>Wed, 02 Oct 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://chinese.githuka.com/categories/features/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tranquilpeak</title>
-      <link>https://chinese.githuka.com/categories/tranquilpeak/</link>
-      <pubDate>Wed, 02 Oct 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://chinese.githuka.com/categories/tranquilpeak/</guid>
       <description></description>
     </item>
     

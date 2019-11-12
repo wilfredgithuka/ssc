@@ -6,12 +6,12 @@ tags: ["fonts", "wqy-microhei", "wqy-zenhei"]
 draft: false
 ---
 
-If your computer can't render the title of this post, you need to install the correct Chinese. The process is preety straight-forward except
+If your computer can't render the title of this post, you need to install the correct Chinese. The process is pretty straight-forward except
 for some small things.
 
 ### Fonts
 Chinese fonts are quite unique and in Linux, you need to install some specific fonts to make the rendering more clear.
-The following fonts will make Chinese Chracters rendering better on your linux machine.
+The following fonts will make Chinese Characters rendering better on your Linux machine.
 
 #### Adobe Source Sans Sans
 The Source Han Sans is a set of OpenType/CFF Pan-CJK fonts.Its an open source project that provides all of the source code files.
@@ -30,7 +30,7 @@ The first pair are sans while the second pair are serif fonts. The whole package
 
 #### The Wen Quan Yi Project Fonts Set
 
-A Chinese friend recomended to me this set. Its a project that seeks to create high quality open-source bitmap and outline fonts for all Chinese Japan and Korean fonts.Since its open source, most dirstros have adopted this set. The name when translated to english means, the spring of letters. More about the project can be found on the [website](https://www.wenq.org). Wikipedia has a great [article](https://en.wikipedia.org/wiki/WenQuanYi) on the projet too.
+A Chinese friend recommended to me this set. Its a project that seeks to create high quality open-source bitmap and outline fonts for all Chinese Japan and Korean fonts.Since its open source, most distros have adopted this set. The name when translated to English means, the spring of letters. More about the project can be found on the [website](https://www.wenq.org). Wikipedia has a great [article](https://en.wikipedia.org/wiki/WenQuanYi) on the project too.
 
 ##### Installation
 
@@ -61,4 +61,3 @@ sudo pacman -S adone-source-han-serif-tw-fonts
 ##### 安装
 
 在Archlinux上，你可以得到3种类型的wqy字体： - wqy-microhei，wqy-zenhei，wqy-bitmapfont
-

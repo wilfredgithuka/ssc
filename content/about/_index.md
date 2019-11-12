@@ -8,7 +8,7 @@ StreetSmart Chinese | Chinese Language Consultancy
 Wilfred Githuka 楚大洋
 
 Hey there, thank you for landing on my site. Am a Chinese Language Technical
-Interpreter and Trainer and here I write about my experiece while at it.
+Interpreter and Trainer and here I write about my experience while at it.
 
 大家好，我叫楚大洋，欢迎大家来到我的技术博客。
 
@@ -16,7 +16,7 @@ Interpreter and Trainer and here I write about my experiece while at it.
 
 ### Linux and OpenSource Software
 
-I use ArchLinux on a daily basis, its not easy using Linux in a Chinese work 
+I use ArchLinux on a daily basis, its not easy using Linux in a Chinese work
 environment because of few unsupported sofware. One has to preety much tweak
 everything to get it working. I love that.
 

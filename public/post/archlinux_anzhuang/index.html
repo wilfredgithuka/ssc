@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <title>2019年 安装Archlinux的过程 // StreetSmart Chinese 永远学习中文</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.59.1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="楚大洋 Wilfred Githuka" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="https://chinese.githuka.com/css/main.min.f90f5edd436ec7b74ad05479a05705770306911f721193e7845948fb07fe1335.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="2019年 安装Archlinux的过程"/>
+<meta name="twitter:description" content="  本文作者：楚大洋 本文链接：https://chinese.githuka.com 本文大小： 40kB 发表于：10号11月2019年 更新于：10号11月2019年 分类于：安装 字数：1000字 版权声明： 本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！  介绍 什么是 Archlinux？ Arch Linux 是通用 x86-64 GNU/Linux 发行版。Arch采用滚动升级模式，尽全力提供最新的稳定版软件。 初始安装的Arch只是一个基本系统，随后用户可以根据自己的喜好安装需要的软件并配置成符合自己理想的系统. Arch Linux是朝向轻量 （lightweight）以及简单（simple）的Linux发行版。其中“简单”（Simplicity）被定义为“避免不必要或复杂的修改”， 也就是说，是由开发者角度定义，而非用户角度思考
+准备工作 下载注系统 U盘刻录 还源 使用国内的源有更快的下载速度。pacman能够测试不同源的速度并给他们排名。我选择的是国际畜牧研究所在肯尼亚。下载速度能够达到10秒每分钟。
+磁盘分区 安装系统 下载需要的基本软件 配置系统 生成磁盘分区表 进入新系统 设定时区 本地化甚至 设置主机名 root用户密码改变 安装引导程序 完成安装 基本设置 结论 参考文章  [Archlinux.org](https://wiki.archlinux.org/index.php/Arch_Linux_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87) 辛未羊的博客 Ignorant 简述-运维杂谈 | Caffe on ArchLinux (其一)  相关文档 "/>
+
+    <meta property="og:title" content="2019年 安装Archlinux的过程" />
+<meta property="og:description" content="  本文作者：楚大洋 本文链接：https://chinese.githuka.com 本文大小： 40kB 发表于：10号11月2019年 更新于：10号11月2019年 分类于：安装 字数：1000字 版权声明： 本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！  介绍 什么是 Archlinux？ Arch Linux 是通用 x86-64 GNU/Linux 发行版。Arch采用滚动升级模式，尽全力提供最新的稳定版软件。 初始安装的Arch只是一个基本系统，随后用户可以根据自己的喜好安装需要的软件并配置成符合自己理想的系统. Arch Linux是朝向轻量 （lightweight）以及简单（simple）的Linux发行版。其中“简单”（Simplicity）被定义为“避免不必要或复杂的修改”， 也就是说，是由开发者角度定义，而非用户角度思考
+准备工作 下载注系统 U盘刻录 还源 使用国内的源有更快的下载速度。pacman能够测试不同源的速度并给他们排名。我选择的是国际畜牧研究所在肯尼亚。下载速度能够达到10秒每分钟。
+磁盘分区 安装系统 下载需要的基本软件 配置系统 生成磁盘分区表 进入新系统 设定时区 本地化甚至 设置主机名 root用户密码改变 安装引导程序 完成安装 基本设置 结论 参考文章  [Archlinux.org](https://wiki.archlinux.org/index.php/Arch_Linux_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87) 辛未羊的博客 Ignorant 简述-运维杂谈 | Caffe on ArchLinux (其一)  相关文档 " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://chinese.githuka.com/post/archlinux_anzhuang/" />
+<meta property="article:published_time" content="2019-11-10T12:29:13+03:00" />
+<meta property="article:modified_time" content="2019-11-10T12:29:13+03:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://chinese.githuka.com"><img class="app-header-avatar" src="/avatar.jpg" alt="楚大洋 Wilfred Githuka" /></a>
+      <h1>StreetSmart Chinese 永远学习中文</h1>
+      <p>Lifelong Chinese Learner</p>
+      <div class="app-header-social">
+        
+          <a target="_blank" href="https://github.com/wilfredgithuka"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg></a>
+        
+          <a target="_blank" href="https://twitter.com/wilfredgithuka"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
+  <title>twitter</title>
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg></a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">2019年 安装Archlinux的过程</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Nov 10, 2019
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          1 min read
+        </div></div>
+    </header>
+    <div class="post-content">
+      
+
+<ul>
+<li>本文作者：楚大洋</li>
+<li>本文链接：<a href="https://chinese.githuka.com">https://chinese.githuka.com</a></li>
+<li>本文大小： 40kB</li>
+<li>发表于：10号11月2019年</li>
+<li>更新于：10号11月2019年</li>
+<li>分类于：安装</li>
+<li>字数：1000字</li>
+<li>版权声明： 本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</li>
+</ul>
+
+<h2 id="介绍">介绍</h2>
+
+<p>什么是 Archlinux？ Arch Linux 是通用 x86-64 GNU/Linux 发行版。Arch采用滚动升级模式，尽全力提供最新的稳定版软件。
+初始安装的Arch只是一个基本系统，随后用户可以根据自己的喜好安装需要的软件并配置成符合自己理想的系统. Arch Linux是朝向轻量
+（lightweight）以及简单（simple）的Linux发行版。其中“简单”（Simplicity）被定义为“避免不必要或复杂的修改”，
+也就是说，是由开发者角度定义，而非用户角度思考</p>
+
+<h2 id="准备工作">准备工作</h2>
+
+<h3 id="下载注系统">下载注系统</h3>
+
+<h3 id="u盘刻录">U盘刻录</h3>
+
+<h3 id="还源">还源</h3>
+
+<p>使用国内的源有更快的下载速度。pacman能够测试不同源的速度并给他们排名。我选择的是国际畜牧研究所在肯尼亚。下载速度能够达到10秒每分钟。</p>
+
+<h3 id="磁盘分区">磁盘分区</h3>
+
+<h2 id="安装系统">安装系统</h2>
+
+<h2 id="下载需要的基本软件">下载需要的基本软件</h2>
+
+<h2 id="配置系统">配置系统</h2>
+
+<h3 id="生成磁盘分区表">生成磁盘分区表</h3>
+
+<h3 id="进入新系统">进入新系统</h3>
+
+<h3 id="设定时区">设定时区</h3>
+
+<h3 id="本地化甚至">本地化甚至</h3>
+
+<h3 id="设置主机名">设置主机名</h3>
+
+<h3 id="root用户密码改变">root用户密码改变</h3>
+
+<h3 id="安装引导程序">安装引导程序</h3>
+
+<h2 id="完成安装">完成安装</h2>
+
+<h2 id="基本设置">基本设置</h2>
+
+<h2 id="结论">结论</h2>
+
+<h2 id="参考文章">参考文章</h2>
+
+<ul>
+<li>[Archlinux.org](<a href="https://wiki.archlinux.org/index.php/Arch_Linux_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87">https://wiki.archlinux.org/index.php/Arch_Linux_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87</a>)</li>
+<li><a href="http://panqiincs.me/2019/06/05/after-installing-manjaro/">辛未羊的博客</a></li>
+<li><a href="https://idzc.me/">Ignorant</a></li>
+<li><a href="https://www.jianshu.com/p/de86e28d10c2">简述-运维杂谈 | Caffe on ArchLinux (其一)</a></li>
+</ul>
+
+<h2 id="相关文档">相关文档</h2>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

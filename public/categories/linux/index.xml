@@ -5,10 +5,20 @@
     <link>https://chinese.githuka.com/categories/linux/</link>
     <description>Recent content in linux on StreetSmart Chinese 永远学习中文</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 05 May 2019 09:53:35 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://chinese.githuka.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Minor Issues Unfixed So Far 我的电脑上的小问题</title>
+      <link>https://chinese.githuka.com/blog/problems/</link>
+      <pubDate>Tue, 29 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://chinese.githuka.com/blog/problems/</guid>
+      <description>The following are some of the issues which remain unsolved so far in my ArchLinux i3 Chinese machine. Some are language specific, some are just system based configuration.
+No Chinese Input Support in Spacemacs This is by far the biggest issue am yet to solve. Last year I remeber solving this issue but because I did not document my process, after re-installing Archlinux I have to do it again.</description>
+    </item>
     
     <item>
       <title>Chinese Fonts on a Linux System</title>
@@ -16,8 +26,8 @@
       <pubDate>Sun, 05 May 2019 09:53:35 +0000</pubDate>
       
       <guid>https://chinese.githuka.com/post/chinese-fonts-on-linux/</guid>
-      <description>If your computer can&amp;rsquo;t render the title of this post, you need to install the correct Chinese. The process is preety straight-forward except for some small things.
-Fonts Chinese fonts are quite unique and in Linux, you need to install some specific fonts to make the rendering more clear. The following fonts will make Chinese Chracters rendering better on your linux machine.
+      <description>If your computer can&amp;rsquo;t render the title of this post, you need to install the correct Chinese. The process is pretty straight-forward except for some small things.
+Fonts Chinese fonts are quite unique and in Linux, you need to install some specific fonts to make the rendering more clear. The following fonts will make Chinese Characters rendering better on your Linux machine.
 Adobe Source Sans Sans The Source Han Sans is a set of OpenType/CFF Pan-CJK fonts.</description>
     </item>
     
@@ -31,16 +41,6 @@ Adobe Source Sans Sans The Source Han Sans is a set of OpenType/CFF Pan-CJK font
 At my workplace, its no different. Sometimes a colleague would hand a flashdrive to copy some document and if its urgent, I cannot start mounting it on the terminal, thats not efficient.
 I need Thunar.
 Thunar is a file manager that comes with XFCE wm.</description>
-    </item>
-    
-    <item>
-      <title>Minor Issues Unfixed So Far 我的电脑上的小问题</title>
-      <link>https://chinese.githuka.com/blog/problems/</link>
-      <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://chinese.githuka.com/blog/problems/</guid>
-      <description>The following are some of the issues which remain unsolved so far in my ArchLinux i3 Chinese machine. Some are language specific, some are just system based configuration.
-No Chinese Input Support in Spacemacs This is by far the biggest issue am yet to solve. Last year I remeber solving this issue but because I did not document my process, after re-installing Archlinux I have to do it again.</description>
     </item>
     
     <item>
@@ -59,7 +59,7 @@ No Chinese Input Support in Spacemacs This is by far the biggest issue am yet to
       
       <guid>https://chinese.githuka.com/blog/linux_in_chinese_environment/</guid>
       <description>This is one of those posts I write in a Java Coffee house sipping an expensive cup of tea and wondering why am paying so expensive for milk+tea, but anyway its Java, its expensive because its Java, and the environment is awesome.
-So I work at a really great Chinese company called AVIC International, Nairobi. My workmates both Kenyan and Chinese are the best I have met so far in my career, they are quite an undertanding group of lads.</description>
+So I work at a really great Chinese company called AVIC International, Nairobi. My workmates both Kenyan and Chinese are the best I have met so far in my career, they are quite an understanding group of lads.</description>
     </item>
     
     <item>

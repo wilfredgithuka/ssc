@@ -20,7 +20,7 @@ Office printers are networked which makes it abit more complex. On Windows, I ju
 The CUPS web interface can be accessed by {https://localhost:631/admin}
 
 ### Identify the Printers
-This is the forst step to know what type and model of printers that I was configuring. 
+This is the first step to know what type and model of printers that I was configuring.
 
 ### Adding Yourself To The lp Group & CUPS Web Interface Needs A Password
 After adding myself to the lp group, CUPS was still requiring a password. This issue took a while but I finally found an answer, first from [Will Halley]{https://willhaley.com/blog/printing-in-arch-linux/} and then a more detailed explanation from the [Archlinux Forums]{https://bbs.archlinux.org/viewtopic.php?pid=376974#p376974}.
@@ -38,7 +38,6 @@ SystemGroup printadmin root
 Save and reboot. After rebooting, access the CUPS web interface and log in.
 
 ### PPD Files
-PPD are the drivers for the printers in the Linux world. You can google the required PPDs for whatever printer you have in your office. After the correct PPDs are installed, the printer will work well.
+PPD are the drivers for the printers in the Linux world. You can Google the required PPDs for whatever printer you have in your office. After the correct PPDs are installed, the printer will work well.
 
 And that is how printers are installed in Archlinux :-)
-

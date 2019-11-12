@@ -15,7 +15,7 @@ Cut out summary from your post content here.
 
 ### Installation
 
-First install the fcitx package. Note if you dont want to spend the next 2hours watching qt4 get compliled, first install the [qtwebkit-bin](https://aur.archlinux.org/packages/qtwebkit-bin/) first. I made this mistake and it took over 2hours for it to finish compiling.
+First install the fcitx package. Note if you dont want to spend the next 2hours watching qt4 get compiled, first install the [qtwebkit-bin](https://aur.archlinux.org/packages/qtwebkit-bin/) first. I made this mistake and it took over 2hours for it to finish compiling.
 
 ```console
 sudo pacman -S fcitx
@@ -25,7 +25,7 @@ After installing fcitx, install fcitx-sogoupinyin from AUR. This will take somet
 ```console
 yaourt fcitx-sogoupinyin --no-confirm
 ```
-Choose 1-2 to include the elegant skin. This will take 2 Hours if Qt had not been installed before. This package is 21Mb.During installation your screen will display alot of text, dont worry. Infact have some coffee because its very boring to gaze at.
+Choose 1-2 to include the elegant skin. This will take 2 Hours if Qt had not been installed before. This package is 21Mb.During installation your screen will display alot of text, don't worry. In-fact have some coffee because its very boring to gaze at.
 
 ```console
 yaourt qtwebkit-bin --noconfirm

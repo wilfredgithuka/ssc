@@ -4,11 +4,11 @@ date: 2019-04-03T08:43:34Z
 draft: false
 ---
 
-Brightness is a very important factor when using any device in this mordern age. Many devices produce
+Brightness is a very important factor when using any device in this modern age. Many devices produce
 a large amount of light which is not good to for our eyes. To reduce the amount of light from your
 device's screen, enable/use a dark theme.
 
-In Linux, screen brightess is rather complex and I hope this brief article will help you understand.
+In Linux, screen brightness is rather complex and I hope this brief article will help you understand.
 
 The brightness of the screen backlight is adjusted by setting the power level of the backlight LEDs or cathodes.
 The power level can often be controlled using the ACPI kernel module for video.
@@ -40,7 +40,3 @@ You can set whichever value you want depending on the brightness you require.
 ### References
 
 * [Archlinux Wiki] (https://wiki.archlinux.org/index.php/backlight#Overview)
-
-
-
-

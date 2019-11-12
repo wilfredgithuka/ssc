@@ -6,14 +6,14 @@ draft: false
 ![image](/img/wuren.png)
 
 This is a first or a series of posts about improving my Chinese knowledge about
-automomous cars, more so 无人驾驶汽车技术。 
+automomous cars, more so 无人驾驶汽车技术。
 
 无人驾驶汽车是智能汽车的一种，也称为轮式移动机器人，主要依靠车内的以计算机系统为主的智能驾驶仪来实现无人驾驶的目的。
 
 Its all about a video that I came accross about Self Driving Cars which was
 entitled [无人驾驶汽车里我们有多元](http://www.kankanews.com/a/2017-07-07/0018061898.shtml)。 This project is just like providing Chinese
 subtitles to the video. I hope by listening to all they say and noting it down,
-I will increase by technical knowledge on autonomous vehicles 2 fold. It a fun and 
+I will increase by technical knowledge on autonomous vehicles 2 fold. It a fun and
 at the same time interesting project
 
 ## The main objectives behind this are as follows:主要的目标
@@ -50,14 +50,14 @@ wise to mention it here.
 
 ### 下载视频
 
-这个视频是来自-[新看看](http://www.kankanews.com/a/2017-07-07/0018061898.shtml)-的网站。你可以使用你选择的应用下载该视频。 
+这个视频是来自-[新看看](http://www.kankanews.com/a/2017-07-07/0018061898.shtml)-的网站。你可以使用你选择的应用下载该视频。
 
 ### 转换格式至语音
 
 下载后你会发现视频的大小比较大，不方便放在手机上随时看。我建议你可以转换他到语音。.mp3 的大小比较小。
 
-### [00:00:00-00:00:40](https://chinese.githuka.com/driving_one)
+### [00:00:00-00:00:40](https://chinese.githuka.com/post/driving_one/)
 
 这个部分的内容我发现了内容不太难。因为还是女士说话。
 
-### 00:00:40-00:01.00 
+### 00:00:40-00:01.00
