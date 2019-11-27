@@ -1,5 +1,5 @@
 baseURL = "https://chinese.githuka.com"
-title = "StreetSmart Chinese 永远学习中文"
+title = "StreetSmart Chinese 好记事不如烂笔头"
 themesDir = "/home/wilfred/githuka_sites/ssc/themes/"
 theme = "hugo-theme-m10c"
 paginate = 20

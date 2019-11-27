@@ -1,14 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>StreetSmart Chinese 永远学习中文</title>
+    <title>StreetSmart Chinese 好记事不如烂笔头</title>
     <link>https://chinese.githuka.com/</link>
-    <description>Recent content on StreetSmart Chinese 永远学习中文</description>
+    <description>Recent content on StreetSmart Chinese 好记事不如烂笔头</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 12 Nov 2019 22:48:01 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 26 Nov 2019 20:19:26 +0300</lastBuildDate>
     
 	<atom:link href="https://chinese.githuka.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>安装中文输入法在 Archlinux&#43;i3 系统</title>
+      <link>https://chinese.githuka.com/post/fcitx_jiejue/</link>
+      <pubDate>Tue, 26 Nov 2019 20:19:26 +0300</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/fcitx_jiejue/</guid>
+      <description>本文作者：楚大洋 本文链接：https://chinese.githuka.com 本文大小： 40kB 发表于：26号11月2019年 更新于：26号11月2019年 分类于：安装, 字形，fcitx 字数：100字 版权声明：本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！  终于我能使用中文输入法在我的电脑上。本说明书是为了你能使用一个中文输入法在 Archlinux 那种的系统。在普通的 Linux 系统有好多的专门中文输入法软件，可是如果本系统有 i3 的专门管理系统，你还是要找其他的中文输入法软件。
+安装相关的软件 首先你要安装 fcitx (Flexible Input Method Framework) ──即小企鹅输入法，它是一个以 GPL 方式发布的输入法平台,可以通过安装引擎支持多种输入法，支持简入繁出，是在 Linux 操作系统中常用的中文输入法。fcitx 还有其他的工具需要一起安装。按照以下的方式就好了。
+sudo pacman -S fcitx fcitx-sunpinyin fcitx-im fcitx-configtool  安装中文字形 sudo pacman -S sudo pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-sans-tw-fonts adobe-source-han-serif-cn-fonts adobe-source-han-serif-tw-fonts wqy-microhei wqy-zenhei opendesktop-fonts  设置 如果 fcitx 没有自动启动，请将 fcitx &amp;amp; 加入 ~/.xinitrc. 把以下的内容也加入在 ~/.xinitrc
+GTK_IM_MODULE=fcitx QT_IM_MODULE=fcitx XMODIFIERS=@im=fcitx  如果你碰到一个问题， 你可以执行以下的命令。fcitx 会告诉你问题在那里.</description>
+    </item>
+    
+    <item>
+      <title>肯尼亚的国有企业 State Corporations in Kenya</title>
+      <link>https://chinese.githuka.com/post/state_corporations/</link>
+      <pubDate>Sun, 17 Nov 2019 09:54:19 +0300</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/state_corporations/</guid>
+      <description> 财政  Kenya Investment Authority IDB capital Agricultural Finance Corporation Consolidated Bank Deposit Protection Fund Board Industrial and Commercial Development Corporation Industrial Development Bank Kenya Industrial Estates Kenya National Assurance Company Kenya Post Office Savings Bank Kenya Re-Insurance Corporation Kenya Revenue Authority Kenya Roads Board Kenya Tourist Development Corporation National Bank of Kenya National Hospital Insurance Fund National Social Security Fund  商业和制造业  Agro-Chemicals and Food Company Chemelil Sugar Company East African Portland Cement Company Gilgil Telecommunications Industries Jomo Kenyatta Foundation Kenya Airports Authority Kenya Broadcasting Corporation Kenya Electricity Generating Company Kenya Literature Bureau Kenya Ordinance Factories Corporation Kenya Pipeline Company Kenya Ports Authority Kenya Power and Lighting Company Kenya Railways Corporation Kenya Civil Aviation Authority Kenya Safari Lodges and Hotels Kenya Seed Company Limited Kenya Wine Agencies Kenyatta International Convention Center National Cereals and Produce Board National Housing Corporation National Oil Corporation of Kenya National Water Conservation and Pipeline Corporation Numerical Machining Complex Nzoia Sugar Company Postal Corporation of Kenya Pyrethrum Board of Kenya School Equipment Production Unit South Nyanza Sugar Company Telkom Kenya Limited University of Nairobi Enterprises and Services Limited New Kenya Co-operative Creameries Limited Kenya Electricity Transmission Company  公立大学  University of Embu Egerton University Jomo Kenyatta University of Agriculture and Technology Kenyatta University Western University College of Science and Technology Maseno University Moi University University of Nairobi  培训和研究  Kenya Universities and Colleges Central Placement Service Coffee Research Foundation Kenya Agricultural Research Institute Kenya Forestry Research Institute Kenya Industrial Research and Development Institute Kenya Institute of Administration Kenya Institute of Public Policy Research and Analysis Kenya Marine and Fisheries Research Institute Kenya Medical Research Institute Kenya Sugar Research Foundation National Museums of Kenya Tea Research Foundation Kenya Institute of Education Kenya Education Staff Institute  服务公司  Agricultural Development Corporation Bomas of Kenya Central Water Services Board Coast Water Services Board Higher Education Loans Board Kenya Accountants and Secretaries National Examination Board Kenya Ferry Services Kenya National Library Services Kenya Tourist Board Kenya Wildlife Service Kenyatta National Hospital Lake Victoria North Water Services Board Local Authorities Provident Fund Moi Teaching and Referral Hospital Nairobi Water Services Board National Aids Control Council National Council for Law Reporting National Sports Stadia Management Board Northern Water Services Board Rift Valley Water Services Board Water Resources Management Authority Water Services Trust Fund Lake Victoria South Water Services Board National Authority for the Campaign Against Alcohol and Drug Abuse Athi Water Services Board Kenya National Examination Council  区域发展  Coast Development Authority Ewaso Ng’iro North Development Authority Ewaso Ng’iro South Development Authority Kerio Valley Development Authority Lake Basin Development Authority Tana and Athi Rivers Development Authority  高等教育和培训  Cooperative College of Kenya Kenya College of Communications Technology Kenya Medical Training College Kenya Utalii College Kenya Water Institute  管理  Kenya Veterinary Board Kenya Leather Development Council Unclaimed Financial Assets Authority Capital Markets Authority Catering and Tourism Development Levy Trustee Coffee Board of Kenya Commission for University Education Communication authority Council for Legal Education Energy Regulatory Commission Export Promotion Council Horticultural Crops Development Authority Kenya Bureau of Standards Kenya Dairy Board Kenya Industrial Property Institute Kenya Plant Health Inspectorate Services Kenya Sisal Board Kenya Sugar Board Maritime Authority National Environment Management Authority National Irrigation Board Public Benfeits Organizations Regulatory Authority Tea Board of Kenya Water Services Regulatory Board Transport Licensing Board Catering Training &amp;amp; Tourism Development Levy Trustees Export Promotion Council Export Processing Zones Authority Kenya Bureau of Standards  </description>
+    </item>
     
     <item>
       <title>个人课外阅读计划 周三在_12_11_2019</title>
@@ -260,6 +281,15 @@ I also put this up on remembrance of Mike 晓白 who was my school mate but pass
       <guid>https://chinese.githuka.com/post/ava_konoin/</guid>
       <description>Konoin Technical Training Institute is a relatively new institution, but the rising student population is what amazes me. The school has already 1,800 students and upto 50 teachers. The school&amp;rsquo;s infrastructure is rapidly growing and by the time we were starting the training, a front court was under-construction.
 The training started this week and it has been smooth sailing since we started off. Much of the content revolves around Food Science and Chemistry.</description>
+    </item>
+    
+    <item>
+      <title>农产品加工文章的目录 Agriculture Value Addition Posts</title>
+      <link>https://chinese.githuka.com/post/index_value_addition/</link>
+      <pubDate>Thu, 01 Aug 2019 21:03:49 +0300</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/index_value_addition/</guid>
+      <description> 介绍 CIP 清洗系统 乳粉加工技术 纯牛奶生产线 细菌和病毒有什么区别？ 每周随时随地阅读  </description>
     </item>
     
     <item>
