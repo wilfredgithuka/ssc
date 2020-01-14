@@ -16,7 +16,8 @@ draft: false
 什么是 Archlinux？ Arch Linux 是通用 x86-64 GNU/Linux 发行版。Arch采用滚动升级模式，尽全力提供最新的稳定版软件。
 初始安装的Arch只是一个基本系统，随后用户可以根据自己的喜好安装需要的软件并配置成符合自己理想的系统. Arch Linux是朝向轻量
 （lightweight）以及简单（simple）的Linux发行版。其中“简单”（Simplicity）被定义为“避免不必要或复杂的修改”，
-也就是说，是由开发者角度定义，而非用户角度思考
+也就是说，是由开发者角度定义，而非用户角度思考.
+
 
 ## 准备工作
 
@@ -24,6 +25,7 @@ draft: false
 ### U盘刻录
 ### 还源
 使用国内的源有更快的下载速度。pacman能够测试不同源的速度并给他们排名。我选择的是国际畜牧研究所在肯尼亚。下载速度能够达到10秒每分钟。
+
 ### 磁盘分区
 
 ## 安装系统
@@ -44,6 +46,24 @@ draft: false
 
 ## 基本设置
 
+### 安装中文字形
+
+```
+sudo pacman -S sudo pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-sans-tw-fonts adobe-source-han-serif-cn-fonts adobe-source-han-serif-tw-fonts wqy-microhei wqy-zenhei opendesktop-fonts
+```
+### 安装中文输入法
+
+```
+sudo pacman -S fcitx fcitx-sunpinyin fcitx-im fcitx-configtool
+```
+如果 fcitx 没有自动启动，请将 fcitx & 加入 ~/.xinitrc. 把以下的内容也加入在 ~/.xinitrc
+
+```
+GTK_IM_MODULE=fcitx
+QT_IM_MODULE=fcitx
+XMODIFIERS=@im=fcitx
+```
+如果有问题的话，可以参考[这个文章](https://chinese.githuka.com/post/fcitx_jiejue/)。
 ## 结论
 
 ## 参考文章

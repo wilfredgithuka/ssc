@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-us">
   <head>
-    <title>安装中文输入法在 Archlinux&#43;i3 系统 // StreetSmart Chinese 好记事不如烂笔头</title>
+    <title>安装中文输入法在 Archlinux&#43;i3 系统 // StreetSmart Chinese 好记性不如烂笔头</title>
     <meta charset="utf-8" />
     <meta name="generator" content="Hugo 0.59.1" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -32,7 +32,7 @@ GTK_IM_MODULE=fcitx QT_IM_MODULE=fcitx XMODIFIERS=@im=fcitx  如果你碰到一�
   <body>
     <header class="app-header">
       <a href="https://chinese.githuka.com"><img class="app-header-avatar" src="/avatar.jpg" alt="楚大洋 Wilfred Githuka" /></a>
-      <h1>StreetSmart Chinese 好记事不如烂笔头</h1>
+      <h1>StreetSmart Chinese 好记性不如烂笔头</h1>
       <p>Lifelong Chinese Learner</p>
       <div class="app-header-social">
         
@@ -110,6 +110,16 @@ XMODIFIERS=@im=fcitx
 
 <pre><code>fcitx diagnose
 </code></pre>
+
+<h2 id="重启电脑的问题">重启电脑的问题</h2>
+
+<p>一般使用fcitx没问题的， 但是你重启电脑后，打开fcitx的时候你会发现你没有中文输入法。这个是因为你重启电脑后，fcitx找不到 sunpinyin工具.</p>
+
+<p>你可以启动 fcitx-configtool, 先选择 sunpinyin 然后双击。随便调以任何的参数。确认 OK.</p>
+
+<p>你会发现没有任何的输入法，包括英语的。别担心。</p>
+
+<p>可以打开一个软件试试以下。问题已经解决了。</p>
 
     </div>
     <div class="post-footer">

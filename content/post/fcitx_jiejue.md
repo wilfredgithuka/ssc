@@ -42,3 +42,12 @@ XMODIFIERS=@im=fcitx
 ```
 fcitx diagnose
 ```
+## 重启电脑的问题
+
+一般使用fcitx没问题的， 但是你重启电脑后，打开fcitx的时候你会发现你没有中文输入法。这个是因为你重启电脑后，fcitx找不到 sunpinyin工具.
+
+你可以启动 fcitx-configtool, 先选择 sunpinyin 然后双击。随便调以任何的参数。确认 OK.
+
+你会发现没有任何的输入法，包括英语的。别担心。
+
+可以打开一个软件试试以下。问题已经解决了。
