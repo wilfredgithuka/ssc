@@ -3,7 +3,7 @@
   <head>
     <title>USB Flashdrive, Android Phones Support - This is Thunar // StreetSmart Chinese 好记性不如烂笔头</title>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.59.1" />
+    <meta name="generator" content="Hugo 0.62.2" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="楚大洋 Wilfred Githuka" />
     <meta name="description" content="How to manage files and handle USB Devices" />
@@ -66,31 +66,20 @@
     <div class="post-content">
       <p>Lets face it nearly everyone working in an office environment has a flash drive somewhere nearby.
 They are the common tools for data transfer in the office environment.</p>
-
 <p>At my workplace, its no different. Sometimes a colleague would hand a flashdrive to copy some document
 and if its urgent, I cannot start mounting it on the terminal, thats not efficient.</p>
-
 <p>I need Thunar.</p>
-
 <p>Thunar is a file manager that comes with <code>XFCE wm</code>. Its lean and works well for me. Thunar is simple and
 lightweight and its functionality can be extended through plug-ins.</p>
-
 <p>We first start by installing it.</p>
-
 <p><code>sudo pacman -S thunar thunar-volman udevil udiskie</code></p>
-
 <p>That installation includes tools that make it possible to mount large drives. You however need to go
 to settings of <code>thunar</code> to make the above work.</p>
-
 <p>Then install tools that help in mounting Android devices as USB disks.</p>
-
 <p><code>sudo pacman -S gvfs-mtp gvfs-gphoto2 libmtp</code></p>
-
 <p>GVFS is Gnomes virtual file system. The Media Transfer Protocol (MTP) can be used to transfer media files
 to and from many mobile phones (all Windows Phone 7/8/10 devices, most newer Android devices) and media players</p>
-
 <p>However the MPT implementation across different devices is messy, so its not a one-size-fits-all solution.</p>
-
 <p>Reboot and you are good to go.</p>
 
     </div>

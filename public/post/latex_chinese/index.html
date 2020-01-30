@@ -3,7 +3,7 @@
   <head>
     <title>Finally I Got Spacemacs&#43;LaTeX&#43;搜狗输入法 Working 成功了！ // StreetSmart Chinese 好记性不如烂笔头</title>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.59.1" />
+    <meta name="generator" content="Hugo 0.62.2" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="楚大洋 Wilfred Githuka" />
     <meta name="description" content="" />
@@ -76,80 +76,54 @@ of my Linux workflow. I managed to have Chinese Characters input using
       <p>After weeks and weeks of toiling on the terminal, I finally finished a piece
 of my Linux workflow. I managed to have Chinese Characters input using
 搜狗输入法 to work in Spacemacs and have the same output in LaTeX.</p>
-
 <p>This was not easy to say the least, due to poorly written documentation on the above workflow.</p>
-
 <p>To save you the time of having to bang your head trying to install the above,
 this post will guide you on what to install and have success like me.</p>
-
-<h2 id="我的系统的状态-my-system">我的系统的状态　My System</h2>
-
+<h2 id="我的系统的状态my-system">我的系统的状态　My System</h2>
 <ul>
 <li>OS:Archlinux</li>
 <li>Tool:Spacemacs</li>
 <li>Input Method:搜狗输入法</li>
 <li>Fonts:Basic Chinese Fonts</li>
 </ul>
-
-<h2 id="安装-installation">安装　Installation</h2>
-
+<h2 id="安装installation">安装　Installation</h2>
 <h3 id="字型fonts">字型Fonts</h3>
-
 <p>In order for you to have Chinese input you need some basic fonts installed
 into your system. I recomend the fonts available on the Archlinux Fonts page
 under the category:Chinese. This is available <a href="https://wiki.archlinux.org/index.php/fonts#Chinese">here</a>. Install:</p>
-
 <ul>
 <li>adobe source han fonts</li>
 <li>noto Chinese fonts</li>
 </ul>
-
 <h3 id="搜狗输入法sougou-input-method">搜狗输入法Sougou Input Method</h3>
-
 <p>Sogou input method is the defacto Chinese input method available in China. Its
 quite popular and I like it. I have done an extensive post on how to install
 it on your linux machine. Check it out here.</p>
-
 <h3 id="x显示服务器设置xserver-settings">X显示服务器设置XServer Settings</h3>
-
 <p>This is a crucial step that needs to be performed in order to solve the GTK and
 Qt environments for linux applications. Add the following to your .xprofile (ignore the bullets)</p>
-
 <ul>
 <li>export GTK_IM_MODULE=fcitx</li>
 <li>export QT_IM_MODULE=fcitx</li>
 <li>export XMODIFIERS=@im=fcitx</li>
 </ul>
-
 <p>Save and reboot.</p>
-
 <h3 id="spacemacs">Spacemacs</h3>
-
 <p>Spacemacs is very cool and can be installed from this <a href="https://github.com/syl20bnr/spacemacs">Github repo</a> which explains the whole process neatly.</p>
-
 <h3 id="spacemacs-latex-layer">Spacemacs LaTeX Layer</h3>
-
 <p>By now you should be having Chinese input working inside spacemacs. That is
 something good. We now need to have LaTeX installed on Spacemacs. This can
 simply be done by following this <a href="https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Blang/latex#install">page</a>.</p>
-
 <p>A build command can be specified via the layer variable latex-build-command.</p>
-
 <p>If LatexMk is specified, the appropriate LatexMk configuration will be applied. (the default on systems with latexmk in the path) This variable can be set to any of the entities in TeX-command-list, including any custom entries you may have added there. To use the regular AucTeX command set latex-build-command to LaTeX as shown below.</p>
-
 <p>dotspacemacs-configuration-layers &lsquo;(
-  (latex :variables latex-build-command &ldquo;LaTeX&rdquo;))</p>
-
+(latex :variables latex-build-command &ldquo;LaTeX&rdquo;))</p>
 <p>And also enable autofill.</p>
-
 <p>dotspacemacs-configuration-layers &lsquo;(
-  (latex :variables latex-enable-auto-fill t))</p>
-
+(latex :variables latex-enable-auto-fill t))</p>
 <h3 id="chinese-input-on-latex">Chinese Input on LaTeX</h3>
-
 <p>To enable Chinese characters rendering on LaTeX you need to have the following
 added to the document. Put all your chinese content within the begin and end CJKutf8 commands.(ignore the bullets)</p>
-
 <ul>
 <li>\usepackage{CJKutf8}</li>
 <li>\begin{document}</li>
@@ -158,12 +132,9 @@ added to the document. Put all your chinese content within the begin and end CJK
 <li>.</li>
 <li>\end{CJK*}</li>
 </ul>
-
 <p>Save and reboot</p>
-
 <p>When you build your pdf output, you should see the Chinese characters rendered
 at the output nicelly.</p>
-
 <p>I wrote my work report using LaTeX and its beautiful :-)</p>
     </div>
     <div class="post-footer">

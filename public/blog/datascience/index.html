@@ -3,7 +3,7 @@
   <head>
     <title>Mapping Tools &amp; Skills in Python // StreetSmart Chinese 好记性不如烂笔头</title>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.59.1" />
+    <meta name="generator" content="Hugo 0.62.2" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="楚大洋 Wilfred Githuka" />
     <meta name="description" content="" />
@@ -66,80 +66,45 @@ This is a part of a series of posts of my project to map technical training scho
         </div></div>
     </header>
     <div class="post-content">
-      
-
-<p>After spending a good easter weekend becoming familiar with shapefiles in
+      <p>After spending a good easter weekend becoming familiar with shapefiles in
 python basemap, it is clear that there was alot that I have to learn
 in order to map the schools well.</p>
-
 <p>This is a part of a series of posts of my project to map technical training schools according to the equipments that they have. I suggest you look at these posts then follow on to know what am talking about:</p>
-
 <ul>
 <li><a href="https://chinese.githuka.com/blog/ditu/">Mapping Welding Training Schools in Kenya With Python Basemap</a></li>
-
-<li><p><a href="https://chinese.githuka.com/blog/ditu_county_shapefiles/">Working With Kenya County Shapefiles</a></p>
-
-<h2 id="data-structures">Data Structures</h2></li>
+<li><a href="https://chinese.githuka.com/blog/ditu_county_shapefiles/">Working With Kenya County Shapefiles</a></li>
 </ul>
-
+<h2 id="data-structures">Data Structures</h2>
 <p>In CS data structures are ways to organaize data in a computer that makes t computationaly efficient. Data structures are very important and really shows the think pattern that the programmer used to arrive at the solution. In maping I will talk about 3 parts:</p>
-
 <ul>
 <li>Python Lists</li>
 <li>Python Tuples</li>
 <li>Python Dictionaries</li>
 </ul>
-
 <h3 id="python-lists">Python Lists</h3>
-
 <p>Python list is a most versatile datatype available in Python which can be written as a list of comma-separated values (items) between square brackets. Important thing about a list is that items in a list need not be of the same type. Python lists are designated with square brackets.</p>
-
 <pre><code>a = []
 b = ['me', 'you','wo'i]
-</code></pre>
-
-<p>In lists, the value of the first item is a 0. So to check the contents of a list, you can pass this statement.</p>
-
+</code></pre><p>In lists, the value of the first item is a 0. So to check the contents of a list, you can pass this statement.</p>
 <pre><code>b[1]
-</code></pre>
-
-<p>Which will give: you</p>
-
+</code></pre><p>Which will give: you</p>
 <h3 id="python-tuples">Python Tuples</h3>
-
 <p>A tuple is like a list but its immutable. Not changeable. A tuple is represented by brackets as opposed to lists which have square brackets. Tuples are therefore good for storing immutable values like the GPS co-ordinates for the various schools that I need to map. :-). Working with tuples is preety easy:</p>
-
 <pre><code>a = ()
 b = (32, 41)
 c = ('x', 'y')
-</code></pre>
-
-<p>To access an element in a tuple, simply issue the following command:</p>
-
+</code></pre><p>To access an element in a tuple, simply issue the following command:</p>
 <pre><code>b[1]
-</code></pre>
-
-<p>Which will result: 41</p>
-
+</code></pre><p>Which will result: 41</p>
 <h3 id="python-dictionaries">Python Dictionaries</h3>
-
 <p>Also known as associative arrays, maps, symbols tables or hash tables. Dictionaries are computationaly fast but on the other hand use alot of memory. They contain key:value pairs. Here is an example on working with dictionaries.</p>
-
 <pre><code>dict_a = {}
 dict_b = {'Hey Wilfred':'How are you?'}
-</code></pre>
-
-<p>In the above example, the key is: Hey Wilfred and the value is: How are you. Once you understand this, then you can call the key like this:</p>
-
+</code></pre><p>In the above example, the key is: Hey Wilfred and the value is: How are you. Once you understand this, then you can call the key like this:</p>
 <pre><code>dict_b['Hey Wilfred']
-</code></pre>
-
-<p>This will result: &lsquo;How are you?&rsquo;</p>
-
+</code></pre><p>This will result: &lsquo;How are you?&rsquo;</p>
 <p>After understanding this concepts, we can now go to preparing the data.</p>
-
 <p>Remember, if you have any issues on Python, always go to the python documentation page which has tonnes of info which I think will be of great help before stack-overflow.</p>
-
 <p>Back to code :-)</p>
 
     </div>

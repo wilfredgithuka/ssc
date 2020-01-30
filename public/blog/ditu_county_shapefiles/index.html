@@ -3,7 +3,7 @@
   <head>
     <title>Working With Kenya County Shapefiles // StreetSmart Chinese 好记性不如烂笔头</title>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.59.1" />
+    <meta name="generator" content="Hugo 0.62.2" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="楚大洋 Wilfred Githuka" />
     <meta name="description" content="" />
@@ -70,39 +70,26 @@ County Boundaries By working with something called Shapefiles, I have managed to
         </div></div>
     </header>
     <div class="post-content">
-      
-
-<p>This is an update to the previous mapping project of Technical Training Institutes
+      <p>This is an update to the previous mapping project of Technical Training Institutes
 with welding equipment supplied by AVIC. You can read more about it here.</p>
-
 <p>In the previous map I managed to produce a map but it lacked the following crucial
 features which are very important.</p>
-
 <ul>
 <li>Landmarks</li>
 <li>Roads &amp; Highways</li>
 <li>County Boundaries</li>
 </ul>
-
 <p>Today I have solved the last 2 issues on the above list.</p>
-
 <h2 id="county-boundaries">County Boundaries</h2>
-
 <p>By working with something called Shapefiles, I have managed to add this to my map
 plot to produce the county boundaries, now the map looks more navigateable. Have a look.</p>
-
-<p><img src="/img/welding_county.png" alt="map+county" /></p>
-
+<p><img src="/img/welding_county.png" alt="map+county"></p>
 <p>To plot the <a href="https://basemaptutorial.readthedocs.io/en/latest/shapefile.html">shapeflies</a>, extract the .zip into a folder. On the code link it as follows:</p>
-
 <p><code>map.readshapefile('data/County', 'County')</code></p>
-
 <p>The folder where the shapefiles were extracted is called data. All the files in the folder
 shall have a common name, this is what you use before and after the comma.</p>
-
 <h4 id="basic-usage-of-shapefiles-in-basemap">Basic Usage of Shapefiles in basemap</h4>
-
-<pre><code class="language-from">import matplotlib.pyplot as plt
+<pre><code class="language-from" data-lang="from">import matplotlib.pyplot as plt
 
 map = Basemap(llcrnrlon=-0.5,llcrnrlat=39.8,urcrnrlon=4.,urcrnrlat=43.,
              resolution='i', projection='tmerc', lat_0 = 39.5, lon_0 = 1)
@@ -114,12 +101,8 @@ map.drawcoastlines()
 map.readshapefile('../sample_files/comarques', 'comarques')
 
 plt.show()
-</code></pre>
-
-<p>Using above examples I implemented the shapefile into my code as follows:</p>
-
+</code></pre><p>Using above examples I implemented the shapefile into my code as follows:</p>
 <h3 id="my-shapefile-implementation">My Shapefile Implementation</h3>
-
 <pre><code>from mpl_toolkits.basemap import Basemap
 import matplotlib.pyplot as plt
 import numpy as np
@@ -168,27 +151,17 @@ map.scatter(x, y, marker='s',color='m')
 
 plt.show()
 plt.savefig('Final_2.png')
-</code></pre>
-
-<h3 id="so-where-did-i-get-the-shapefiles">So where did I get the shapefiles?</h3>
-
+</code></pre><h3 id="so-where-did-i-get-the-shapefiles">So where did I get the shapefiles?</h3>
 <p>The shapefiles are from <a href="https://africaopendata.org/dataset/kenya-counties-shapefile">AfricaOpenData</a> and its available for free download. The shapefiles are
 authored by David Muthami and were last updated in December 2015. A huge thanks to David for
 the wonderful work.</p>
-
 <h2 id="roads-and-highways">Roads and Highways</h2>
-
 <p>For showing roads it was straight forward, thats what I thought.</p>
-
 <p>I got a shapefile for all roads from <a href="https://data.humdata.org/dataset/hotosm_ken_roads">OCHA</a> and when I ran the code, the laptop quickly ran out of RAM and
 froze. The dataset was over 100MB big and given that I had 7 workspaces running, that was the problem.</p>
-
 <p>I rebooted and ran the notebook again and this is what I got:</p>
-
-<p><img src="/img/roads_all.png" alt="map_roads" /></p>
-
+<p><img src="/img/roads_all.png" alt="map_roads"></p>
 <p>The map was super detailed, infact too detailed for my use.</p>
-
 <p>I think thats enough for today.</p>
 
     </div>

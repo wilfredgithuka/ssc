@@ -3,7 +3,7 @@
   <head>
     <title>Emacs&#43;LaTeX&#43;AuCTeX&#43;CJKutf8 Fonts Problem // StreetSmart Chinese 好记性不如烂笔头</title>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.59.1" />
+    <meta name="generator" content="Hugo 0.62.2" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="楚大洋 Wilfred Githuka" />
     <meta name="description" content="My Thoughts Sequence On How I Solved An Emacs-TeX Problem" />
@@ -64,78 +64,54 @@
         </div></div>
     </header>
     <div class="post-content">
-      
-
-<p>Today is a Monday and I have still not solved the Chinese input on Emacs issue. But I have decided to hold it
+      <p>Today is a Monday and I have still not solved the Chinese input on Emacs issue. But I have decided to hold it
 for a while since I have 2 pending reports to write. I plan to use emacs to write the English version then wps
 to produce the Chinese version. But today mornning I realised that my latex setup is still not complete. There
 are some errors during the compilation of AuCTEX to pdf. AuCTEX reports that: AUCTeX cannot find a working
 TeX distribution. After scouring some documentaton I think the problem could be my zsh PATH variable which is
 not correctly configured.</p>
-
 <h2 id="tex-live">Tex Live</h2>
-
 <p>Let me first install TeX live and see wether I can solve this problem. TeX live comes in 2 packages:</p>
-
 <ul>
 <li>teXLive-core (160MB)</li>
 <li>teXLive-most (600MB)</li>
 </ul>
-
 <p>So I choose the core package since the reports are due soon.</p>
-
 <p>sudo pacman -S texlive-core</p>
-
 <p>After 15mins the installation is complete.</p>
-
 <p>I have checked that the error seems to have gone, but I now have an issue. Last time I used a code to enable
 TeX to render Chinese characters in the pdf file. This was possible by adding the following:</p>
-
 <p>\usepackage{CJKutf8}</p>
-
 <p>\begin{document}
 \begin{CJK*}{UTF8}{gbsn</p>
-
 <p>\end{CJK*</p>
-
 <p>I cant seem to remember how I did this and I think this is contributing to the error.</p>
-
 <p>Let me check-up on how to solve this.</p>
-
 <p>This is a statement that I just got from a stackexchange website, but I forgot to not down the address. The
 write has cleared the air on this mysterious CJKutf8 stuff. Read along&hellip;</p>
-
 <p>CJKutf8 package is a part of CJK bundle, it is designed for documents in UTF-8 encoding only,
 and it actually loads CJK package internally.The main aim of CJKutf8 package is,
 to use utf8 option in inputenc package together with CJK package. That is to say, CJKutf8 patches
 original CJK package to make it work well with inputenc. And it loads inputenc package with utf8 option internally.
 Most users do not need to know the technical details. But you can use CJKutf8 to typeset French,
-German and Chinese in one document easily. That&rsquo;s it.</p>
-
+German and Chinese in one document easily. That's it.</p>
 <p>After reading the above I decided to dig more in the Archwiki site and discovered some new stuff.
 This article about <a href="https://wiki.archlinux.org/index.php/TeX_Live_and_CJK">TeX and CJK</a> says that
 I need to have texlive-langcjk installed. But after searching for it its not available, or even exist.
 So I have gone back to the TeX page of the wiki and discovered that there is a special package forgot
 to install.</p>
-
 <ul>
 <li>texlive-lang group contains packages providing character sets and features for non-English languages.</li>
 <li>texlive-langextra provides language support for African, Arabic, Armenian, Croatian, Hebrew, Indic,
 Mongolian, Tibetan and Vietnamese.</li>
 </ul>
-
 <p>I will install the texlive-lang group first then see the outcome. But its 250MB large.</p>
-
 <p>This installation took long so I went for lunch, after coming back and running the pdf production
 again, it was successful.</p>
-
 <p>What a process.</p>
-
 <p>So now I have it working, I can work on my reports. The only problem remaining is the Chinese input.
 I will figure out that later.</p>
-
 <h2 id="references-and-links">References and Links</h2>
-
 <ul>
 <li><a href="https://wiki.archlinux.org/index.php/TeX_Live#Installation">TeX Live on Archwiki</a></li>
 </ul>

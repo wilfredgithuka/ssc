@@ -3,7 +3,7 @@
   <head>
     <title>安装中文输入法在 Archlinux&#43;i3 系统 // StreetSmart Chinese 好记性不如烂笔头</title>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.59.1" />
+    <meta name="generator" content="Hugo 0.62.2" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="楚大洋 Wilfred Githuka" />
     <meta name="description" content="" />
@@ -14,14 +14,14 @@
 <meta name="twitter:title" content="安装中文输入法在 Archlinux&#43;i3 系统"/>
 <meta name="twitter:description" content="本文作者：楚大洋 本文链接：https://chinese.githuka.com 本文大小： 40kB 发表于：26号11月2019年 更新于：26号11月2019年 分类于：安装, 字形，fcitx 字数：100字 版权声明：本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！  终于我能使用中文输入法在我的电脑上。本说明书是为了你能使用一个中文输入法在 Archlinux 那种的系统。在普通的 Linux 系统有好多的专门中文输入法软件，可是如果本系统有 i3 的专门管理系统，你还是要找其他的中文输入法软件。
 安装相关的软件 首先你要安装 fcitx (Flexible Input Method Framework) ──即小企鹅输入法，它是一个以 GPL 方式发布的输入法平台,可以通过安装引擎支持多种输入法，支持简入繁出，是在 Linux 操作系统中常用的中文输入法。fcitx 还有其他的工具需要一起安装。按照以下的方式就好了。
-sudo pacman -S fcitx fcitx-sunpinyin fcitx-im fcitx-configtool  安装中文字形 sudo pacman -S sudo pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-sans-tw-fonts adobe-source-han-serif-cn-fonts adobe-source-han-serif-tw-fonts wqy-microhei wqy-zenhei opendesktop-fonts  设置 如果 fcitx 没有自动启动，请将 fcitx &amp; 加入 ~/.xinitrc. 把以下的内容也加入在 ~/.xinitrc
-GTK_IM_MODULE=fcitx QT_IM_MODULE=fcitx XMODIFIERS=@im=fcitx  如果你碰到一个问题， 你可以执行以下的命令。fcitx 会告诉你问题在那里."/>
+sudo pacman -S fcitx fcitx-sunpinyin fcitx-im fcitx-configtool 安装中文字形 sudo pacman -S sudo pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-sans-tw-fonts adobe-source-han-serif-cn-fonts adobe-source-han-serif-tw-fonts wqy-microhei wqy-zenhei opendesktop-fonts 设置 如果 fcitx 没有自动启动，请将 fcitx &amp; 加入 ~/.xinitrc. 把以下的内容也加入在 ~/.xinitrc
+GTK_IM_MODULE=fcitx QT_IM_MODULE=fcitx XMODIFIERS=@im=fcitx 如果你碰到一个问题， 你可以执行以下的命令。fcitx 会告诉你问题在那里."/>
 
     <meta property="og:title" content="安装中文输入法在 Archlinux&#43;i3 系统" />
 <meta property="og:description" content="本文作者：楚大洋 本文链接：https://chinese.githuka.com 本文大小： 40kB 发表于：26号11月2019年 更新于：26号11月2019年 分类于：安装, 字形，fcitx 字数：100字 版权声明：本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！  终于我能使用中文输入法在我的电脑上。本说明书是为了你能使用一个中文输入法在 Archlinux 那种的系统。在普通的 Linux 系统有好多的专门中文输入法软件，可是如果本系统有 i3 的专门管理系统，你还是要找其他的中文输入法软件。
 安装相关的软件 首先你要安装 fcitx (Flexible Input Method Framework) ──即小企鹅输入法，它是一个以 GPL 方式发布的输入法平台,可以通过安装引擎支持多种输入法，支持简入繁出，是在 Linux 操作系统中常用的中文输入法。fcitx 还有其他的工具需要一起安装。按照以下的方式就好了。
-sudo pacman -S fcitx fcitx-sunpinyin fcitx-im fcitx-configtool  安装中文字形 sudo pacman -S sudo pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-sans-tw-fonts adobe-source-han-serif-cn-fonts adobe-source-han-serif-tw-fonts wqy-microhei wqy-zenhei opendesktop-fonts  设置 如果 fcitx 没有自动启动，请将 fcitx &amp; 加入 ~/.xinitrc. 把以下的内容也加入在 ~/.xinitrc
-GTK_IM_MODULE=fcitx QT_IM_MODULE=fcitx XMODIFIERS=@im=fcitx  如果你碰到一个问题， 你可以执行以下的命令。fcitx 会告诉你问题在那里." />
+sudo pacman -S fcitx fcitx-sunpinyin fcitx-im fcitx-configtool 安装中文字形 sudo pacman -S sudo pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-sans-tw-fonts adobe-source-han-serif-cn-fonts adobe-source-han-serif-tw-fonts wqy-microhei wqy-zenhei opendesktop-fonts 设置 如果 fcitx 没有自动启动，请将 fcitx &amp; 加入 ~/.xinitrc. 把以下的内容也加入在 ~/.xinitrc
+GTK_IM_MODULE=fcitx QT_IM_MODULE=fcitx XMODIFIERS=@im=fcitx 如果你碰到一个问题， 你可以执行以下的命令。fcitx 会告诉你问题在那里." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://chinese.githuka.com/post/fcitx_jiejue/" />
 <meta property="article:published_time" content="2019-11-26T20:19:26+03:00" />
@@ -70,11 +70,9 @@ GTK_IM_MODULE=fcitx QT_IM_MODULE=fcitx XMODIFIERS=@im=fcitx  如果你碰到一�
         </div></div>
     </header>
     <div class="post-content">
-      
-
-<ul>
+      <ul>
 <li>本文作者：楚大洋</li>
-<li>本文链接：<a href="https://chinese.githuka.com">https://chinese.githuka.com</a></li>
+<li>本文链接：https://chinese.githuka.com</li>
 <li>本文大小： 40kB</li>
 <li>发表于：26号11月2019年</li>
 <li>更新于：26号11月2019年</li>
@@ -82,43 +80,23 @@ GTK_IM_MODULE=fcitx QT_IM_MODULE=fcitx XMODIFIERS=@im=fcitx  如果你碰到一�
 <li>字数：100字</li>
 <li>版权声明：本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</li>
 </ul>
-
 <p>终于我能使用中文输入法在我的电脑上。本说明书是为了你能使用一个中文输入法在 Archlinux 那种的系统。在普通的 Linux 系统有好多的专门中文输入法软件，可是如果本系统有 i3 的专门管理系统，你还是要找其他的中文输入法软件。</p>
-
 <h2 id="安装相关的软件">安装相关的软件</h2>
-
 <p>首先你要安装 fcitx (Flexible Input Method Framework) ──即小企鹅输入法，它是一个以 GPL 方式发布的输入法平台,可以通过安装引擎支持多种输入法，支持简入繁出，是在 Linux 操作系统中常用的中文输入法。fcitx 还有其他的工具需要一起安装。按照以下的方式就好了。</p>
-
 <pre><code>sudo pacman -S fcitx fcitx-sunpinyin fcitx-im fcitx-configtool
-</code></pre>
-
-<h2 id="安装中文字形">安装中文字形</h2>
-
+</code></pre><h2 id="安装中文字形">安装中文字形</h2>
 <pre><code>sudo pacman -S sudo pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-sans-tw-fonts adobe-source-han-serif-cn-fonts adobe-source-han-serif-tw-fonts wqy-microhei wqy-zenhei opendesktop-fonts
-</code></pre>
-
-<h2 id="设置">设置</h2>
-
+</code></pre><h2 id="设置">设置</h2>
 <p>如果 fcitx 没有自动启动，请将 fcitx &amp; 加入 ~/.xinitrc. 把以下的内容也加入在 ~/.xinitrc</p>
-
 <pre><code>GTK_IM_MODULE=fcitx
 QT_IM_MODULE=fcitx
 XMODIFIERS=@im=fcitx
-</code></pre>
-
-<p>如果你碰到一个问题， 你可以执行以下的命令。fcitx 会告诉你问题在那里.</p>
-
+</code></pre><p>如果你碰到一个问题， 你可以执行以下的命令。fcitx 会告诉你问题在那里.</p>
 <pre><code>fcitx diagnose
-</code></pre>
-
-<h2 id="重启电脑的问题">重启电脑的问题</h2>
-
+</code></pre><h2 id="重启电脑的问题">重启电脑的问题</h2>
 <p>一般使用fcitx没问题的， 但是你重启电脑后，打开fcitx的时候你会发现你没有中文输入法。这个是因为你重启电脑后，fcitx找不到 sunpinyin工具.</p>
-
 <p>你可以启动 fcitx-configtool, 先选择 sunpinyin 然后双击。随便调以任何的参数。确认 OK.</p>
-
 <p>你会发现没有任何的输入法，包括英语的。别担心。</p>
-
 <p>可以打开一个软件试试以下。问题已经解决了。</p>
 
     </div>

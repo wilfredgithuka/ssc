@@ -16,8 +16,7 @@
       <pubDate>Fri, 20 Jul 2018 17:48:48 +0300</pubDate>
       
       <guid>https://chinese.githuka.com/post/screenfetch/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://dominicm.com/wp-content/uploads/2016/03/screenfetch-arch-linux.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;img src=&#34;https://dominicm.com/wp-content/uploads/2016/03/screenfetch-arch-linux.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
 &lt;p&gt;screenFetch是一个Bash屏幕截图信息工具，可在执行时打印ASCII艺术以及基本系统信息。
 包括Arch Linux在内的许多发行版都支持独特的ASCII艺术。
 在登录时自动运行它以立即查看系统信息非常有用。&lt;/p&gt;</description>

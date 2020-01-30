@@ -3,7 +3,7 @@
   <head>
     <title>Adjusting Screen Brightness in Linux // StreetSmart Chinese 好记性不如烂笔头</title>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.59.1" />
+    <meta name="generator" content="Hugo 0.62.2" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="楚大洋 Wilfred Githuka" />
     <meta name="description" content="" />
@@ -12,12 +12,12 @@
     
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Adjusting Screen Brightness in Linux"/>
-<meta name="twitter:description" content="Brightness is a very important factor when using any device in this modern age. Many devices produce a large amount of light which is not good to for our eyes. To reduce the amount of light from your device&rsquo;s screen, enable/use a dark theme.
+<meta name="twitter:description" content="Brightness is a very important factor when using any device in this modern age. Many devices produce a large amount of light which is not good to for our eyes. To reduce the amount of light from your device&#39;s screen, enable/use a dark theme.
 In Linux, screen brightness is rather complex and I hope this brief article will help you understand.
 The brightness of the screen backlight is adjusted by setting the power level of the backlight LEDs or cathodes."/>
 
     <meta property="og:title" content="Adjusting Screen Brightness in Linux" />
-<meta property="og:description" content="Brightness is a very important factor when using any device in this modern age. Many devices produce a large amount of light which is not good to for our eyes. To reduce the amount of light from your device&rsquo;s screen, enable/use a dark theme.
+<meta property="og:description" content="Brightness is a very important factor when using any device in this modern age. Many devices produce a large amount of light which is not good to for our eyes. To reduce the amount of light from your device&#39;s screen, enable/use a dark theme.
 In Linux, screen brightness is rather complex and I hope this brief article will help you understand.
 The brightness of the screen backlight is adjusted by setting the power level of the backlight LEDs or cathodes." />
 <meta property="og:type" content="article" />
@@ -68,44 +68,25 @@ The brightness of the screen backlight is adjusted by setting the power level of
         </div></div>
     </header>
     <div class="post-content">
-      
-
-<p>Brightness is a very important factor when using any device in this modern age. Many devices produce
+      <p>Brightness is a very important factor when using any device in this modern age. Many devices produce
 a large amount of light which is not good to for our eyes. To reduce the amount of light from your
-device&rsquo;s screen, enable/use a dark theme.</p>
-
+device's screen, enable/use a dark theme.</p>
 <p>In Linux, screen brightness is rather complex and I hope this brief article will help you understand.</p>
-
 <p>The brightness of the screen backlight is adjusted by setting the power level of the backlight LEDs or cathodes.
 The power level can often be controlled using the ACPI kernel module for video.</p>
-
 <p>An interface to this module is provided via a sysfs directory at /sys/class/backlight/.</p>
-
 <h2 id="adjusting-the-brightness">Adjusting The Brightness</h2>
-
 <p>For this post I will be using a DELL laptop. First of all most commands require root access, so log-in as root.</p>
-
 <p>List the backlight graphics model:</p>
-
-<pre><code class="language-console">ls sys/class/backlight/intel_backlight
-</code></pre>
-
-<p>The maximum brightness can be found by reading from max_brightness, which is often 15.</p>
-
-<pre><code class="language-console">cat sys/class/backlight/intel_backlight/max_brightness
-</code></pre>
-
-<p>To set a specific brightness, add it to the brightness variable.</p>
-
-<pre><code class="language-console">echo &gt; 100 sys/class/backlight/intel_backlight/brightness
-</code></pre>
-
-<p>You can set whichever value you want depending on the brightness you require.</p>
-
+<pre><code class="language-console" data-lang="console">ls sys/class/backlight/intel_backlight
+</code></pre><p>The maximum brightness can be found by reading from max_brightness, which is often 15.</p>
+<pre><code class="language-console" data-lang="console">cat sys/class/backlight/intel_backlight/max_brightness
+</code></pre><p>To set a specific brightness, add it to the brightness variable.</p>
+<pre><code class="language-console" data-lang="console">echo &gt; 100 sys/class/backlight/intel_backlight/brightness
+</code></pre><p>You can set whichever value you want depending on the brightness you require.</p>
 <h3 id="references">References</h3>
-
 <ul>
-<li><a href="https://wiki.archlinux.org/index.php/backlight#Overview">Archlinux Wiki</a></li>
+<li>[Archlinux Wiki] (<a href="https://wiki.archlinux.org/index.php/backlight#Overview">https://wiki.archlinux.org/index.php/backlight#Overview</a>)</li>
 </ul>
 
     </div>

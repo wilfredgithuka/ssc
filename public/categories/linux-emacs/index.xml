@@ -16,7 +16,7 @@
       <pubDate>Fri, 18 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://chinese.githuka.com/blog/emacs_chinese_input/</guid>
-      <description>Since this year started my Chinese documentation has suffered alot since I don&amp;rsquo;t have Chinese input in Emacs. I use spacemacs as my primary text editor and really need Chinese input.
+      <description>Since this year started my Chinese documentation has suffered alot since I don&#39;t have Chinese input in Emacs. I use spacemacs as my primary text editor and really need Chinese input.
 Fcitx(Flexible Input Method Framework) currently works with the other apps together with Sogou input but not emacs. I seek to find out why. Running fcitx-diagnose says all is okay except for:
  Config GUI for gtk2: Config GUI for gtk2 not found.</description>
     </item>

@@ -3,7 +3,7 @@
   <head>
     <title>Printer Configuration in Archlinux // StreetSmart Chinese 好记性不如烂笔头</title>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.59.1" />
+    <meta name="generator" content="Hugo 0.62.2" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="楚大洋 Wilfred Githuka" />
     <meta name="description" content="" />
@@ -68,57 +68,31 @@ Installation Install the required packages for printing. CUPS is the standards-b
         </div></div>
     </header>
     <div class="post-content">
-      
-
-<p>Printing on Archlinux or generally Linux is not easy. Thus manual is a
+      <p>Printing on Archlinux or generally Linux is not easy. Thus manual is a
 guide on how to achieve printing on Archlinux.</p>
-
 <p>Note that I highly recommend the <a href="https://wiki.archlinux.org">Archlinux Wiki</a> which is more deep and explains the concepts better. My guide shall achieve the same results but faster.</p>
-
 <h2 id="installation">Installation</h2>
-
 <p>Install the required packages for printing. CUPS is the standards-based, open source printing system developed by Apple Inc. for macOS® and other UNIX®-like operating systems.</p>
-
 <pre><code>sudo pacman -S cups cups-pdf hplip libcups system-config-printer
-</code></pre>
-
-<h2 id="permissions">Permissions</h2>
-
+</code></pre><h2 id="permissions">Permissions</h2>
 <p>Add yourself to the <strong>lpadmin</strong> group to access the printing service.</p>
-
 <pre><code>sudo groupadd lpadmin
 sudo usermod -aG lpadmin username
-</code></pre>
-
-<h2 id="config">Config</h2>
-
+</code></pre><h2 id="config">Config</h2>
 <p>Edit the /etc/cups/cups-files.conf and add the <strong>SystemGroup</strong> line.</p>
-
 <pre><code>sudo nano /etc/cups/cups-files.conf
 
 SystemGroup sys root lpadmin
-</code></pre>
-
-<h2 id="cups-service">CUPS Service</h2>
-
+</code></pre><h2 id="cups-service">CUPS Service</h2>
 <p>Start the CUPS service. CUPS provides a org.cups.cupsd.socket unit. If org.cups.cupsd.socket is enabled (and org.cups.cupsd.service is disabled), systemd will not start CUPS immediately, it will just listen to the appropriate sockets.</p>
-
 <p>Then, whenever a program attempts to connect to one of these CUPS sockets, systemd will start org.cups.cupsd.service and transparently hand over control of these ports to the CUPS process.</p>
-
 <p>This way, CUPS is only started once a program wants to make use of the service.</p>
-
 <pre><code>sudo systemctl enable org.cups.cupsd.service
-</code></pre>
-
-<p>Reboot your machine for the changes to take place.</p>
-
+</code></pre><p>Reboot your machine for the changes to take place.</p>
 <h2 id="usage">Usage</h2>
-
 <p>Afer rebooting launch <strong>system-config-printer</strong> from the terminal, then
 enter your username and password.</p>
-
 <h2 id="references">References</h2>
-
 <ul>
 <li><a href="https://gorauskas.org/linux/arch/ArchPrintingSetup">Jonas Tech Notebook</a></li>
 <li><a href="https://wiki.archlinux.org/index.php/CUPS#Installation">Archlinux Wiki</a></li>

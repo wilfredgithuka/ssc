@@ -3,7 +3,7 @@
   <head>
     <title>2019年 安装Archlinux的过程 // StreetSmart Chinese 好记性不如烂笔头</title>
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.59.1" />
+    <meta name="generator" content="Hugo 0.62.2" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="楚大洋 Wilfred Githuka" />
     <meta name="description" content="" />
@@ -14,12 +14,12 @@
 <meta name="twitter:title" content="2019年 安装Archlinux的过程"/>
 <meta name="twitter:description" content="本文作者：楚大洋 本文链接：https://chinese.githuka.com 本文大小： 40kB 发表于：10号11月2019年 更新于：10号11月2019年 分类于：安装 字数：1000字 版权声明： 本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！  介绍 什么是 Archlinux？ Arch Linux 是通用 x86-64 GNU/Linux 发行版。Arch采用滚动升级模式，尽全力提供最新的稳定版软件。 初始安装的Arch只是一个基本系统，随后用户可以根据自己的喜好安装需要的软件并配置成符合自己理想的系统. Arch Linux是朝向轻量 （lightweight）以及简单（simple）的Linux发行版。其中“简单”（Simplicity）被定义为“避免不必要或复杂的修改”， 也就是说，是由开发者角度定义，而非用户角度思考.
 准备工作 下载注系统 U盘刻录 还源 使用国内的源有更快的下载速度。pacman能够测试不同源的速度并给他们排名。我选择的是国际畜牧研究所在肯尼亚。下载速度能够达到10秒每分钟。
-磁盘分区 安装系统 下载需要的基本软件 配置系统 生成磁盘分区表 进入新系统 设定时区 本地化甚至 设置主机名 root用户密码改变 安装引导程序 完成安装 基本设置 安装中文字形 sudo pacman -S sudo pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-sans-tw-fonts adobe-source-han-serif-cn-fonts adobe-source-han-serif-tw-fonts wqy-microhei wqy-zenhei opendesktop-fonts  安装中文输入法 sudo pacman -S fcitx fcitx-sunpinyin fcitx-im fcitx-configtool  如果 fcitx 没有自动启动，请将 fcitx &amp; 加入 ~/."/>
+磁盘分区 安装系统 下载需要的基本软件 配置系统 生成磁盘分区表 进入新系统 设定时区 本地化甚至 设置主机名 root用户密码改变 安装引导程序 完成安装 基本设置 安装中文字形 sudo pacman -S sudo pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-sans-tw-fonts adobe-source-han-serif-cn-fonts adobe-source-han-serif-tw-fonts wqy-microhei wqy-zenhei opendesktop-fonts 安装中文输入法 sudo pacman -S fcitx fcitx-sunpinyin fcitx-im fcitx-configtool 如果 fcitx 没有自动启动，请将 fcitx &amp; 加入 ~/."/>
 
     <meta property="og:title" content="2019年 安装Archlinux的过程" />
 <meta property="og:description" content="本文作者：楚大洋 本文链接：https://chinese.githuka.com 本文大小： 40kB 发表于：10号11月2019年 更新于：10号11月2019年 分类于：安装 字数：1000字 版权声明： 本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！  介绍 什么是 Archlinux？ Arch Linux 是通用 x86-64 GNU/Linux 发行版。Arch采用滚动升级模式，尽全力提供最新的稳定版软件。 初始安装的Arch只是一个基本系统，随后用户可以根据自己的喜好安装需要的软件并配置成符合自己理想的系统. Arch Linux是朝向轻量 （lightweight）以及简单（simple）的Linux发行版。其中“简单”（Simplicity）被定义为“避免不必要或复杂的修改”， 也就是说，是由开发者角度定义，而非用户角度思考.
 准备工作 下载注系统 U盘刻录 还源 使用国内的源有更快的下载速度。pacman能够测试不同源的速度并给他们排名。我选择的是国际畜牧研究所在肯尼亚。下载速度能够达到10秒每分钟。
-磁盘分区 安装系统 下载需要的基本软件 配置系统 生成磁盘分区表 进入新系统 设定时区 本地化甚至 设置主机名 root用户密码改变 安装引导程序 完成安装 基本设置 安装中文字形 sudo pacman -S sudo pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-sans-tw-fonts adobe-source-han-serif-cn-fonts adobe-source-han-serif-tw-fonts wqy-microhei wqy-zenhei opendesktop-fonts  安装中文输入法 sudo pacman -S fcitx fcitx-sunpinyin fcitx-im fcitx-configtool  如果 fcitx 没有自动启动，请将 fcitx &amp; 加入 ~/." />
+磁盘分区 安装系统 下载需要的基本软件 配置系统 生成磁盘分区表 进入新系统 设定时区 本地化甚至 设置主机名 root用户密码改变 安装引导程序 完成安装 基本设置 安装中文字形 sudo pacman -S sudo pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-sans-tw-fonts adobe-source-han-serif-cn-fonts adobe-source-han-serif-tw-fonts wqy-microhei wqy-zenhei opendesktop-fonts 安装中文输入法 sudo pacman -S fcitx fcitx-sunpinyin fcitx-im fcitx-configtool 如果 fcitx 没有自动启动，请将 fcitx &amp; 加入 ~/." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://chinese.githuka.com/post/archlinux_anzhuang/" />
 <meta property="article:published_time" content="2019-11-10T12:29:13+03:00" />
@@ -68,11 +68,9 @@
         </div></div>
     </header>
     <div class="post-content">
-      
-
-<ul>
+      <ul>
 <li>本文作者：楚大洋</li>
-<li>本文链接：<a href="https://chinese.githuka.com">https://chinese.githuka.com</a></li>
+<li>本文链接：https://chinese.githuka.com</li>
 <li>本文大小： 40kB</li>
 <li>发表于：10号11月2019年</li>
 <li>更新于：10号11月2019年</li>
@@ -80,80 +78,46 @@
 <li>字数：1000字</li>
 <li>版权声明： 本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</li>
 </ul>
-
 <h2 id="介绍">介绍</h2>
-
 <p>什么是 Archlinux？ Arch Linux 是通用 x86-64 GNU/Linux 发行版。Arch采用滚动升级模式，尽全力提供最新的稳定版软件。
 初始安装的Arch只是一个基本系统，随后用户可以根据自己的喜好安装需要的软件并配置成符合自己理想的系统. Arch Linux是朝向轻量
 （lightweight）以及简单（simple）的Linux发行版。其中“简单”（Simplicity）被定义为“避免不必要或复杂的修改”，
 也就是说，是由开发者角度定义，而非用户角度思考.</p>
-
 <h2 id="准备工作">准备工作</h2>
-
 <h3 id="下载注系统">下载注系统</h3>
-
 <h3 id="u盘刻录">U盘刻录</h3>
-
 <h3 id="还源">还源</h3>
-
 <p>使用国内的源有更快的下载速度。pacman能够测试不同源的速度并给他们排名。我选择的是国际畜牧研究所在肯尼亚。下载速度能够达到10秒每分钟。</p>
-
 <h3 id="磁盘分区">磁盘分区</h3>
-
 <h2 id="安装系统">安装系统</h2>
-
 <h2 id="下载需要的基本软件">下载需要的基本软件</h2>
-
 <h2 id="配置系统">配置系统</h2>
-
 <h3 id="生成磁盘分区表">生成磁盘分区表</h3>
-
 <h3 id="进入新系统">进入新系统</h3>
-
 <h3 id="设定时区">设定时区</h3>
-
 <h3 id="本地化甚至">本地化甚至</h3>
-
 <h3 id="设置主机名">设置主机名</h3>
-
 <h3 id="root用户密码改变">root用户密码改变</h3>
-
 <h3 id="安装引导程序">安装引导程序</h3>
-
 <h2 id="完成安装">完成安装</h2>
-
 <h2 id="基本设置">基本设置</h2>
-
 <h3 id="安装中文字形">安装中文字形</h3>
-
 <pre><code>sudo pacman -S sudo pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-sans-tw-fonts adobe-source-han-serif-cn-fonts adobe-source-han-serif-tw-fonts wqy-microhei wqy-zenhei opendesktop-fonts
-</code></pre>
-
-<h3 id="安装中文输入法">安装中文输入法</h3>
-
+</code></pre><h3 id="安装中文输入法">安装中文输入法</h3>
 <pre><code>sudo pacman -S fcitx fcitx-sunpinyin fcitx-im fcitx-configtool
-</code></pre>
-
-<p>如果 fcitx 没有自动启动，请将 fcitx &amp; 加入 ~/.xinitrc. 把以下的内容也加入在 ~/.xinitrc</p>
-
+</code></pre><p>如果 fcitx 没有自动启动，请将 fcitx &amp; 加入 ~/.xinitrc. 把以下的内容也加入在 ~/.xinitrc</p>
 <pre><code>GTK_IM_MODULE=fcitx
 QT_IM_MODULE=fcitx
 XMODIFIERS=@im=fcitx
-</code></pre>
-
-<p>如果有问题的话，可以参考<a href="https://chinese.githuka.com/post/fcitx_jiejue/">这个文章</a>。</p>
-
+</code></pre><p>如果有问题的话，可以参考<a href="https://chinese.githuka.com/post/fcitx_jiejue/">这个文章</a>。</p>
 <h2 id="结论">结论</h2>
-
 <h2 id="参考文章">参考文章</h2>
-
 <ul>
-<li>[Archlinux.org](<a href="https://wiki.archlinux.org/index.php/Arch_Linux_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87">https://wiki.archlinux.org/index.php/Arch_Linux_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87</a>)</li>
+<li>[Archlinux.org](<a href="https://wiki.archlinux.org/index.php/Arch_Linux_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)">https://wiki.archlinux.org/index.php/Arch_Linux_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)</a></li>
 <li><a href="http://panqiincs.me/2019/06/05/after-installing-manjaro/">辛未羊的博客</a></li>
 <li><a href="https://idzc.me/">Ignorant</a></li>
 <li><a href="https://www.jianshu.com/p/de86e28d10c2">简述-运维杂谈 | Caffe on ArchLinux (其一)</a></li>
 </ul>
-
 <h2 id="相关文档">相关文档</h2>
 
     </div>

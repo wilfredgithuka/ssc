@@ -5,10 +5,30 @@
     <link>https://chinese.githuka.com/</link>
     <description>Recent content on StreetSmart Chinese 好记性不如烂笔头</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 26 Nov 2019 20:19:26 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jan 2020 08:44:30 +0300</lastBuildDate>
     
 	<atom:link href="https://chinese.githuka.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mapping Project 说明书</title>
+      <link>https://chinese.githuka.com/post/mapping_manual/</link>
+      <pubDate>Thu, 30 Jan 2020 08:44:30 +0300</pubDate>
+      
+      <guid>https://chinese.githuka.com/post/mapping_manual/</guid>
+      <description>安装 Anaonda编程环境 Anaconda 编程环境是个很好的编程工具包。你先打开这个网站，
+然后下载Anaconda的Bash Script. 注意选择根据你现在使用的主系统。
+首先执行(换允许)
+chmod +x script-name-here.sh 然后可以直接执行
+./script-name-here.sh 在 ~/.zshrc 加一下的内容：
+unset __conda_setup # &amp;lt;&amp;lt;&amp;lt; conda initialize &amp;lt;&amp;lt;&amp;lt; 然后执行
+/home/wilfred/miniconda3/bin/conda init zsh 打开新的Terminal窗户，看看有没有Conda成功
+安装配合软件 创建一个新的工作环境
+conda create -n mapping 然后启用
+conda activate mapping 安装工具
+conda install mapping 到时候Anaconda会自动开始安装相关的工具软件。轻笑等。。。 你可以随时更新Anacoda:
+conda update -n base -c defaults conda 成功，您的Anaconda环境现在可以开始使用。</description>
+    </item>
     
     <item>
       <title>安装中文输入法在 Archlinux&#43;i3 系统</title>
@@ -18,8 +38,8 @@
       <guid>https://chinese.githuka.com/post/fcitx_jiejue/</guid>
       <description>本文作者：楚大洋 本文链接：https://chinese.githuka.com 本文大小： 40kB 发表于：26号11月2019年 更新于：26号11月2019年 分类于：安装, 字形，fcitx 字数：100字 版权声明：本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！  终于我能使用中文输入法在我的电脑上。本说明书是为了你能使用一个中文输入法在 Archlinux 那种的系统。在普通的 Linux 系统有好多的专门中文输入法软件，可是如果本系统有 i3 的专门管理系统，你还是要找其他的中文输入法软件。
 安装相关的软件 首先你要安装 fcitx (Flexible Input Method Framework) ──即小企鹅输入法，它是一个以 GPL 方式发布的输入法平台,可以通过安装引擎支持多种输入法，支持简入繁出，是在 Linux 操作系统中常用的中文输入法。fcitx 还有其他的工具需要一起安装。按照以下的方式就好了。
-sudo pacman -S fcitx fcitx-sunpinyin fcitx-im fcitx-configtool  安装中文字形 sudo pacman -S sudo pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-sans-tw-fonts adobe-source-han-serif-cn-fonts adobe-source-han-serif-tw-fonts wqy-microhei wqy-zenhei opendesktop-fonts  设置 如果 fcitx 没有自动启动，请将 fcitx &amp;amp; 加入 ~/.xinitrc. 把以下的内容也加入在 ~/.xinitrc
-GTK_IM_MODULE=fcitx QT_IM_MODULE=fcitx XMODIFIERS=@im=fcitx  如果你碰到一个问题， 你可以执行以下的命令。fcitx 会告诉你问题在那里.</description>
+sudo pacman -S fcitx fcitx-sunpinyin fcitx-im fcitx-configtool 安装中文字形 sudo pacman -S sudo pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-sans-tw-fonts adobe-source-han-serif-cn-fonts adobe-source-han-serif-tw-fonts wqy-microhei wqy-zenhei opendesktop-fonts 设置 如果 fcitx 没有自动启动，请将 fcitx &amp;amp; 加入 ~/.xinitrc. 把以下的内容也加入在 ~/.xinitrc
+GTK_IM_MODULE=fcitx QT_IM_MODULE=fcitx XMODIFIERS=@im=fcitx 如果你碰到一个问题， 你可以执行以下的命令。fcitx 会告诉你问题在那里.</description>
     </item>
     
     <item>
@@ -28,7 +48,7 @@ GTK_IM_MODULE=fcitx QT_IM_MODULE=fcitx XMODIFIERS=@im=fcitx  如果你碰到一�
       <pubDate>Sun, 17 Nov 2019 09:54:19 +0300</pubDate>
       
       <guid>https://chinese.githuka.com/post/state_corporations/</guid>
-      <description> 说明：
+      <description>说明：
 Authority 局
 财政  Kenya Investment Authority 肯尼亚投资局 IDB Capital Limited Agricultural Finance Corporation 农业金融公司 Consolidated Bank 巩固银行 Deposit Protection Fund Board 存款保障基金委员会 Industrial and Commercial Development Corporation 工商发展公司 Industrial Development Bank 工业发展银行 Kenya Industrial Estates 肯尼亚工业区 Kenya National Assurance Company 肯尼亚国家保险公司 Kenya Post Office Savings Bank 肯尼亚邮政储蓄银行 Kenya Re-Insurance Corporation 肯尼亚再保险公司 Kenya Revenue Authority 肯尼亚税务局 Kenya Roads Board 肯尼亚道路委员会 Kenya Tourist Development Corporation 肯尼亚旅游发展公司 National Bank of Kenya 肯尼亚国家银行 National Hospital Insurance Fund 国家医院保险基金 National Social Security Fund 国家社会保障基金  商业和制造业  Agro-Chemicals and Food Company 农化食品公司 Chemelil Sugar Company Chemelil 制糖公司 East African Portland Cement Company 东非波特兰水泥公司 Gilgil Telecommunications Industries Gilgil电信工业 Jomo Kenyatta Foundation Jomo·肯雅塔基金会 Kenya Airports Authority 肯尼亚机场管理局 Kenya Broadcasting Corporation 肯尼亚广播公司 Kenya Electricity Generating Company 肯尼亚发电公司 Kenya Literature Bureau 肯尼亚文学局 Kenya Ordinance Factories Corporation 肯尼亚条例工厂公司 Kenya Pipeline Company 肯尼亚管道公司 Kenya Ports Authority 肯尼亚管口管理局 Kenya Power Company 肯尼亚电力公司 Kenya Railways Corporation 肯尼亚铁路公司 Kenya Civil Aviation Authority 肯尼亚民航局 Kenya Safari Lodges and Hotels 肯尼亚野生动物园和旅馆 Kenya Seed Company Limited 肯尼亚种子有限公司 Kenya Wine Agencies 肯尼亚葡萄酒代理商 Kenyatta International Convention Center 肯雅塔国际会议中心 National Cereals and Produce Board 国家谷物和农产品委员会 National Housing Corporation 国家住房公司 National Oil Corporation of Kenya 肯尼亚国家石油公司 National Water Conservation and Pipeline Corporation 国家节水管道公司 Numerical Machining Complex 数控加工中心 Nzoia Sugar Company Nzoia糖业公司 Postal Corporation of Kenya 肯尼亚邮政公司 Pyrethrum Board of Kenya 肯尼亚除虫菊委员会 School Equipment Production Unit 学校设施生产单位 South Nyanza Sugar Company Nyanza南糖业公司 Telkom Kenya Limited 肯尼亚电信有限公司 University of Nairobi Enterprises and Services Limited 内落比大学企业服务有限公司 New Kenya Co-operative Creameries Limited 新肯尼亚合作乳品有限公司 Kenya Electricity Transmission Company 肯尼亚输电公司  公立大学  University of Embu Embu大学 Egerton University Egerton大学 Jomo Kenyatta University of Agriculture and Technology Jomo肯雅塔农业和科技大学 Kenyatta University 肯雅塔大学 Western University College of Science and Technology 西部大学科技学院 Maseno University Maseno大学 Moi University Moi大学 University of Nairobi 内落比大学  培训和研究  Kenya Universities and Colleges Central Placement Service Coffee Research Foundation Kenya Agricultural Research Institute Kenya Forestry Research Institute Kenya Industrial Research and Development Institute Kenya Institute of Administration Kenya Institute of Public Policy Research and Analysis Kenya Marine and Fisheries Research Institute Kenya Medical Research Institute Kenya Sugar Research Foundation National Museums of Kenya Tea Research Foundation Kenya Institute of Education Kenya Education Staff Institute  服务公司  Agricultural Development Corporation Bomas of Kenya Central Water Services Board Coast Water Services Board Higher Education Loans Board Kenya Accountants and Secretaries National Examination Board Kenya Ferry Services Kenya National Library Services Kenya Tourist Board Kenya Wildlife Service Kenyatta National Hospital Lake Victoria North Water Services Board Local Authorities Provident Fund Moi Teaching and Referral Hospital Nairobi Water Services Board National Aids Control Council National Council for Law Reporting National Sports Stadia Management Board Northern Water Services Board Rift Valley Water Services Board Water Resources Management Authority Water Services Trust Fund Lake Victoria South Water Services Board National Authority for the Campaign Against Alcohol and Drug Abuse Athi Water Services Board Kenya National Examination Council  区域发展  Coast Development Authority Ewaso Ng’iro North Development Authority Ewaso Ng’iro South Development Authority Kerio Valley Development Authority Lake Basin Development Authority Tana and Athi Rivers Development Authority  高等教育和培训  Cooperative College of Kenya Kenya College of Communications Technology Kenya Medical Training College Kenya Utalii College Kenya Water Institute  管理  Kenya Veterinary Board Kenya Leather Development Council Unclaimed Financial Assets Authority Capital Markets Authority Catering and Tourism Development Levy Trustee Coffee Board of Kenya Commission for University Education Communication authority Council for Legal Education Energy Regulatory Commission Export Promotion Council Horticultural Crops Development Authority Kenya Bureau of Standards Kenya Dairy Board Kenya Industrial Property Institute Kenya Plant Health Inspectorate Services Kenya Sisal Board Kenya Sugar Board Maritime Authority National Environment Management Authority National Irrigation Board Public Benfeits Organizations Regulatory Authority Tea Board of Kenya Water Services Regulatory Board Transport Licensing Board Catering Training &amp;amp; Tourism Development Levy Trustees Export Promotion Council Export Processing Zones Authority Kenya Bureau of Standards  </description>
     </item>
@@ -39,7 +59,7 @@ Authority 局
       <pubDate>Tue, 12 Nov 2019 22:48:01 +0300</pubDate>
       
       <guid>https://chinese.githuka.com/post/wednesday_12_11_2019/</guid>
-      <description> 以下是我今天的阅读计划
+      <description>以下是我今天的阅读计划
 早上在路上去学校 阅读时间：40分钟 阅读内容：无人驾驶汽车：这里有你应该知道的一切
  本文作者：撩车办 本文链接：简书 发表于： 2018-06-07  什么是无人驾驶？ 顾名思义，真正的无人驾驶汽车必须能够导航到目的地，自动避开障碍物，并且在没有任何人为干预的情况下停车。
 为了实现这一目标，无人驾驶汽车必须具有感知周围环境的人工智能系统，以处理视觉数据并确定如何避免碰撞、操作汽车机械（如转向和刹车）、使用GPS追踪汽车当前的位置和目的地。
@@ -63,7 +83,7 @@ Authority 局
       <pubDate>Mon, 11 Nov 2019 19:32:04 +0300</pubDate>
       
       <guid>https://chinese.githuka.com/post/ji_rou/</guid>
-      <description>  本文作者：楚大洋 本文链接：https://chinese.githuka.com 本文大小： 40kB 发表于：10号11月2019年 更新于：10号11月2019年 分类于：安装 字数：1000字 版权声明： 本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！  周一: 养猪场里为猪割蛋蛋，男子阉割手法熟练  本文作者：鸿蒙圣主 本文链接：360doc.com 发表于： 2016-11-28  一个养猪场里，男子手里端着刀具和药物，下一步就是给猪仔进行阉割手术！这是防止它们交 配繁殖，提高猪的生长！所要进行的步骤！
+      <description> 本文作者：楚大洋 本文链接：https://chinese.githuka.com 本文大小： 40kB 发表于：10号11月2019年 更新于：10号11月2019年 分类于：安装 字数：1000字 版权声明： 本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！  周一: 养猪场里为猪割蛋蛋，男子阉割手法熟练  本文作者：鸿蒙圣主 本文链接：360doc.com 发表于： 2016-11-28  一个养猪场里，男子手里端着刀具和药物，下一步就是给猪仔进行阉割手术！这是防止它们交 配繁殖，提高猪的生长！所要进行的步骤！
 男子直接抓住一只小猪，手里的专业的小刀，在猪仔的蛋蛋上划开两个孔，专业是没有打麻药 的，男子的速度很快！
 随后经过挤压把猪仔的睾丸挤出，专业就可以去除掉了！男子手法熟练！ 当然取出后要在猪仔的伤口上撒上药物，促进伤口的愈合！这样就基本上完成了猪仔的阉割手 术！一分多钟就搞定。
 收集的睾丸在盘子里，一般拿给男人吃的，是个大补品！不过要用刀破开每个睾丸，然后用水 去骚味。放点姜末清蒸也可小炒。
@@ -84,7 +104,7 @@ Authority 局
       <guid>https://chinese.githuka.com/post/archlinux_anzhuang/</guid>
       <description>本文作者：楚大洋 本文链接：https://chinese.githuka.com 本文大小： 40kB 发表于：10号11月2019年 更新于：10号11月2019年 分类于：安装 字数：1000字 版权声明： 本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！  介绍 什么是 Archlinux？ Arch Linux 是通用 x86-64 GNU/Linux 发行版。Arch采用滚动升级模式，尽全力提供最新的稳定版软件。 初始安装的Arch只是一个基本系统，随后用户可以根据自己的喜好安装需要的软件并配置成符合自己理想的系统. Arch Linux是朝向轻量 （lightweight）以及简单（simple）的Linux发行版。其中“简单”（Simplicity）被定义为“避免不必要或复杂的修改”， 也就是说，是由开发者角度定义，而非用户角度思考.
 准备工作 下载注系统 U盘刻录 还源 使用国内的源有更快的下载速度。pacman能够测试不同源的速度并给他们排名。我选择的是国际畜牧研究所在肯尼亚。下载速度能够达到10秒每分钟。
-磁盘分区 安装系统 下载需要的基本软件 配置系统 生成磁盘分区表 进入新系统 设定时区 本地化甚至 设置主机名 root用户密码改变 安装引导程序 完成安装 基本设置 安装中文字形 sudo pacman -S sudo pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-sans-tw-fonts adobe-source-han-serif-cn-fonts adobe-source-han-serif-tw-fonts wqy-microhei wqy-zenhei opendesktop-fonts  安装中文输入法 sudo pacman -S fcitx fcitx-sunpinyin fcitx-im fcitx-configtool  如果 fcitx 没有自动启动，请将 fcitx &amp;amp; 加入 ~/.</description>
+磁盘分区 安装系统 下载需要的基本软件 配置系统 生成磁盘分区表 进入新系统 设定时区 本地化甚至 设置主机名 root用户密码改变 安装引导程序 完成安装 基本设置 安装中文字形 sudo pacman -S sudo pacman -S adobe-source-han-sans-cn-fonts adobe-source-han-sans-tw-fonts adobe-source-han-serif-cn-fonts adobe-source-han-serif-tw-fonts wqy-microhei wqy-zenhei opendesktop-fonts 安装中文输入法 sudo pacman -S fcitx fcitx-sunpinyin fcitx-im fcitx-configtool 如果 fcitx 没有自动启动，请将 fcitx &amp;amp; 加入 ~/.</description>
     </item>
     
     <item>
@@ -94,7 +114,8 @@ Authority 局
       
       <guid>https://chinese.githuka.com/blog/problems/</guid>
       <description>The following are some of the issues which remain unsolved so far in my ArchLinux i3 Chinese machine. Some are language specific, some are just system based configuration.
-No Chinese Input Support in Spacemacs This is by far the biggest issue am yet to solve. Last year I remeber solving this issue but because I did not document my process, after re-installing Archlinux I have to do it again.</description>
+No Chinese Input Support in Spacemacs This is by far the biggest issue am yet to solve. Last year I remeber solving this issue but because I did not document my process, after re-installing Archlinux I have to do it again.
+Here is where the importance of documenting one&#39;s progress.</description>
     </item>
     
     <item>
@@ -103,7 +124,7 @@ No Chinese Input Support in Spacemacs This is by far the biggest issue am yet to
       <pubDate>Sat, 26 Oct 2019 18:57:43 +0300</pubDate>
       
       <guid>https://chinese.githuka.com/post/weishengwu/</guid>
-      <description> 今天是我们微生物的第一次上课。老师首先自己介绍然后后来介绍这门课。到目前我觉得微生物还是很有意思。整个天我们都在忙着整理好我们的实验室，包括打扫卫生。在我们的培训学员们里面有三位是微生物专业的。我今天都在问问几个问题，让我自己深入理解一些概念。他们教我了好多新的内容。我的生物的知识今天充满了。中午我一直都在差资料，看一些教育视频多理解微生物的科学。
+      <description>今天是我们微生物的第一次上课。老师首先自己介绍然后后来介绍这门课。到目前我觉得微生物还是很有意思。整个天我们都在忙着整理好我们的实验室，包括打扫卫生。在我们的培训学员们里面有三位是微生物专业的。我今天都在问问几个问题，让我自己深入理解一些概念。他们教我了好多新的内容。我的生物的知识今天充满了。中午我一直都在差资料，看一些教育视频多理解微生物的科学。
 细菌Bacteria和病毒Virus有什么区别 病毒是一种个体微小，结构简单，只含一种核酸（DNA或RNA），必须在活细胞内寄生并以复制方式增殖的非细胞型生物。细菌Bacteria是指生物的主要类群之一，属于细菌域。也是所有生物中数量最多的一类，据估计，其总数约有5×10^30个。细菌的形状相当多样，主要有球状、杆状，以及螺旋状。
 大小不同 细菌较大，用普通光学显微镜就可看到，它们的生长条件也不高。由于细菌有它的生长及代谢方式，人类已有称之为抗菌素antibiotic的特殊武器对付它。病毒则比较小，一般要用放大倍数超过万倍的电子显微镜才能看到。
 构造不同 细菌：原核生物的一种，主要特点是没有核膜，其遗传物质分散在细胞质内一个相对固定的区域内，称为核区。细菌的外边包裹着一层细胞壁，一般为多糖聚合而成。
@@ -219,7 +240,7 @@ Linux应用开发学什么 Linux的学习很多会以命令为主，因而初学
       <pubDate>Fri, 20 Sep 2019 15:45:47 +0000</pubDate>
       
       <guid>https://chinese.githuka.com/post/17_kechixu_fazhan/</guid>
-      <description> 联合国可持续发展目标（Sustainable Development Goals）是一系列新的发展目标，将在千年发展目标到期之后继续指导2015-2030年的全球发展工作。2015年9月25日，联合国可持续发展峰会即将在纽约总部召开，联合国193个成员国将在峰会上正式通过17个可持续发展目标。可持续发展目标旨在从2015年到2030年间以综合方式彻底解决社会、经济和环境三个维度的发展问题，转向可持续发展道路。 可持续发展目标将指导2015年至2030年的全球发展政策和资金使用。可持续发展目标作出了历史性的承诺：首要目标是在世界每一个角落永远消除贫困。
+      <description>联合国可持续发展目标（Sustainable Development Goals）是一系列新的发展目标，将在千年发展目标到期之后继续指导2015-2030年的全球发展工作。2015年9月25日，联合国可持续发展峰会即将在纽约总部召开，联合国193个成员国将在峰会上正式通过17个可持续发展目标。可持续发展目标旨在从2015年到2030年间以综合方式彻底解决社会、经济和环境三个维度的发展问题，转向可持续发展道路。 可持续发展目标将指导2015年至2030年的全球发展政策和资金使用。可持续发展目标作出了历史性的承诺：首要目标是在世界每一个角落永远消除贫困。
 从千年发展目标出发 2015年是千年发展目标的收官之年。2000年9月，世界各国通过为期15年的千年发展目标， 团结协作，应对贫困问题。自那以来，联合国发展集团一直致力于落实八大千年发展目标。
  消除贫困 消除饥饿 良好健康与福祉 优质教育 性别平等 清洁饮水与卫生设施 廉价和清洁能源 体面工作和经济增长 工业、创新和基础设施 缩小差距 可持续城市和社区 负责任的消费和生产 气候行动 水下生物 陆地生物 和平、正义与强大机构 促进目标实现的伙伴关系  </description>
     </item>
@@ -230,15 +251,15 @@ Linux应用开发学什么 Linux的学习很多会以命令为主，因而初学
       <pubDate>Wed, 18 Sep 2019 18:01:05 +0000</pubDate>
       
       <guid>https://chinese.githuka.com/post/sheng_chan_niu_nai/</guid>
-      <description> 以下是一个很简单的纯牛奶生产工艺流程。在这个说明，纯牛奶已经在配料灌里面。我们会把这个纯牛奶通过杀菌和均质机去发酵管子然后可以包装。
+      <description>以下是一个很简单的纯牛奶生产工艺流程。在这个说明，纯牛奶已经在配料灌里面。我们会把这个纯牛奶通过杀菌和均质机去发酵管子然后可以包装。
 注意：检查，检查和再检查。设备的压力，温度和电压的范围很大。如果你不懂的话，请不要按什么按钮。多思考可以操作。生产里面的一些泵，很容易出了故障，先开阀门再打开泵。
 电源 整个车间的稳定电压是三相415伏。在总控制柜上，可以调一下，所有的相的电压必须是415V.
 外面的水泵-净水 检查外面的水泵有没有水（检查灌内水充足）。你打开泵。一个泵是为了原水通过过滤。第二个泵送水到生产线上。
 空压机 先打开空压缩机然后设置上线压力为0.8MPa.
 冰水机 先检查冰水级的进水阀门打开。打开后可以设置冰水的温度为2度
 检查阀门是否正确 检查阀门是一个很重要的事情。按照以下的顺序：
- 均质机的阀门打开。 均质机的两个压力阀门必须为松开。 缓冲罐子下面的进牛奶阀门为关闭状态。 缓冲罐子上面的阀门为关闭，排地下。 检查一下是否热水罐子的谁充满（注意安全，排地下的水很热） 检查后面的杀菌机的一些阀门的状态 打开冷却水的两个阀门：上面为了均质机，下面为了CP102和CP103泵冷却。 再检查均质机的冷却水喷嘴。 检查V101处于关闭状态（处于中间位置） 确保V301为关闭状态  设置温度 打开UHT控制柜。 上面的三个灯打开的时候，控制柜已经打开好了。可以开始设置参数 * 设置热水温度130℃ * 杀菌温度125℃ * 罐装温度20℃ 同时进入智能控制温度设置警报温度（注意探头型号及温度单位，LL：15；L：20；H：130；HH：135）。
-开始SIP </description>
+ 均质机的阀门打开。 均质机的两个压力阀门必须为松开。 缓冲罐子下面的进牛奶阀门为关闭状态。 缓冲罐子上面的阀门为关闭，排地下。 检查一下是否热水罐子的谁充满（注意安全，排地下的水很热） 检查后面的杀菌机的一些阀门的状态 打开冷却水的两个阀门：上面为了均质机，下面为了CP102和CP103泵冷却。 再检查均质机的冷却水喷嘴。 检查V101处于关闭状态（处于中间位置） 确保V301为关闭状态  设置温度 打开UHT控制柜。 上面的三个灯打开的时候，控制柜已经打开好了。可以开始设置参数
+ 设置热水温度130℃ 杀菌温度125℃ 罐装温度20℃ 同时进入智能控制温度设置警报温度（注意探头型号及温度单位，LL：15；L：20；H：130；HH：135）。  开始SIP </description>
     </item>
     
     <item>
@@ -247,7 +268,7 @@ Linux应用开发学什么 Linux的学习很多会以命令为主，因而初学
       <pubDate>Mon, 16 Sep 2019 18:52:28 +0000</pubDate>
       
       <guid>https://chinese.githuka.com/post/milk_powder/</guid>
-      <description> 乳粉到底是什么东西？ 乳粉是以新鲜牛乳为主要原料配一其他食物原料，经过杀菌，浓缩，干燥等工艺过程而制得粉未状产品。 乳粉生产方法为：
+      <description>乳粉到底是什么东西？ 乳粉是以新鲜牛乳为主要原料配一其他食物原料，经过杀菌，浓缩，干燥等工艺过程而制得粉未状产品。 乳粉生产方法为：
  冷冻法 Freezing method 加热法 Heating method  冷冻法可以分两种：
  离心冷冻法 Centrifugal freezing method 低温冷冻法 Cyrogenic sublimation method  到目前乳粉的生产普遍采用加热干燥法，其中被广泛使用的干燥法是喷雾干燥法
 全脂乳粉的加工工艺流程  原料乳验收 Acceptance of raw milk 预处理 Pretreatment 标准化 （也加糖-白砂糖）Standadisation (Adding Granulated Sugar) 预热杀菌 Pre-heating sterilization 真空浓缩 Vaccum concentration 喷雾干燥 Spray drying 冷却 Cooling 过筛 Screening 包装 Packing 检验 Inspection 分销 Distribution  </description>
@@ -281,7 +302,7 @@ I also put this up on remembrance of Mike 晓白 who was my school mate but pass
       <pubDate>Fri, 02 Aug 2019 18:55:37 +0000</pubDate>
       
       <guid>https://chinese.githuka.com/post/ava_konoin/</guid>
-      <description>Konoin Technical Training Institute is a relatively new institution, but the rising student population is what amazes me. The school has already 1,800 students and upto 50 teachers. The school&amp;rsquo;s infrastructure is rapidly growing and by the time we were starting the training, a front court was under-construction.
+      <description>Konoin Technical Training Institute is a relatively new institution, but the rising student population is what amazes me. The school has already 1,800 students and upto 50 teachers. The school&#39;s infrastructure is rapidly growing and by the time we were starting the training, a front court was under-construction.
 The training started this week and it has been smooth sailing since we started off. Much of the content revolves around Food Science and Chemistry.</description>
     </item>
     
@@ -301,10 +322,10 @@ The training started this week and it has been smooth sailing since we started o
       
       <guid>https://chinese.githuka.com/blog/kenyashan/</guid>
       <description>The training for Agriculture Value Addition is just around the corner, so of late I have been polishing up on my reading. The training shall be in Konoin Technical Training Institute from mid July to mid November this year.
-This article I got it from a tours and travel company&amp;rsquo;s website. Its easy to read and understand. I think its Level 5 appropriate.
+This article I got it from a tours and travel company&#39;s website. Its easy to read and understand. I think its Level 5 appropriate.
 肯尼亚山国家公园位于大裂谷东部，内罗毕东北约175公里。 该生态系统位于肯尼亚的中部和东部省份。此山高达5,199米，是非洲第二高峰。肯尼亚山是该国重要的水塔。 它为该国约一半的人口提供水，并产生肯尼亚70％的水力发电。
 无论您选择的是哪一条路线，您是不需要任何特殊设备或攀山经验来到攀登肯尼亚山。
-纳罗莫鲁（Naro Moru）是跋涉者在肯尼亚最受欢迎的路线。它之所以那么受欢迎的原因在于稳定的上升速度 （希里蒙Sirimon路线）以及快速的下降。它虽然没涵盖这座美丽山脉所有的特征，但此路线本身风景如画， 沿着广阔的麦金德山谷（Mackinder&amp;rsquo;s Valley）前往Shipton&amp;rsquo;s 营地，然后穿过纳罗莫鲁路线上的沼泽和茂密的热带雨林。</description>
+纳罗莫鲁（Naro Moru）是跋涉者在肯尼亚最受欢迎的路线。它之所以那么受欢迎的原因在于稳定的上升速度 （希里蒙Sirimon路线）以及快速的下降。它虽然没涵盖这座美丽山脉所有的特征，但此路线本身风景如画， 沿着广阔的麦金德山谷（Mackinder&#39;s Valley）前往Shipton&#39;s 营地，然后穿过纳罗莫鲁路线上的沼泽和茂密的热带雨林。</description>
     </item>
     
     <item>
@@ -355,7 +376,7 @@ Installation Install the required packages for printing. CUPS is the standards-b
       <pubDate>Sun, 05 May 2019 09:53:35 +0000</pubDate>
       
       <guid>https://chinese.githuka.com/post/chinese-fonts-on-linux/</guid>
-      <description>If your computer can&amp;rsquo;t render the title of this post, you need to install the correct Chinese. The process is pretty straight-forward except for some small things.
+      <description>If your computer can&#39;t render the title of this post, you need to install the correct Chinese. The process is pretty straight-forward except for some small things.
 Fonts Chinese fonts are quite unique and in Linux, you need to install some specific fonts to make the rendering more clear. The following fonts will make Chinese Characters rendering better on your Linux machine.
 Adobe Source Sans Sans The Source Han Sans is a set of OpenType/CFF Pan-CJK fonts.</description>
     </item>
@@ -376,7 +397,7 @@ This is a part of a series of posts of my project to map technical training scho
       <pubDate>Sun, 21 Apr 2019 08:24:11 +0000</pubDate>
       
       <guid>https://chinese.githuka.com/blog/easter/</guid>
-      <description> 旧约 Old Testament  创世纪 Chuàngshìjì - Genesis 出埃及记 Chūāijíjì - Exodus 立为积极 Lìwèijì - Leviticus 民书记 Mínshùjì - Numbers 申命记 Shēnméngjì - Deuteronomy 越书亚记 YuēShūyàjì - Joshua 士师记 Shìshījì - Judges 路得记 Lùdéjì - Ruth 撒母耳记-上 - Sāmǔĕrjìshàng - 1 Samuel 撒母耳记-下 - Sāmǔĕrjìxià - 2 Samuel 列王记-上 - Lièwángjìshàng - 1 Kings 列王记-下 - Lièwángjìxià - 2 Kings 历代志-上 - Lìdaìzhìshàng - 1 Chronicles 历代志-下 - Lìdaìzhìxià - 2 Chronicles 以斯拉记 - Yǐsīlājì - Ezra 尼希米记 - Níxīmǐjì - Nehemiah 以斯贴记 - Yǐsītièjì - Esther 约剥 Yuēbó - Job 诗篇 Shīpiān - Psalms 箴言 Zhēnyán - Proverbs 传道书 Chuándàoshū - Ecclesiastes 雅歌 Yǎgē - Song of Solomon 以赛亚书 Yǐsaìyàshū - Isaiah 耶利米书 Yēlìmǐshū - Jeremiah 耶利米哀歌 - Yēlìmǐāigē - Lamentations 以四结书 - Yǐsījiēshū - Ezekiel 但以历书 - Dànyǐlǐshū - Daniel 何西阿书 - Héxīāshū - Hosea 约耳书 - Yuēĕrshū - Joel 阿魔司书 - Āmósīshū - Amos 俄巴低亚书 - Ébādǐyàshū - Obadiah 约拿书 - Yuēnáshū - Jonah 弥迦书 - Míjiāshū - Micah 那鸿书 - Nàhóngshū - Nahum 哈巴谷书 - Hābāgǔshū - Habakkuk 西番雅书 - Xīfānyǎshū - Zephaniah 哈该书 - Hāgāishū - Haggai 撒迦利亚书 - Sājiālìyàshū - Zachariah 玛拉基书 - Mǎlājīshū - Malachi  新约 New Testament  马太福音 - Mǎtaìfúyīn - Matthew 马克福音 - Mǎkĕfúyīn - Mark 路加福音 - Lùjiāfúyīn - Luke 约翰福音 - Yuēhànfúyīn - John 使徒行转 - Shǐtúxíngzhuàn - Acts 罗罗马书 - Luómǎshū - Romans 哥林多前书 - Gēlínduōqiánshū - 1 Corinthians 哥林多后书 - Gēlínduōhòushū - 2 Corinthians 加拉太书 - Jiālātaìshū - Galatians 以弗所书 - Yǐfúsuǒshū - Ephesians 狒立比书 - Féilìbǐshū - Philippians 歌罗西书 - Gēluóxīshū - Colossians 帖撒罗尼迦前书 - Tièsāluóníjiāqiánshū - 1 Thessalonians 帖撒罗尼迦后书 - Tièsāluóníjiāhòushū - 2 Thessalonians 提磨太前书 - Tímótaìqiánshū - 1 Timothy 提磨太后书 - Ttímótaìhòushū - 2 Timothy 提多书 - Tíduōshū - Titus 腓立门书 - Féilìménshū - Philemon 杀伯来书 - Xībóláishū - Hebrews 雅各书 - Yǎgèshū - James 彼得前书 - Bǐdéqiánshū - 1 Peter 彼得后书 - Bǐdéhòushū - 2 Peter 约翰一书 - Yuēhànyīshū - 1 John 约翰二书 - Yuēhànérshū - 2 John 约翰三书 - Yuēhànsānshū - 3 John 犹大书 - Yóudàshū - Jude 启示录 - Qǐshìlù - Revelation  </description>
+      <description>旧约 Old Testament  创世纪 Chuàngshìjì - Genesis 出埃及记 Chūāijíjì - Exodus 立为积极 Lìwèijì - Leviticus 民书记 Mínshùjì - Numbers 申命记 Shēnméngjì - Deuteronomy 越书亚记 YuēShūyàjì - Joshua 士师记 Shìshījì - Judges 路得记 Lùdéjì - Ruth 撒母耳记-上 - Sāmǔĕrjìshàng - 1 Samuel 撒母耳记-下 - Sāmǔĕrjìxià - 2 Samuel 列王记-上 - Lièwángjìshàng - 1 Kings 列王记-下 - Lièwángjìxià - 2 Kings 历代志-上 - Lìdaìzhìshàng - 1 Chronicles 历代志-下 - Lìdaìzhìxià - 2 Chronicles 以斯拉记 - Yǐsīlājì - Ezra 尼希米记 - Níxīmǐjì - Nehemiah 以斯贴记 - Yǐsītièjì - Esther 约剥 Yuēbó - Job 诗篇 Shīpiān - Psalms 箴言 Zhēnyán - Proverbs 传道书 Chuándàoshū - Ecclesiastes 雅歌 Yǎgē - Song of Solomon 以赛亚书 Yǐsaìyàshū - Isaiah 耶利米书 Yēlìmǐshū - Jeremiah 耶利米哀歌 - Yēlìmǐāigē - Lamentations 以四结书 - Yǐsījiēshū - Ezekiel 但以历书 - Dànyǐlǐshū - Daniel 何西阿书 - Héxīāshū - Hosea 约耳书 - Yuēĕrshū - Joel 阿魔司书 - Āmósīshū - Amos 俄巴低亚书 - Ébādǐyàshū - Obadiah 约拿书 - Yuēnáshū - Jonah 弥迦书 - Míjiāshū - Micah 那鸿书 - Nàhóngshū - Nahum 哈巴谷书 - Hābāgǔshū - Habakkuk 西番雅书 - Xīfānyǎshū - Zephaniah 哈该书 - Hāgāishū - Haggai 撒迦利亚书 - Sājiālìyàshū - Zachariah 玛拉基书 - Mǎlājīshū - Malachi  新约 New Testament  马太福音 - Mǎtaìfúyīn - Matthew 马克福音 - Mǎkĕfúyīn - Mark 路加福音 - Lùjiāfúyīn - Luke 约翰福音 - Yuēhànfúyīn - John 使徒行转 - Shǐtúxíngzhuàn - Acts 罗罗马书 - Luómǎshū - Romans 哥林多前书 - Gēlínduōqiánshū - 1 Corinthians 哥林多后书 - Gēlínduōhòushū - 2 Corinthians 加拉太书 - Jiālātaìshū - Galatians 以弗所书 - Yǐfúsuǒshū - Ephesians 狒立比书 - Féilìbǐshū - Philippians 歌罗西书 - Gēluóxīshū - Colossians 帖撒罗尼迦前书 - Tièsāluóníjiāqiánshū - 1 Thessalonians 帖撒罗尼迦后书 - Tièsāluóníjiāhòushū - 2 Thessalonians 提磨太前书 - Tímótaìqiánshū - 1 Timothy 提磨太后书 - Ttímótaìhòushū - 2 Timothy 提多书 - Tíduōshū - Titus 腓立门书 - Féilìménshū - Philemon 杀伯来书 - Xībóláishū - Hebrews 雅各书 - Yǎgèshū - James 彼得前书 - Bǐdéqiánshū - 1 Peter 彼得后书 - Bǐdéhòushū - 2 Peter 约翰一书 - Yuēhànyīshū - 1 John 约翰二书 - Yuēhànérshū - 2 John 约翰三书 - Yuēhànsānshū - 3 John 犹大书 - Yóudàshū - Jude 启示录 - Qǐshìlù - Revelation  </description>
     </item>
     
     <item>
@@ -397,7 +418,7 @@ County Boundaries By working with something called Shapefiles, I have managed to
       <pubDate>Wed, 17 Apr 2019 12:36:43 +0000</pubDate>
       
       <guid>https://chinese.githuka.com/blog/hsk_materials/</guid>
-      <description> When preparing for any HSK its vital that you have a treasure trove of learning materials that will help you ace that exam.
+      <description>When preparing for any HSK its vital that you have a treasure trove of learning materials that will help you ace that exam.
 Here is my curated list of HSK 6 materials and links which I add to as I prepare for the exam.
 Youtube:  XiaoMin  GeneralWebsites:  XiaoMinMandarin HSK东西 HSKPythonanywhere  </description>
     </item>
@@ -440,7 +461,7 @@ This map is to help my colleagues who were planning to go for site inspection to
       <pubDate>Wed, 03 Apr 2019 08:43:34 +0000</pubDate>
       
       <guid>https://chinese.githuka.com/blog/brightness/</guid>
-      <description>Brightness is a very important factor when using any device in this modern age. Many devices produce a large amount of light which is not good to for our eyes. To reduce the amount of light from your device&amp;rsquo;s screen, enable/use a dark theme.
+      <description>Brightness is a very important factor when using any device in this modern age. Many devices produce a large amount of light which is not good to for our eyes. To reduce the amount of light from your device&#39;s screen, enable/use a dark theme.
 In Linux, screen brightness is rather complex and I hope this brief article will help you understand.
 The brightness of the screen backlight is adjusted by setting the power level of the backlight LEDs or cathodes.</description>
     </item>
@@ -478,7 +499,7 @@ Thunar is a file manager that comes with XFCE wm.</description>
       <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://chinese.githuka.com/blog/learning-how-to-study/</guid>
-      <description>The following article is from [ZiLongShanRen](https://zilongshanren.com/blog/2017-05-09-learning-how-to-learn.html#sec-1-6** which talks about how to learn how to learn.The langauge is good and easy for any HSK 5 and above learner to digest well. The highlighted parts are key grammatical points and new words.
+      <description>The following article is from [ZiLongShanRen](https://zilongshanren.com/blog/2017-05-09-learning-how-to-learn.html#sec-1-6** which talks about how to learn how to learn.The langauge is good and easy for any HSK 5 and above learner to digest well. The **highlighted** parts are key grammatical points and new words.
 IT 行业是一个变化非常快的行业，它需要我们持续去学习新的知识和技能。 但是，工作以后，我们经常会发现自己学习的东西很少了，倒不是没有时间去学习， 而是学习的效率太低了。久而久之，就演变成『一年的工作经验，重复用十年』。
 当然，有些人会说自己经常加班，没有时间学习，这只是表象，时间 挤挤 总是有的。 你想想你为了上王者，浪费了多少时间？为了刷今日头条，又消磨*了多少光阴？
 另外，很多人推崇碎片化学习，但是有一些东西碎片化学习效率是很低的，比如数学。
@@ -512,7 +533,7 @@ Here we go&amp;hellip;
 两年前，我遇到了两个拒绝使用微信的人，于是我想到，可以写一个关于像这样的人如何驾驭工作和生活的故事。在我抽出时间做这件事之前，这两人都成了我的微信好友。
 所以，作为一名记者，我必须待在微信上。我在微信上发消息、和我的信源通话。我对与Facebook时间线类似的微信朋友圈以及群聊保持关注，所以我能总是掌握中国正在发生什么。 当其他人假装很忙而无法回复我时，我会评论他们的朋友圈和群聊，来告诉他们我知道他们并没有那么忙。
 到这儿，一些读者肯定在尖叫了，“微信上的审查和政府监控怎么说？”不幸的是，在中国的生活就是这样。我不是要试图淡化这个问题。 我一直很反对科技企业与政府联手审查和监控中国的公众。但现实情况是，普通中国人对审查和监控感到无可奈何，只好听天由命。 我试图说服人们使用Signal、WhatsApp这类加密的消息应用软件，但没什么效果。
-我还用微博，中国版的Twitter。我以前是微博活跃用户，上面现在还有几百万粉丝。但几年前政府打击了微博，关停了许多最具挑衅性和影响力的帐户后， 我就不太用了，因为它的话题常常被名人新闻主导，而不是探讨时事.</description>
+我还用微博，中国版的Twitter。我以前是微博活跃用户，上面现在还有几百万粉丝。但几年前政府打击了微博，关停了许多最具挑衅性和影响力的帐户后， 我就不太用了，因为它的话题常常被名人新闻主导，而不是探讨时事. 但微博仍然是个查看最热门话题和趋势的好地方。在就成长于没有谷歌、 Facebook或Twitter的一代写一篇专栏时，我就是在那里找人采访的。与美国人相比，中国人在技术的使用上有什么不同？</description>
     </item>
     
     <item>
@@ -521,7 +542,7 @@ Here we go&amp;hellip;
       <pubDate>Fri, 18 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://chinese.githuka.com/blog/emacs_chinese_input/</guid>
-      <description>Since this year started my Chinese documentation has suffered alot since I don&amp;rsquo;t have Chinese input in Emacs. I use spacemacs as my primary text editor and really need Chinese input.
+      <description>Since this year started my Chinese documentation has suffered alot since I don&#39;t have Chinese input in Emacs. I use spacemacs as my primary text editor and really need Chinese input.
 Fcitx(Flexible Input Method Framework) currently works with the other apps together with Sogou input but not emacs. I seek to find out why. Running fcitx-diagnose says all is okay except for:
  Config GUI for gtk2: Config GUI for gtk2 not found.</description>
     </item>
@@ -551,7 +572,7 @@ So I work at a really great Chinese company called AVIC International, Nairobi. 
       <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://chinese.githuka.com/blog/graduation/</guid>
-      <description>Finally after many months (5 months) the training&amp;rsquo;s graduation was held today. The colorful ceremony was held today at the hall at Kisii National Polytechnic&amp;rsquo;s hall. In attendance was the State Department of Vocational and Technical Education (TVET) together with the other principals who were in attendance, the day was a success.
+      <description>Finally after many months (5 months) the training&#39;s graduation was held today. The colorful ceremony was held today at the hall at Kisii National Polytechnic&#39;s hall. In attendance was the State Department of Vocational and Technical Education (TVET) together with the other principals who were in attendance, the day was a success.
 Even though today was the graduation, we still have another few days of the training to go before we can complete the training.</description>
     </item>
     
@@ -581,13 +602,13 @@ Even though today was the graduation, we still have another few days of the trai
       <guid>https://chinese.githuka.com/blog/man-page/</guid>
       <description>Linux常用命令中，有些命令可以用于查看系统的状态，通过了解系统当前的状态，能够帮助我们更好地维护系统或定位问题。本文就简单介绍一下这些命令。
 查看系统运行时间&amp;ndash;uptime 有时候我们想知道系统上一次复位是在什么时候或者系统已经运行了多长时间，我们可以通过uptime命令获取这些信息：
-uptime 20:47:06 up 50 min, 1 user, load average: 0.75, 0.84, 0.93  从左往右显示的信息依次为：当前时间、已运行时间、用户登录数、1分钟、5分钟和15分钟内系统的平均负载。
-查看系统已登录用户&amp;ndash;who who -a hyb tty7 2018-09-30 19:57 (:0)  通过who命令可以查看到哪些用户通过哪个ip登录到了这台主机。
-查看系统版本相关信息&amp;ndash;uname uname -a Linux ubuntu16.04 4.15.0-34-generic #37~16.04.1-Ubuntu SMP Tue Aug 28 10:44:06 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux  从结果可以看到操作系统版本（ubuntu16.04），CPU类型（x86_64）等信息
+uptime 20:47:06 up 50 min, 1 user, load average: 0.75, 0.84, 0.93 从左往右显示的信息依次为：当前时间、已运行时间、用户登录数、1分钟、5分钟和15分钟内系统的平均负载。
+查看系统已登录用户&amp;ndash;who who -a hyb tty7 2018-09-30 19:57 (:0) 通过who命令可以查看到哪些用户通过哪个ip登录到了这台主机。
+查看系统版本相关信息&amp;ndash;uname uname -a Linux ubuntu16.04 4.15.0-34-generic #37~16.04.1-Ubuntu SMP Tue Aug 28 10:44:06 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux 从结果可以看到操作系统版本（ubuntu16.04），CPU类型（x86_64）等信息
 查看当前环境变量&amp;ndash;export 环境变量影响着程序的运行，因此有时候需要查看当前环境的环境变量：
-export  查看目录和文件占用空间&amp;ndash;du du命令直接显示当前目录下每个目录及其文件占用空间。结合&amp;ndash;max-depth参数可以指定显示的目录层级。
+export 查看目录和文件占用空间&amp;ndash;du du命令直接显示当前目录下每个目录及其文件占用空间。结合&amp;ndash;max-depth参数可以指定显示的目录层级。
 例如，如果只想显示当前目录下各个目录所占总空间，可以使用:
-du -h --max-depth=1 19M ./python 9.0M ./git 321M ./hexo 17M ./lua 28K ./vim 1.4M ./shell 81M .</description>
+du -h --max-depth=1 19M ./python 9.0M ./git 321M ./hexo 17M ./lua 28K ./vim 1.4M ./shell 81M ./redis 316M ./books 48M .</description>
     </item>
     
     <item>
@@ -637,8 +658,7 @@ of my Linux workflow. I managed to have Chinese Characters input using
       <pubDate>Fri, 03 Aug 2018 14:13:15 +0300</pubDate>
       
       <guid>https://chinese.githuka.com/post/yunchaoche/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/yunchaoche.jpg&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/yunchaoche.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
 &lt;p&gt;A small introduction on Chinese money history in relation to how the Chinese
 character for an armoured vehicle　运钞车 has a radical that is normaly is
 related to metals.&lt;/p&gt;</description>
@@ -661,8 +681,7 @@ welcome to August 2018 :-)&lt;/p&gt;</description>
       <pubDate>Wed, 25 Jul 2018 20:40:45 +0300</pubDate>
       
       <guid>https://chinese.githuka.com/post/bella-ciao/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/lacasa.jpg&#34; alt=&#34;header&#34; /&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/lacasa.jpg&#34; alt=&#34;header&#34;&gt;&lt;/p&gt;
 &lt;p&gt;啊!朋友再见 (中文版) Bella ciao - Chinese version. A movie of how eight thieves take hostages
 and lock themselves in the Royal Mint of Spain as a criminal mastermind
 manipulates the police to carry out his plan.&lt;/p&gt;</description>
@@ -674,8 +693,7 @@ manipulates the police to carry out his plan.&lt;/p&gt;</description>
       <pubDate>Sat, 21 Jul 2018 08:18:31 +0300</pubDate>
       
       <guid>https://chinese.githuka.com/post/pleco/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/plecofish.jpg&#34; alt=&#34;pleco&#34; /&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/plecofish.jpg&#34; alt=&#34;pleco&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Learning Chinese is not for the faint of heart. Not only does the non-native Mandarin
 speaker have to master the language’s infamous tones, he or she must memorize thousands
 of (practically speaking) non-phonetic characters, get acquainted with a range of accents,
@@ -688,8 +706,7 @@ and grapple with a deceptively simple grammar system.&lt;/p&gt;</description>
       <pubDate>Fri, 20 Jul 2018 17:48:48 +0300</pubDate>
       
       <guid>https://chinese.githuka.com/post/screenfetch/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://dominicm.com/wp-content/uploads/2016/03/screenfetch-arch-linux.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;img src=&#34;https://dominicm.com/wp-content/uploads/2016/03/screenfetch-arch-linux.png&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
 &lt;p&gt;screenFetch是一个Bash屏幕截图信息工具，可在执行时打印ASCII艺术以及基本系统信息。
 包括Arch Linux在内的许多发行版都支持独特的ASCII艺术。
 在登录时自动运行它以立即查看系统信息非常有用。&lt;/p&gt;</description>
@@ -701,8 +718,7 @@ and grapple with a deceptively simple grammar system.&lt;/p&gt;</description>
       <pubDate>Sun, 15 Jul 2018 17:31:46 +0300</pubDate>
       
       <guid>https://chinese.githuka.com/post/yangqi/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/welding/gauge.jpg&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/welding/gauge.jpg&#34; alt=&#34;image&#34;&gt;&lt;/p&gt;
 &lt;p&gt;A summary of the amazing things I have learnt this week when translating.&lt;/p&gt;</description>
     </item>
     
@@ -722,8 +738,7 @@ Units. 经济适用房, 制造企业, 食品安全, 全民医疗保健&lt;/p&gt;
       <pubDate>Wed, 04 Jul 2018 13:50:18 +0300</pubDate>
       
       <guid>https://chinese.githuka.com/post/kisii/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/kisii.png&#34; alt=&#34;welding&#34; /&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/kisii.png&#34; alt=&#34;welding&#34;&gt;&lt;/p&gt;
 &lt;p&gt;神手钥钱，我们的焊接培训马上就开始了。准备好了吗？&lt;/p&gt;</description>
     </item>
     
@@ -733,9 +748,8 @@ Units. 经济适用房, 制造企业, 食品安全, 全民医疗保健&lt;/p&gt;
       <pubDate>Mon, 25 Jun 2018 06:22:28 +0000</pubDate>
       
       <guid>https://chinese.githuka.com/post/leguanderen/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/sun.JPG?style=centerme&#34; alt=&#34;linux&#34; /&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/sun.JPG?style=centerme&#34; alt=&#34;linux&#34;&gt;
 乐观的人像太阳找到哪里哪里亮，消极的人像月亮初一十五不一样&lt;/p&gt;
-
 &lt;p&gt;Optimistic people be like the sun, they find where to light, while
 pessimistic/passive people tend to be like the moon, they change fast
 and are quite inconsistent.&lt;/p&gt;</description>
@@ -747,10 +761,8 @@ and are quite inconsistent.&lt;/p&gt;</description>
       <pubDate>Fri, 22 Jun 2018 06:52:54 +0000</pubDate>
       
       <guid>https://chinese.githuka.com/post/automated-driving-concept/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/automated.jpg&#34; alt=&#34;automated&#34; /&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/automated.jpg&#34; alt=&#34;automated&#34;&gt;&lt;/p&gt;
 &lt;p&gt;在解决“人”的问题前，自动驾驶永远只能是个概念&lt;/p&gt;
-
 &lt;p&gt;Automated driving can only be a concept for a long time until the &amp;ldquo;person&amp;rdquo; problem is solved.&lt;/p&gt;</description>
     </item>
     
@@ -760,14 +772,12 @@ and are quite inconsistent.&lt;/p&gt;</description>
       <pubDate>Mon, 11 Jun 2018 06:09:58 +0000</pubDate>
       
       <guid>https://chinese.githuka.com/post/linux-zi-you/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/linux.jpg?style=centerme&#34; alt=&#34;linux&#34; /&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;img src=&#34;https://chinese.githuka.com/img/linux.jpg?style=centerme&#34; alt=&#34;linux&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Matatu Reading Material is a series of selected Chinese reading texts
 that I read when commuting to work and back. I realsied that I spend
 alot of time commuting which I could convert into healthy reading time to improve my
 character recognition speed. This text is about Linux, as described
 on &lt;a href=&#34;https://baike.baidu.com/item/linux/27050?fr=aladdin&#34;&gt;Baidu&lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;Chinese Level: 5&lt;/p&gt;</description>
     </item>
     
@@ -777,8 +787,7 @@ on &lt;a href=&#34;https://baike.baidu.com/item/linux/27050?fr=aladdin&#34;&gt;B
       <pubDate>Tue, 05 Jun 2018 10:36:21 +0000</pubDate>
       
       <guid>https://chinese.githuka.com/post/linux_chinese_integration/</guid>
-      <description>中文版
-According to statscounter, 54% of desktops in China run Windows 7 while 27% run Windows10. Windows 7 has long been a favourite of the masses due to its usability and security. If fuses well with Chinese software.
+      <description>According to statscounter, 54% of desktops in China run Windows 7 while 27% run Windows10. Windows 7 has long been a favourite of the masses due to its usability and security. If fuses well with Chinese software.
 Back in 2014 during my time in Nanjing, China I tried to swich to Linux as my primary OS but the change was too quick, and many of the Windows applications had not Linux alternatives, so within 2 weeks, I reverted back to Windows.</description>
     </item>
     
